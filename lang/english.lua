@@ -9,6 +9,7 @@ function en.lang()
 			},
         welcome = {
             text = '*Welcome to ServersBot* {name}!\n*This bot is the official bot for* [IBotCompany](https://telegram.me/IBCorp)\nTo help you get a *Good VPS* for cheap prices\nPlease *Register* or *Login*',
+	    query = 'Main Menu!',
             keyboard = {
                 {
                     {text = 'Register', callback_data = 'register'},
