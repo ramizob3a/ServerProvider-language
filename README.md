@@ -2,7 +2,7 @@
 ### This project contains language files for [ServerProvider](https://t.me/serverproviderbot)
 
 
-###Your free to fork this project and disturbute new language files for the Bot
+#### Your free to fork this project and disturbute new language files for the Bot
 
 if You're going to disturbute a language file, **You have to :**
 
