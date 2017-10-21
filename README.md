@@ -1,5 +1,5 @@
 # ServerProvider-language
-### This project contains language files for [ServerProvider](t.me/serverproviderbot)
+### This project contains language files for [ServerProvider](https://t.me/serverproviderbot)
 
 
 ****Your free to fork this project and disturbute new language files for the Bot
@@ -7,4 +7,4 @@
 if You're going to disturbute a language file, ****You have to :
 1. ignore the following texts : ( $name, #name, {name} ) and text with these special characters must be ignored.
 2. You're free to put in your credits in the file , but you have to limit it to 10 lines only.
-3. provide your username in [Telegram](Telegram.com) to get some credit in the [Official Channel](t.me/ibcorp)
+3. provide your username in [Telegram](https://Telegram.com) to get some credit in the [Official Channel](https://t.me/ibcorp)
