@@ -1,13 +1,24 @@
+-----english.lua--------
+------this file contains english texts for the t.me/serverproviderbot Bot------
+------Made By @IBCorp--------
+-----IIIIIIIIII---BBBBB------
+--------IIII------BB---B-----
+--------IIII------BBBBB------
+--------IIII------BB---B-----
+-----IIIIIIIIII---BBBBB------
+
+
+--Start english.lua
 local en = {}
-function en.lang()
+function en.lang()-- in-table function 
     local info = 
     {
-		prices = {
+		prices = {--Do Not Change This!!
 			private = 340,
 			public = 210,
 			rdp = 1340,
 			},
-        welcome = {
+        welcome = {--Welcome texts : leave any these words ({name})
             text = '*Welcome to ServersBot* {name}!\n*This bot is the official bot for* [IBotCompany](https://telegram.me/IBCorp)\nTo help you get a *Good VPS* for cheap prices\nPlease *Register* or *Login*',
 	    query = 'Main Menu!',
             keyboard = {
@@ -49,7 +60,7 @@ function en.lang()
                     },
                 },
         },
-        getstarted = {
+        getstarted = {-- Get Satrted texts , do not change these words ($email, $phone, #first, #last, #phone, #email, #reason, {username}, {password})
             text = 'Please Send your first Name.',
 			text2 = 'Please Send your last Name.',
 			text3 = 'Please Send a Valid Phone number with the international code\nEx: +11234567890\n(We will use this number to contact you if a problem accurs).',
@@ -72,7 +83,7 @@ function en.lang()
 					},
 				},
             },
-        login = {
+        login = {-- Log in texts, do not change these words ($username, {credits})
             text1 = 'Please enter your *Given Username*',
             text2 = 'Welcome $username !\nPlease enter your *Password*',
             text3 = '*You Are Logged in now!*\n*Credits :* {credit}',
@@ -93,7 +104,7 @@ function en.lang()
             text = 'You are *Logged out* now',
             
             },
-        main = {
+        main = {-- Main Menu texts , do not change these words ({credit})
             text = '*Main Menu\nCredits :* {credit}',
             keyboard1 = {
                 {
@@ -133,7 +144,7 @@ function en.lang()
                     },
                 },
             },
-        newserver = {
+        newserver = {-- New server texts, do not change these words (#n, #b, #m, #servername, #servertime, #expiredate, #price, #name, {name}, )
             text1 = '*New Server!*\nWhat are we going to call it?',
 			text2 = "Chose your *Plan* :\n▪️ Public VPS : means you will get a shared VPS server where your files will be available to all users of the same VPS, and you will not get Root access to the server.\n--------------\n▪️ Private VPS : means you will get a VPS server only for you with Full Root access.\n--------------\n▪️ Remote Desktop Protocol/RDP : means you will get an Ubuntu RDP with full Root access.",
             text3 = "How many *days* you want the server ?\n#Note : 1 day = #n credit\n\n--------\nDays : #m    *Total Price :* #b\n--------",
@@ -227,10 +238,10 @@ function en.lang()
 					},
 				},
             },
-        myservers = {
+        myservers = {-- My Servers texts, do not change these words ({serversnum})
             text = 'Your servers : {serversnum}',
             },
-        ERRORS = {
+        ERRORS = {-- do  not change these words ({serversnum})
             text1 = '*Your registration has been declined*\n*Please Contact* [THE SUPPORT TEAM](telegram.me/HelpServerProviderBot) *for more information*',
             text2 = "Server request for *{servername}* Was not approved!\nMessage : ",
 			text3 = 'You have to login first!',
@@ -252,7 +263,7 @@ function en.lang()
                 {text = URL.escape('Main Menu'), callback_data = 'main'},
                 },
             },
-        server_info = {
+        server_info = { --Server Info texts, do not change these words ( #servername, #paiddays, #timeleft, #serverip, #serverusername, #serverpassword, #kvm, #disk, #ram, #cpu, #currentbandwidth, #expiredate, #status)
             text1 = '<b>Name :</b> #servername\n<b>Paid days :</b> #paiddays\n<b>Time left :</b> #timeleft\n<b>Server IP :</b> #serverip\n<b>Server username :</b> #serverusername\n<b>Server password :</b> #serverpassword\n<b>Console URL :</b> <a href="#kvm"> Click Here</a>\n<b>Disk :</b> #disk\n<b>Ram :</b> #ram\n<b>Current Bandwidth :</b> #currentbandwidth/#allowedbandwidth\n<b>Location :</b> #location\n<b>Operating System</b> : #os\n<b>CPU :</b> #cpu Core(s)\n<b>Expire Date :</b> #expiredate\n<b>Status : </b>#status',
             text2 = '<b>PLEASE NOTE :</b>\nif you do not pay your fees before 1 day of time remaining your server will be <b>Stopped Then Deleted after a day</b>',
 			text3 = '<b>Server Not Found</b>\nServer Removed From Your list. /main',
@@ -294,8 +305,8 @@ function en.lang()
                     },
                 },
             },
-		delete_server = {
-			text = '<b>Are You Sure You Want To Delete This Server?</b>\nYou are going to delete (<b>#name</b>)\nThis means all data on this server <b>Will Be Lost</b> and it will be removed from your servers',
+		delete_server = { --Delete server texts, do not change these words (#name, )
+			text = '<b>Are You Sure You Want To Delete This Server?</b>\nYou are going to delete (<b>#name</b>)\nThis means all data on this server <b>Will Be Lost</b> and it will be removed from your servers\n\n<b>Note:</b>\nYou will not be refunded if you delete this server.',
 			text2 = '*Server Deleted.*',
 			query = 'Deleting Server...',
 			keyboard = {
@@ -305,7 +316,7 @@ function en.lang()
 					},
 				},
 			},
-        earn = {
+        earn = { -- EARN texts, do not change these words ( #credit)
             text = '*Earn credits now!*\nYou can earn credits to buy servers now',
             text2 = "Send The *GIFT CODE* to charge your *credits*",
             text3 = '`{num}` Has been *added* to your *Credits*\n*Credits :* `#credit`',
@@ -347,7 +358,7 @@ function en.lang()
                     },
                 },
             },
-        invite = {
+        invite = { -- Invite texts, do not change these words ({num})
             text = 'Your *Special Link* has been generated\nUse this link to get more credits by inviting users to join *Our Services*\n\nYou will get *10* credits once user *Start The Bot* then you will get *30* after successful registration\n*LINK :* ',
             text2 = '*You Got {num} credit for inviting users*',
             text3 = '*You Got {num} credit for inviting users and *successful registration.*',
