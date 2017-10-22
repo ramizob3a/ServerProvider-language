@@ -37,7 +37,7 @@ function en.lang()-- in-table function
                 },
         },
 		about = {
-			text = '[موَفر الخوادم](t.me/serverproviderbot) يقدم لك *(VPS|RDP|Domains) بأسعار رخيصة*\nمفهوم هذا بوت هو أن تقوم بتجميع النقاط من قبل : \n*1- مشاهدة الاعلانات \n2- الانضمام الى مجموعات وقنوات معينة لفترة من الزمن \n3- دعوة المستخدمين الى البوت\n4- شراء النقاط بالمال الحقيقي*\n*ServerProvider* يحسب الوقت الخادم حسب اليوم وكل خطة لها أسعارها الخاصة\n\n*هذا البوت برعاية  *[IBot Corporation](t.me/ibcorp) [Website](ibotcompany.ek)',
+			text = '[موَفر الخوادم](t.me/serverproviderbot) يقدم لك *(VPS|RDP|Domains) بأسعار رخيصة*\nمفهوم هذا بوت هو أن تقوم بتجميع النقاط من قبل : \n*1- مشاهدة الاعلانات \n2- الانضمام الى مجموعات وقنوات معينة لفترة من الزمن \n3- دعوة المستخدمين الى البوت\n4- شراء النقاط بالمال الحقيقي*\n*ServerProvider* يحسب الوقت الخادم حسب اليوم وكل خطة لها أسعارها الخاصة\n\n*هذا البوت برعاية  *[IBot Corporation](t.me/ibcorp) [Website](ibotcompany.tk)',
 			keyboard = {
 				{
 					{text = 'الموقع الالكتروني', url = 'www.ibotcompany.tk'},
