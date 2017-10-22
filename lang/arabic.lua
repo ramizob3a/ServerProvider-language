@@ -378,7 +378,7 @@ function en.lang()-- in-table function
                     },
                 {
                     {text = URL.escape('تمديد ايام'), callback_data = 'postpone'},
-                    {text = URL.escape('الحصول على رصد الدعوة'), callback_data = 'getinvitecredit'},
+                    {text = URL.escape('الحصول على رصيد الدعوة'), callback_data = 'getinvitecredit'},
                     },
 				{
 					{text = URL.escape("تبرع"), url = 'https://patreon.com/ServerProvider'},
