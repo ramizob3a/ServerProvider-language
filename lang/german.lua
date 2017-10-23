@@ -291,7 +291,7 @@ function de.lang()-- in-table function
 			keyboard3 = {
 				{
 					{text = URL.escape('Server starten'), callback_data = 'servercmd start'},
-					{text = URL.escape('Server neustartet'), callback_data = 'servercmd restart'}
+					{text = URL.escape('Server startet neu'), callback_data = 'servercmd restart'}
 					},
 				{
 					{text = URL.escape('Server stoppen'), callback_data = 'servercmd stop'}
