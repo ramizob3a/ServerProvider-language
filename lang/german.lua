@@ -1,4 +1,4 @@
------english.lua--------
+-----german.lua--------
 ------this file contains english texts for the t.me/serverproviderbot Bot------
 ------Made By @IBCorp--------
 -----IIIIIIIIII---BBBBB------
@@ -8,7 +8,12 @@
 -----IIIIIIIIII---BBBBB------
 
 
---Start english.lua
+--[[
+Translated By : Jannik
+    Contact Me : https://t.me/bergfreak
+]]
+
+--Start german.lua
 local de = {}
 function de.lang()-- in-table function 
     local info = 
