@@ -313,6 +313,8 @@ function de.lang()-- in-table function
 		delete_server = { --Delete server texts, do not change these words (#name, )
 			text = '<b>Sind Sie sich sicher, dass sie den Server löschen wollen?</b>\nSie löschen (<b>#name</b>)\nAlle Daten auf dem Server <b>gehen verloren</b> und vom Server gelöscht\n\n<b>Hinweis:</b>\nIhre Punkte werden nicht erstattet, wenn Sie den Server löschen.',
 			text2 = '*Server gelöscht.*',
+			text3 = '#name  Time limit reached\ndeleting server',
+			text4 = '#name Time remaining is 2 days please refill',
 			query = 'Lösche Server...',
 			keyboard = {
 				{
