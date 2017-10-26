@@ -361,7 +361,7 @@ function en.lang()-- in-table function
                 },
             },
         invite = { -- Invite texts, do not change these words ({num})
-            text = 'Your *Special Link* has been generated\nUse this link to get more credits by inviting users to join *Our Services*\n\nYou will get *10* credits once user *Start The Bot* then you will get *30* after successful registration\n*LINK :* ',
+            text = 'Your *Special Link* has been generated\nUse this link to get more credits by inviting users to join *Our Services*\n\nYou will get *30* after a user joins and successfully register in our services.\n*LINK :* ',
             text2 = '*You Got {num} credit for inviting users*',
             text3 = '*You Got {num} credit for inviting users and *successful registration.*',
             keyboard = {
