@@ -379,7 +379,7 @@ function en.lang()-- in-table function
                     {text = URL.escape('Earn credits'), callback_data = 'earn'},
                     },
                 {
-                    {text = URL.escape('Postpone limit'), callback_data = 'postpone'},
+                    {text = URL.escape('Buy Days'), callback_data = 'postpone'},
                     {text = URL.escape('Get Invite credit'), callback_data = 'getinvitecredit'},
                     },
 				{
