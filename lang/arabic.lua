@@ -308,6 +308,8 @@ function en.lang()-- in-table function
 		delete_server = { --Delete server texts, do not change these words (#name, )
 			text = ' هل أنت متأكد من أنك تريد حذف هذا الخادم؟</b>\nأنت ذاهب لحذف (<b>#name</b>)\nوهذا يعني كل البيانات الموجودة على هذا الخادم <b>ستكون ضائعا</b> وستتم إزالتها من الخوادم\n\n<b>ملاحظة:</b>\nلن يتم رد أموالك إذا حذفت هذا الخادم.',
 			text2 = '*تم حذف الخادم.*',
+			text3 = '#name  Time limit reached\ndeleting server',
+			text4 = '#name Time remaining is 2 days please refill',
 			query = 'سيتم حذف الخادم...',
 			keyboard = {
 				{
