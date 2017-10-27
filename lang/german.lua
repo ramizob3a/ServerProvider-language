@@ -396,7 +396,7 @@ function de.lang()-- in-table function
                 },
             },
         postpone = {
-            text = '<b>Ihre Server :</b> {num}\n',
+            text = 'Ihre Server : {num}\n',
             text2 = 'Möchten Sie die Serverzeit <b>verlängern</b>?',
             text3 = 'Sie haben aktuell keine *Server*',
 			text4 = '<b>Server Information:</b>\n<b>Name:</b> #name\n<b>Auslaufdatum:</b> <code>#expiredate</code>\n<b>Verbleibende Zeit:</b> <code>#timeleft</code>\n\n<b>Wie viele Tage wollen Sie hinzufügen? 1 Tag = </b><code>#price</code>',
