@@ -17,7 +17,7 @@ if You're going to disturbute a language file, **You have to :**
 ## Available Languages :
 **1.** english.lua -- By [IBotCorp Team](https://t.me/IBCorp)
 
-**2.** persian.lua -- By Mohammed Hassan ☫, Contact : [Telegram](https://t.me/MohammedHassan), [His Channel](https://t.me/FreePlus18)
+**2.** persian.lua -- By Mohammed Hassan ☫, Contact : [Telegram](https://t.me/MohammedHassan) - [His Channel](https://t.me/FreePlus18)
 
 **3.** arabic.lua  -- By [IBotCorp Team](https://t.me/IBCorp)
 
