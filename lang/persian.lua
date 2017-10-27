@@ -109,7 +109,7 @@ function fa.lang()-- in-table function
             
             },
         main = {-- Main Menu texts , do not change these words ({credit})
-            text = '* منوی اصلی \ n اعتبارات: * {credit}',
+            text = '* منوی اصلی \n اعتبارات: * {credit}',
             keyboard1 = {
                 {
                     {text = URL.escape('سرور جدید'), callback_data = 'newserver'},
