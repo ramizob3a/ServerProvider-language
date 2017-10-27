@@ -88,7 +88,7 @@ function en.lang()-- in-table function
             text2 = 'Welcome $username !\nPlease enter your *Password*',
             text3 = '*You Are Logged in now!*\n*Credits :* {credit}',
             text4 = "*Error!*:\nWrong password!\nPlease check your information and try again later",
-            text4 = "*Error!*:\nI couldn't find this username!\nPlease check your information and try again",
+            text5 = "*Error!*:\nI couldn't find this username!\nPlease check your information and try again",
             keyboard = {
                 {
                     {text = 'Cancel', callback_data = 'cancel'},
