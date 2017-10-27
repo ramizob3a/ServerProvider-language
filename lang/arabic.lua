@@ -391,7 +391,7 @@ function en.lang()-- in-table function
                 },
             },
         postpone = {
-            text = '<b>سيرفراتك :</b> {num}\n',
+            text = 'سيرفراتك : {num}\n',
             text2 = 'هل تريد <b> تأجيل </ b> المهلة الزمنية؟',
             text3 = 'ليس لديك الآن أي * سيرفرات * في الوقت الراهن',
 			text4 = '<b>معلومات السيرفر:</b>\n<b>الاسم:</b> #name\n<b>تاريخ الانتهاء:</b> <code>#expiredate</code>\n<b>وقت الانتهاء:</b> <code>#timeleft</code>\n\n<b>كم عدد الأيام التي ترغب في إضافتها? 1 day = </b><code>#price</code>',
