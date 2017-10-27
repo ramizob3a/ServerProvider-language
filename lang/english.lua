@@ -391,7 +391,7 @@ function en.lang()-- in-table function
                 },
             },
         postpone = {
-            text = '<b>Your servers :</b> {num}\n',
+            text = 'Your servers : {num}\n',
             text2 = 'Would you like to <b>Postpone</b> time limit ?',
             text3 = 'You do now have any *Servers* at the moment',
 			text4 = '<b>Server Information:</b>\n<b>Name:</b> #name\n<b>Expire Date:</b> <code>#expiredate</code>\n<b>Time Left:</b> <code>#timeleft</code>\n\n<b>How many days would you like to add? 1 day = </b><code>#price</code>',
