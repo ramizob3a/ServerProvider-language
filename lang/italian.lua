@@ -154,7 +154,7 @@ function it.lang()-- in-table function
 			text7 = 'La richiesta del server è stata inviata agli amministratori, attendere che la richiesta venga riesaminata',
             text8 = "*Solo numeri!*",
             text9 = '*Server aggiunto*\n*Nome :* {name}',
-            text10 = 'Il tuo server {name} è stato rimosso\npuoi affittare un'altra /myservers',
+            text10 = "Il tuo server {name} è stato rimosso\npuoi affittare un'altra /myservers",
 			text11 = 'Il tuo server #name Non è stato aggiunto ei tuoi crediti sono stati rimborsati\n<b>Assicurati di non aver violato nessuno dei termini di utilizzo.</b>',
 			text12 = 'Il tuo server #name è stato aggiunto con successo.\nHostName : #name\n\nExpire Date : #expiredate\n\nServer sarà pronto in * 10 secondi *',
 			query = 'Sei entrato #n',
