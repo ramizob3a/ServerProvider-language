@@ -144,6 +144,34 @@ function po.lang()-- in-table function
                     },
                 },
             },
+	    keyboard4 = {
+                {
+                    {text = URL.escape('My Servers'), callback_data = 'myservers'},
+                    {text = "Billing", callback_data = 'billing'},
+                    },
+                {
+                    {text = 'About', callback_data = 'about'},
+		    {text = 'My Advertisments', callback_data = 'getadverts'},
+                    },
+                {
+                    {text = 'Logout', callback_data = 'logout'},
+                    },
+                },
+	    keyboard5 = {
+                {
+                    {text = URL.escape('My Servers'), callback_data = 'myservers'},
+                    {text = "Billing", callback_data = 'billing'},
+                    },
+                {
+                    {text = 'About', callback_data = 'about'},
+		    {text = 'My Advertisments', callback_data = 'getadverts'},
+                    },
+                {
+                    {text = 'Logout', callback_data = 'logout'},
+                    {text = 'users', callback_data = 'users'},
+                    },
+                },
+            },
         newserver = {-- New server texts, do not change these words (#n, #b, #m, #servername, #servertime, #expiredate, #price, #name, {name}, )
             text1 = '*Novo Servidor!*\nO que vamos chamar??',
 			text2 = "Escolha o seu * Plano * :\nâ–ھï¸ڈ VPS pأ؛blico : significa que vocأھ receberأ، um servidor VPS compartilhado onde seus arquivos estarأ£o disponأ­veis para todos os usuأ،rios do mesmo VPS, e vocأھ nأ£o receberأ، acesso Raiz ao servidor.\n--------------\nâ–ھï¸ڈ Private VPS : significa que vocأھ receberأ، um servidor VPS apenas para vocأھ com o acesso completo da raiz.\n--------------\nâ–ھï¸ڈ Remote Desktop Protocol/RDP : significa que vocأھ obterأ، um RDP Ubuntu com acesso completo da Raiz.",
