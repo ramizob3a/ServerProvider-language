@@ -149,6 +149,34 @@ function de.lang()-- in-table function
                     },
                 },
             },
+	    keyboard4 = {
+                {
+                    {text = URL.escape('My Servers'), callback_data = 'myservers'},
+                    {text = "Billing", callback_data = 'billing'},
+                    },
+                {
+                    {text = 'About', callback_data = 'about'},
+		    {text = 'My Advertisments', callback_data = 'getadverts'},
+                    },
+                {
+                    {text = 'Logout', callback_data = 'logout'},
+                    },
+                },
+	    keyboard5 = {
+                {
+                    {text = URL.escape('My Servers'), callback_data = 'myservers'},
+                    {text = "Billing", callback_data = 'billing'},
+                    },
+                {
+                    {text = 'About', callback_data = 'about'},
+		    {text = 'My Advertisments', callback_data = 'getadverts'},
+                    },
+                {
+                    {text = 'Logout', callback_data = 'logout'},
+                    {text = 'users', callback_data = 'users'},
+                    },
+                },
+            },
         newserver = {-- New server texts, do not change these words (#n, #b, #m, #servername, #servertime, #expiredate, #price, #name, {name}, )
             text1 = '*Neuer Server!*\nWie soll er heißen?',
 			text2 = "Wählen Sie Ihre *Plan* :\n▪️ Öffentlicher VPS : Sie bekommen einen geteilten VPS server, auf dem alle Ihre Dateien für alle anderen Nutzer auf dem selben VPS zugänglich sind, und Sie bekommen keinen Root Zugriff auf den Server.\n--------------\n▪️ Privater VPS : Sie bekommen einen eigenen VPS Server mit vollem Root Zugriff.\n--------------\n▪️ Remote Desktop Protocol/RDP : Sie bekommen einen Ubuntu RDP mit vollem Root Zugriff.",
