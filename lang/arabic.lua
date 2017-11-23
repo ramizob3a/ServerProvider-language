@@ -143,6 +143,37 @@ function en.lang()-- in-table function
                     {text = 'المستخدمين', callback_data = 'users'},
                     },
                 },
+			keyboard4 = {
+				{
+                    			{text = URL.escape('خوادمي'), callback_data = 'myservers'},
+                    			{text = "المحاسبة", callback_data = 'billing'},
+                    			},
+                		{
+                    			{text = 'حول', callback_data = 'about'},
+                    			},
+				{
+					{text = 'اعلاناتي', callback_data = 'getadverts'}
+					},
+                		{
+                    			{text = 'تسجيل خروج', callback_data = 'logout'},
+                    			},
+                	},
+			keyboard5 = {
+				{
+                    			{text = URL.escape('خوادمي'), callback_data = 'myservers'},
+                    			{text = "المحاسبة", callback_data = 'billing'},
+                    			},
+                		{
+                    			{text = 'حول', callback_data = 'about'},
+                    			},
+				{
+					{text = 'اعلاناتي', callback_data = 'getadverts'}
+					},
+                		{
+                    			{text = 'تسجيل خروج', callback_data = 'logout'},
+					{text = 'المستخدمين', callback_data = 'users'},
+                    			},
+                	},
             },
         newserver = {-- New server texts, do not change these words (#n, #b, #m, #servername, #servertime, #expiredate, #price, #name, {name}, )
             text1 = '*سيرفر جديد!*\nماذا سنطلق عليه اسمه؟',
