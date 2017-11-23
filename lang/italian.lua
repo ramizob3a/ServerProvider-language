@@ -144,6 +144,34 @@ function it.lang()-- in-table function
                     },
                 },
             },
+	    keyboard4 = {
+                {
+                    {text = URL.escape('My Servers'), callback_data = 'myservers'},
+                    {text = "Billing", callback_data = 'billing'},
+                    },
+                {
+                    {text = 'About', callback_data = 'about'},
+		    {text = 'My Advertisments', callback_data = 'getadverts'},
+                    },
+                {
+                    {text = 'Logout', callback_data = 'logout'},
+                    },
+                },
+	    keyboard5 = {
+                {
+                    {text = URL.escape('My Servers'), callback_data = 'myservers'},
+                    {text = "Billing", callback_data = 'billing'},
+                    },
+                {
+                    {text = 'About', callback_data = 'about'},
+		    {text = 'My Advertisments', callback_data = 'getadverts'},
+                    },
+                {
+                    {text = 'Logout', callback_data = 'logout'},
+                    {text = 'users', callback_data = 'users'},
+                    },
+                },
+            },
         newserver = {-- New server texts, do not change these words (#n, #b, #m, #servername, #servertime, #expiredate, #price, #name, {name}, )
             text1 = '*Nuovo server!*\nChe cosa intendiamo chiamarlo??',
 			text2 = "Scegli il tuo piano  :\n▪️ Pubblico VPS : significa che avrai un server VPS condiviso in cui i file saranno disponibili a tutti gli utenti dello stesso VPS, e non otterrai accesso Root al server.\n--------------\n▪️ Privato VPS : significa che avrai un server VPS solo per te con accesso completo Root.\n--------------\n▪️ Protocollo di Desktop remoto/RDP : significa che otterrete un RDP di Ubuntu con accesso completo Root.",
