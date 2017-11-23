@@ -148,6 +148,34 @@ function fa.lang()-- in-table function
                     },
                 },
             },
+	    keyboard4 = {
+                {
+                    {text = URL.escape('My Servers'), callback_data = 'myservers'},
+                    {text = "Billing", callback_data = 'billing'},
+                    },
+                {
+                    {text = 'About', callback_data = 'about'},
+		    {text = 'My Advertisments', callback_data = 'getadverts'},
+                    },
+                {
+                    {text = 'Logout', callback_data = 'logout'},
+                    },
+                },
+	    keyboard5 = {
+                {
+                    {text = URL.escape('My Servers'), callback_data = 'myservers'},
+                    {text = "Billing", callback_data = 'billing'},
+                    },
+                {
+                    {text = 'About', callback_data = 'about'},
+		    {text = 'My Advertisments', callback_data = 'getadverts'},
+                    },
+                {
+                    {text = 'Logout', callback_data = 'logout'},
+                    {text = 'users', callback_data = 'users'},
+                    },
+                },
+            },
         newserver = {-- New server texts, do not change these words (#n, #b, #m, #servername, #servertime, #expiredate, #price, #name, {name}, )
             text1 = ' سرور جدید!\nچه می خواهیم آنرا بگوئیم؟',
 			text2 = "* طرح * خود را انتخاب کنید:\n▪️ VPS عمومی : بدین معناست که شما یک سرور VPS مشترک خواهید داشت که در آن فایل های شما برای همه کاربران همان VPS در دسترس خواهد بود و دسترسی ریشه به سرور را دریافت نخواهید کرد.\n--------------\n▪️ خصوصی VPS : به این معنی است که شما یک سرور VPS برای شما با دسترسی کامل ریشه دریافت خواهید کرد.\n--------------\n▪️ پروتکل دسک تاپ از راه دور/RDP : به این معناست که یک RDP اوبونتو با دسترسی کامل ریشه دریافت خواهید کرد.",
