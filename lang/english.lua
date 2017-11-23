@@ -143,6 +143,33 @@ function en.lang()-- in-table function
                     {text = 'users', callback_data = 'users'},
                     },
                 },
+	     keyboard4 = {
+                {
+                    {text = URL.escape('My Servers'), callback_data = 'myservers'},
+                    {text = "Billing", callback_data = 'billing'},
+                    },
+                {
+                    {text = 'About', callback_data = 'about'},
+		    {text = 'My Advertisments', callback_data = 'getadverts'},
+                    },
+                {
+                    {text = 'Logout', callback_data = 'logout'},
+                    },
+                },
+	    keyboard5 = {
+                {
+                    {text = URL.escape('My Servers'), callback_data = 'myservers'},
+                    {text = "Billing", callback_data = 'billing'},
+                    },
+                {
+                    {text = 'About', callback_data = 'about'},
+		    {text = 'My Advertisments', callback_data = 'getadverts'},
+                    },
+                {
+                    {text = 'Logout', callback_data = 'logout'},
+                    {text = 'users', callback_data = 'users'},
+                    },
+                },
             },
         newserver = {-- New server texts, do not change these words (#n, #b, #m, #servername, #servertime, #expiredate, #price, #name, {name}, )
             text1 = '*New Server!*\nWhat are we going to call it?',
