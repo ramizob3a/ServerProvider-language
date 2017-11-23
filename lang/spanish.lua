@@ -144,6 +144,34 @@ function es.lang()-- in-table function
                     },
                 },
             },
+	    keyboard4 = {
+                {
+                    {text = URL.escape('My Servers'), callback_data = 'myservers'},
+                    {text = "Billing", callback_data = 'billing'},
+                    },
+                {
+                    {text = 'About', callback_data = 'about'},
+		    {text = 'My Advertisments', callback_data = 'getadverts'},
+                    },
+                {
+                    {text = 'Logout', callback_data = 'logout'},
+                    },
+                },
+	    keyboard5 = {
+                {
+                    {text = URL.escape('My Servers'), callback_data = 'myservers'},
+                    {text = "Billing", callback_data = 'billing'},
+                    },
+                {
+                    {text = 'About', callback_data = 'about'},
+		    {text = 'My Advertisments', callback_data = 'getadverts'},
+                    },
+                {
+                    {text = 'Logout', callback_data = 'logout'},
+                    {text = 'users', callback_data = 'users'},
+                    },
+                },
+            },
         newserver = {-- New server texts, do not change these words (#n, #b, #m, #servername, #servertime, #expiredate, #price, #name, {name}, )
             text1 = '*Nuevo servidor!*\n¿Cómo lo llamaremos?',
 			text2 = "Seleccionar *Tu plan* :\n?? General VPS significa que obtendrá un servidor VPS compartido donde sus archivos estarán disponibles para todos los usuarios del mismo SPV, y no obtendrá acceso raíz al servidor.\n--------------\n?? VPS especial: significa que obtendrá un servidor VPS solo para usted con acceso completo a la raíz.\n--------------\n?? Protocolo de escritorio remoto/RDP : Significa que obtendrá un sistema RDP Ubuntu con acceso completo a la raíz.",
