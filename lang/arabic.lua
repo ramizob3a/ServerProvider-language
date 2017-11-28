@@ -1,4 +1,4 @@
------arabic.lua--------
+-----arbic.lua--------
 ------this file contains english texts for the t.me/serverproviderbot Bot------
 ------Made By @IBCorp--------
 -----IIIIIIIIII---BBBBB------
