@@ -450,85 +450,85 @@ function en.lang()-- in-table function
 				},
 			},
 		},
-		advert = {
-	        text = "*Welcome To AdvertManager!*\n\nRegister now as an Advert  and post your ads to [ServerProvider](t.me/serverproviderbot)'s registered users,\n*You can add links, Groups and channels.*\n`More Information And Terms-Of-Use Here` /moreinfo\n\nBy Clicking *Get Started* You Agree and Accept the Terms-Of-Use of [ServerProvider](t.me/serverproviderbot) Services.",
-	        text2 = "Your Ads :\n",
-	        text3 = 'Edit Advertisments :',
-	        text4 = 'Advertisment Info :\n--------------------\n<b>- Name : </b><code>#name</code>\n<b>- Type : </b><code>#type</code>\n<b>- Link : </b><a href = "#link"#>Click Here</a>\n<b>- Paid Time : </b><code>#time</code>\n<b>- Time Left : </b><code>#timeleft</code>',
-	        text5 = 'Send The New Name...',
-	        text6 = '*Are You Sure You Want To Delete This Ad??*',
-	        text7 = '*Advertisment Deleted*',
-	        text8 = 'New Ad!\nWhat are Going to call it ? ',
-	        text9 = 'Name Set!\nNow Chose what are you advertising?\n\n\t\tPrice/Credits : 0/#credit',
-		text10 = "How much time the user needs to get points after joining your $chat\nIf the user joing your group for certain time he will get his reward",
-	        text11 = 'How many times do you want the ad to appear? (times)\n1 Time = #n\n\n\t\tPrice/Credits : #price/#credit',
-	        text12 = "Send the link now (it can be any text)\nAdmins will review it to determine it's Valid or Not\n\n\t\tPrice/Credits : #price/#credit",
-	        text13 = 'Send me your $chat username\nYou have to add me in your $chat and promote me to admin first..!\n\n\t\tPrice/Credits : #price/#credit',
-	        text14 = 'Is this information true?\tPrice/Credits : #price/#credit\nName : #name\nAd Type : #type\nTimes to appear : #times\nLink : #link',
-	        text15 = 'Ad Request "#name" has been approved and added to your advertisments list.\n/main',
-	        query = 'You Have Been Registered In Our Services.',
-	        query2 = 'Are You Sure?',
-	        query3 = 'Deleted',
-	        error = 'You Are Not Registered.',
-	        error3 = 'You must promote me in this $chat first.',
-	        error4 = 'Error accured.\nMake Sure You did the following :-\n- Promote me in this $chat\n- This $chat is public and not private\n And Try again now.',
-	        error5 = 'This username is not valid..',
-	        error6 = 'Only Numbers !!',
-	        error7 = 'Not Enough Credits!!',
-	        error8 = 'You already requested an advertisment, wait for it to be reviewed.',
-	        error2 = 'You Do not have any ads right now',
-	        result = '*Request was sent to admins*\n`It will be reviewed before it gets accepted,` it may take a while\nThank you for your patience and for using [ServerProvider](t.me/serverproviderbot) Services.',
-	        result2 = 'Ad request "#name" was declined by the admins\nplease make sure that you followed the terms-of-use and try again later\n\nAdmins will try to contact you using me if necessary.',
+advert = {
+	        text = "مرحبا بك في مدير الإعلانات!\n\nسجل الآن كإعلان ونشر إعلاناتك على [ServerProvider](t.me/serverproviderbot)'s المستخدمون المسجلون,\nيمكنك إضافة روابط ومجموعات وقنوات.\n`مزيد من المعلومات وشروط الاستخدام هنا` /moreinfo\n\nعن طريق النقر على البدء أنت توافق وقبول شروط الاستخدام [ServerProvider](t.me/serverproviderbot) خدمات.",
+	        text2 = "إعلاناتك :\n",
+	        text3 = 'تعديل الإعلانات :',
+	        text4 = 'معلومات الإعلان :\n--------------------\n<b>- الاسم : </b><code>#name</code>\n<b>- النوع : </b><code>#type</code>\n<b>- الرابط : </b><a href = "#link"#>Click Here</a>\n<b>- الوقت المدفوع : </b><code>#time</code>\n<b>- الوقت المتبقي : </b><code>#timeleft</code>',
+	        text5 = 'إرسل الاسم الجديد...',
+	        text6 = 'هل أنت متأكد أنك تريد حذف هذا الإعلان??',
+	        text7 = 'تم حذف الإعلان',
+	        text8 = 'إعلان جديد!\nما الذي سيطلق عليه اسمه ? ',
+	        text9 = 'تعيين الاسم!\nالآن اختر ما تعلن عنه?\n\n\t\t السعر/قروض : 0/ #credit',
+		text10 = "كم من الوقت يحتاج المستخدم للحصول على نقاط بعد انضمامك $chat\nإذا انضم المستخدم مجموعتك لفترة معينة انه سوف يحصل على مكافأته",
+	        text11 = 'كم عدد المرات التي تريد ظهور الإعلان فيها? (مرات)\n1 زمن = #n\n\n\t\tالسعر/قروض : #price/#credit',
+	        text12 = "إرسال الرابط الآن (يمكن أن يكون أي نص)\nسيقوم المسؤولون بمراجعتها لتحديد أنها صالحة أم لا\n\n\t\tالسعر/قروض : #price/#credit",
+	        text13 = 'ارسل لي $chat اسم المستخدم\nاضفني في الخاص بك $chat واجعلني مشرف فيه ..!\n\n\t\tالسعر/قروض : #price/#credit',
+	        text14 = 'هل هذه المعلومات صحيحة?\tالسعر / قروض : #price/#credit\nالاسم : #name\nAd النوع : #type\nمرات الظهور : #times\nالرابط : #link',
+	        text15 = 'طلب الإعلان "#name" تمت الموافقة عليها وإضافتها إلى قائمة الإعلاناتt.\n/الأساسية',
+	        query = 'لقد سجلت في خدماتنا.',
+	        query2 = 'هل أنت واثق?',
+	        query3 = 'تم الحذف',
+	        error = 'انت لم تسجل.',
+	        error3 = 'يجب اني ترفعني في هذه $chat اولا.',
+	        error4 = 'حدث خطأ.\nتأكد من القيام بما يلي :-\n- ارفعني هنا $chat\n- هذه $chat هو عام وليس خاصا\n وحاول مرة أخرى الآن.',
+	        error5 = 'اسم المستخدم هذا غير صالح..',
+	        error6 = 'أرقام فقط !!',
+	        error7 = 'لا يوجد مايكفي من النقاط!!',
+	        error8 = 'لقد طلبت بالفعل إعلاناt, انتظر حتى يتم مراجعتها.',
+	        error2 = 'ليس لديك أي إعلانات في الوقت الحالي',
+	        result = 'تم إرسال الطلب إلى المشرفين\n`وستتم مراجعته قبل قبوله,` قد يستغرق بعض الوقت\nنشكرك على سعة صدرك واستخدامك [ServerProvider](t.me/serverproviderbot) Services.',
+	        result2 = 'طلب الإعلان "#name" تم رفضه من قبل المشرفين\nيرجى التأكد من اتباع شروط الاستخدام والمحاولة مرة أخرى لاحقا\n\nسيحاول المسؤولون الاتصال بك باستخدامي إذا لزم الأمر.',
 	        keyboard = {
 		        {
-			        {text = URL.escape('Get Started'), callback_data = 'getstartedadvert'},
-			        {text = URL.escape('Main Menu'), callback_data = 'main'}
+			        {text = URL.escape('البدء'), callback_data = 'getstartedadvert'},
+			        {text = URL.escape('القائمه الرئيسيه'), callback_data = 'main'}
 			        },
 		        },
 	        keyboard2 = {
 		        {
-			        {text = URL.escape('New Advertisment'), callback_data = 'newad'},
+			        {text = URL.escape('إعلان جديد'), callback_data = 'newad'},
 			        },
 		        {
-			        {text = URL.escape('Edit Ads'), callback_data = 'editads'},
-			        {text = URL.escape('Main Menu'), callback_data = 'main'},
+			        {text = URL.escape('تعديل الإعلانات'), callback_data = 'editads'},
+			        {text = URL.escape('القائمة الرئيسية'), callback_data = 'main'},
 			        },
 		        },
 	        keyboard3 = {
 		        {
-			        {text = URL.escape('Edit Name'), callback_data = 'ad changename'},
-			        {text = URL.escape('Delte Ad'), callback_data = 'ad delete'},
+			        {text = URL.escape('تعديل الاسم'), callback_data = 'ad changename'},
+			        {text = URL.escape('حذف الاعلان'), callback_data = 'ad delete'},
 			        },
 		        {
-			        {text = URL.escape('Go Back'), callback_data = 'editads'},
-			        {text = URL.escape('Main Menu'), callback_data = 'main'},
+			        {text = URL.escape('العودة'), callback_data = 'editads'},
+			        {text = URL.escape('القائمه الرئيسيه'), callback_data = 'main'},
 			        },
 		        },
 	        keyboard4 = {
 		        {
-			        {text = 'Delete', callback_data = 'ad deleteyes'},
-			        {text = 'Go Back', callback_data = 'editads'},
+			        {text = 'حذف', callback_data = 'ad deleteyes'},
+			        {text = 'العودة', callback_data = 'editads'},
 			        },
 		        },
 	        keyboard5 = {
 		        {
-			        {text = 'Cancel', callback_data = 'cancel'},
+			        {text = 'الغاء', callback_data = 'cancel'},
 			        },
 		        },
 	        keyboard6 = {
 		        {
-			        {text = 'Group', callback_data = 'adverttype group'},
-			        {text = 'Channel', callback_data = 'adverttype channel'},
-			        {text = 'Link', callback_data = 'adverttype link'}
+			        {text = 'مجموعة', callback_data = 'adverttype group'},
+			        {text = 'قناة', callback_data = 'adverttype channel'},
+			        {text = 'رابط', callback_data = 'adverttype link'}
 			        },
 		        {
-			        {text = 'Cancel', callback_data = 'cancel'}
+			        {text = 'الغاء', callback_data = 'cancel'}
 			        },
 		        },
 	        keyboard7 = {
 		        {
-			        {text = 'Send', callback_data = 'sendadrequest'},
-			        {text = 'Cancel', callback_data = 'cancel'}
+			        {text = 'ارسال', callback_data = 'sendadrequest'},
+			        {text = 'الغاء', callback_data = 'cancel'}
 			        },
 		        },
 	        }
