@@ -172,7 +172,7 @@ function it.lang()-- in-table function
                     },
                 },
             },
-        newserver = {-- New server texts, do not change these words (#n, #b, #m, #servername, #servertime, #expiredate, #price, #name, {name}, )
+        newserver = { -- New server texts, do not change these words (#n, #b, #m, #servername, #servertime, #expiredate, #price, #name, {name}, )
             text1 = '*Nuovo server!*\nChe cosa intendiamo chiamarlo??',
 			text2 = "Scegli il tuo piano  :\n▪️ Pubblico VPS : significa che avrai un server VPS condiviso in cui i file saranno disponibili a tutti gli utenti dello stesso VPS, e non otterrai accesso Root al server.\n--------------\n▪️ Privato VPS : significa che avrai un server VPS solo per te con accesso completo Root.\n--------------\n▪️ Protocollo di Desktop remoto/RDP : significa che otterrete un RDP di Ubuntu con accesso completo Root.",
             text3 = "Quanti giorni si desidera il server ?\n#Note : 1 giorno = #n credito\n\n--------\ngiorni : #m    *Prezzo totale :* #b\n--------",
