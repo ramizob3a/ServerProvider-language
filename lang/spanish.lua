@@ -354,6 +354,7 @@ function es.lang()-- in-table function
 			text5 = 'Cargando..',
 			text6 = 'No hay enlaces disponibles ahora\nPor favor intente de nuevo más tarde',
 			text7 = 'La sesión terminó...\nPor favor intente de nuevo más tarde',
+			text8 = 'Click on this link to earn credits.\n after you click this link, you will go to a website where a "Skip Add" Button should apear after five seconds, after that you will be redirected to me to receive your reward.',
             keyboard = {
                 {
 					{text = URL.escape('Ver anuncios'), callback_data = 'watchads'},
