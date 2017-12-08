@@ -358,6 +358,7 @@ function fa.lang()-- in-table function
 			text5 = 'در حال بارگیری..',
 			text6 = 'بدون لینک\nلطفا بعدا دوباره امتحان کنید',
 			text7 = 'جلسه تمام شده...\nلطفا بعدا دوباره امتحان کنید',
+			text8 = 'Click on this link to earn credits.\n after you click this link, you will go to a website where a "Skip Add" Button should apear after five seconds, after that you will be redirected to me to receive your reward.',
             keyboard = {
                 {
 					{text = URL.escape('سازمان دیده بان تبلیغات'), callback_data = 'watchads'},
