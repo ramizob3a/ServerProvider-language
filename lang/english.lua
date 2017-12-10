@@ -464,7 +464,7 @@ function en.lang()-- in-table function
 	        text14 = 'Is this information true?\tPrice/Credits : #price/#credit\nName : #name\nType : #type\nTimes to appear : #times\nDuration : #duration\nReward per user : #reward\nLink : #link',
 	        text15 = 'Ad Request "#name" has been approved and added to your advertisments list.\n/main\n\n\t\tPrice/Credits : #price/#credit',
 		text16 = 'How many days do you want the user to join your $chat so he/she gets her/his reward?\n1 day = #n\n\n\t\tPrice/Credits : #price/#credit',
-		text17 = 'How much credits would you give the user if he joins your $chat for #day days?',
+		text17 = 'How much credits would you give the user if he joins your $chat for #day days?\n\n\t\tPrice/Credits : #price/#credit',
 	        query = 'You Have Been Registered In Our Services.',
 	        query2 = 'Are You Sure?',
 	        query3 = 'Deleted',
