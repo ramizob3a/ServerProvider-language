@@ -463,6 +463,8 @@ function en.lang()-- in-table function
 	        text13 = 'Send me your $chat username\nYou have to add me in your $chat and promote me to admin first..!\n\n\t\tPrice/Credits : #price/#credit',
 	        text14 = 'Is this information true?\tPrice/Credits : #price/#credit\nName : #name\nAd Type : #type\nTimes to appear : #times\nLink : #link',
 	        text15 = 'Ad Request "#name" has been approved and added to your advertisments list.\n/main',
+		text16 = 'How many days do you want the user to join your $chat so he/she gets her/his reward?\n1 day = #n',
+		text17 = 'How much credits would you give the user if he joins your $chat for #day days?',
 	        query = 'You Have Been Registered In Our Services.',
 	        query2 = 'Are You Sure?',
 	        query3 = 'Deleted',
@@ -476,6 +478,8 @@ function en.lang()-- in-table function
 	        error2 = 'You Do not have any ads right now',
 	        result = '*Request was sent to admins*\n`It will be reviewed before it gets accepted,` it may take a while\nThank you for your patience and for using [ServerProvider](t.me/serverproviderbot) Services.',
 	        result2 = 'Ad request "#name" was declined by the admins\nplease make sure that you followed the terms-of-use and try again later\n\nAdmins will try to contact you using me if necessary.',
+		group = 'Group',
+		channel = 'Channel',
 	        keyboard = {
 		        {
 			        {text = URL.escape('Get Started'), callback_data = 'getstartedadvert'},
