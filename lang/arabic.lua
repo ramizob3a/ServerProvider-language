@@ -365,6 +365,7 @@ function en.lang()-- in-table function
 				},
 				{
                     {text = URL.escape("دعوة اعضاء"), callback_data = 'invite'},
+		    {text = URL.escape('العروض'), callback_data = 'offers'},			
                     },
 				{
 					{text = URL.escape('المحاسسبة'), callback_data = 'billing'}
@@ -384,6 +385,9 @@ function en.lang()-- in-table function
                     {text = URL.escape("ادخال رمز هدية"), callback_data = 'giftcode'},
                     {text = URL.escape("دعوة اعضاء"), callback_data = 'invite'},
                     },
+				{
+ 		    {text = URL.escape('العروض'), callback_data = 'offers'},
+ 			},
 				{
 					{text = URL.escape('المحاسبة'), callback_data = 'billing'}
 					},
