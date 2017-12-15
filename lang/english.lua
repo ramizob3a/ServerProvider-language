@@ -451,7 +451,7 @@ function en.lang()-- in-table function
 	        text = "*Welcome To AdvertManager!*\n\nRegister now as an Advert  and post your ads to [ServerProvider](t.me/serverproviderbot)'s registered users,\n*You can add links, Groups and channels.*\n`More Information And Terms-Of-Use Here` /moreinfo\n\nBy Clicking *Get Started* You Agree and Accept the Terms-Of-Use of [ServerProvider](t.me/serverproviderbot) Services.",
 	        text2 = "Your Ads :\n",
 	        text3 = 'Edit Advertisments :',
-	        text4 = 'Advertisment Info :\n--------------------\n<b>- Name : </b><code>#name</code>\n<b>- Type : </b><code>#type</code>\n<b>- Duration : </b><code>#duration</code>\n<b>- Reward : </b><code>#reward</code>\n<b>- Link : </b><a href = "#link"#>Click Here</a>\n<b>- Appeared : </b><code>#appear/#times</code>',
+	        text4 = 'Advertisement Info :\n--------------------\n<b>- Name : </b><code>#name</code>\n<b>- Type : </b><code>#type</code>\n<b>- Duration : </b><code>#duration</code>\n<b>- Reward : </b><code>#reward</code>\n<b>- Link : </b><a href = "#link"#>Click Here</a>\n<b>- Appeared : </b><code>#appear/#times</code>',
 	        text5 = 'Send The New Name...',
 	        text6 = '*Are You Sure You Want To Delete This Ad??*',
 	        text7 = '*Advertisment Deleted*',
