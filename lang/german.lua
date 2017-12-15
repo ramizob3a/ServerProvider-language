@@ -367,6 +367,7 @@ function de.lang()-- in-table function
 				},
 				{
                     {text = URL.escape("EINLADEN"), callback_data = 'invite'},
+		    {text = URL.escape('BIETET AN'), callback_data = 'offers'},		
                     },
 				{
 					{text = URL.escape('Bezahlen'), callback_data = 'billing'}
@@ -386,6 +387,9 @@ function de.lang()-- in-table function
                     {text = URL.escape("Geschenkcode"), callback_data = 'giftcode'},
                     {text = URL.escape("EINLADEN"), callback_data = 'invite'},
                     },
+			{
+ 		    {text = URL.escape('OFFERS'), callback_data = 'offers'},
+ 			},
 				{
 					{text = URL.escape('Bezahlen'), callback_data = 'billing'}
 					},
