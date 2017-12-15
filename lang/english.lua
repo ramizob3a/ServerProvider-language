@@ -498,7 +498,7 @@ function en.lang()-- in-table function
 	        keyboard3 = {
 		        {
 			        {text = URL.escape('Edit Name'), callback_data = 'ad changename'},
-			        {text = URL.escape('Delte Ad'), callback_data = 'ad delete'},
+			        {text = URL.escape('Delete'), callback_data = 'ad delete'},
 			        },
 		        {
 			        {text = URL.escape('Go Back'), callback_data = 'editads'},
