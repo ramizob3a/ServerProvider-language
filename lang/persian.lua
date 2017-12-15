@@ -366,6 +366,7 @@ function fa.lang()-- in-table function
 				},
 				{
                     {text = URL.escape("دعوت"), callback_data = 'invite'},
+		    {text = URL.escape('ارائه می دهد'), callback_data = 'offers'},		
                     },
 				{
 					{text = URL.escape('صورتحساب'), callback_data = 'billing'}
@@ -385,6 +386,9 @@ function fa.lang()-- in-table function
                     {text = URL.escape("کد هدیه"), callback_data = 'giftcode'},
                     {text = URL.escape("دعوت"), callback_data = 'invite'},
                     },
+			{
+ 		    {text = URL.escape('ارائه می دهد'), callback_data = 'offers'},
+ 			},
 				{
 					{text = URL.escape('صورتحساب'), callback_data = 'billing'}
 					},
