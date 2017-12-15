@@ -362,6 +362,7 @@ function es.lang()-- in-table function
 				},
 				{
                     {text = URL.escape("Invitar miembros"), callback_data = 'invite'},
+		    {text = URL.escape('OFERTAS'), callback_data = 'offers'},
                     },
 				{
 					{text = URL.escape('Contabilidad'), callback_data = 'billing'}
@@ -381,6 +382,9 @@ function es.lang()-- in-table function
                     {text = URL.escape("Ingrese el código de regalo"), callback_data = 'giftcode'},
                     {text = URL.escape("Invitar miembros"), callback_data = 'invite'},
                     },
+			{
+ 		    {text = URL.escape('OFERTAS'), callback_data = 'offers'},
+ 			},
 				{
 					{text = URL.escape('Contabilidad'), callback_data = 'billing'}
 					},
