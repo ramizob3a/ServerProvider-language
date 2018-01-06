@@ -405,6 +405,7 @@ function en.lang()-- in-table function
         billing = {
             text = '*Billing Status*\n*Username :* {username}\n*Credits :* {credit}\n*invite credits* : {invitecredit}\n*Servers :* {num}',
             text2 = '*You do not have enough invite credit*\nminimum value is 1',
+	    text3 = 'With *Withdraw* you can resell your credits and gain profit!\nall you need to do now is send the amount you want to withdraw : (Your credits : #credit)',
             keyboard = {
                 {
                     {text = URL.escape('My servers'), callback_data = 'myservers'},
@@ -414,6 +415,9 @@ function en.lang()-- in-table function
                     {text = URL.escape('Buy Days'), callback_data = 'postpone'},
                     {text = URL.escape('Get Invite credit'), callback_data = 'getinvitecredit'},
                     },
+		{
+		    {text = 'Withdraw', callback_data = 'withdraw'},
+		    },
 				{
 					{text = URL.escape("Donate"), url = 'https://patreon.com/ServerProvider'},
                     },
