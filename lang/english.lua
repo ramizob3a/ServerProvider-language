@@ -345,6 +345,17 @@ function en.lang()-- in-table function
 					},
 				},
 			},
+		reinstall_server = {
+			text = '<b>Are You Sure You Want To Reinstall This Server?</b>\nYou are going to reinstall (<b>#name</b>)\nThis means all data on this server <b>Will Be Erased</b>.',
+			text2 = '*Server Reinstalled.*\nPlease wait up to 5 minutes untill you access this server again',
+			query = 'Reinstalling Server...',
+			keyboard = {
+				{
+					{text = 'Yes', callback_data = 'reinstallserver yes'},
+					{text = 'No', callback_data = 'reinstallserver no'}
+					},
+				},
+			},
         earn = { -- EARN texts, do not change these words ( #credit)
             text = '*Earn credits now!*\nYou can earn credits to buy servers now',
             text2 = "Send The *GIFT CODE* to charge your *credits*",
