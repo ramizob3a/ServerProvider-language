@@ -14,7 +14,11 @@ function en.lang()-- in-table function
     local info = 
     {
 		prices = {--Do Not Change This!!
-			private = 340,
+			private = {
+				one = 340,
+				two = 665,
+				three = 1160,
+				},
 			public = 210,
 			rdp = 1340,
 			},
