@@ -364,7 +364,7 @@ function en.lang()-- in-table function
 			text8 = 'Click on this link to earn credits.\n after you click this link, you will go to a website where a "Skip Add" Button should apear after five seconds, after that you will be redirected to me to receive your reward.',
             keyboard = {
                 {
-					{text = URL.escape('مشاهدة الاعلانات'), callback_data = 'watchads'},
+					--{text = URL.escape('مشاهدة الاعلانات'), callback_data = 'watchads'},
                     {text = URL.escape("ادخال رمز هدية"), callback_data = 'giftcode'},
 				},
 				{
