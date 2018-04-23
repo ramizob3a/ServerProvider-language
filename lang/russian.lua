@@ -371,7 +371,7 @@ function en.lang()-- in-table function
 			text8 = 'Нажмите на эту ссылку, чтобы заработать.\n после нажатия этой ссылки, вы перейдете на сайт, где через пять секунд появится кнопка «Пропустить объявление», после этого вы будете перенаправлены ко мне, чтобы получить свою награду.',
             keyboard = {
                 {
-					{text = URL.escape('Смотреть объявления'), callback_data = 'watchads'},
+					--{text = URL.escape('Смотреть объявления'), callback_data = 'watchads'},
                     {text = URL.escape("Подарочный код"), callback_data = 'giftcode'},
 				},
 				{
