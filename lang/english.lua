@@ -86,6 +86,11 @@ function en.lang()-- in-table function
 					{text = 'Cancel', callback_data = 'cancel'}
 					},
 				},
+			keyboard2 = {
+				{
+					{text = 'Cancel', callback_data = 'cancel'}
+					},
+				},
             },
         login = {-- Log in texts, do not change these words ($username, {credits})
             text1 = 'Please enter your *Given Username*',
