@@ -1,12 +1,17 @@
 -----english.lua--------
 ------this file contains english texts for the t.me/serverproviderbot Bot------
 ------Made By @IBCorp--------
------IIIIIIIIII---BBBBB------
---------IIII------BB---B-----
---------IIII------BBBBB------
---------IIII------BB---B-----
------IIIIIIIIII---BBBBB------
 
+[[
+ _____ ____        _    _____                 
+ |_   _|  _ \      | |  / ____|                
+   | | | |_) | ___ | |_| |     ___  _ __ _ __  
+   | | |  _ < / _ \| __| |    / _ \| '__| '_ \ 
+  _| |_| |_) | (_) | |_| |___| (_) | |  | |_) |
+ |_____|____/ \___/ \__|\_____\___/|_|  | .__/ 
+                                        | |    
+                                        |_|    
+]]
 
 --Start english.lua
 local en = {}
