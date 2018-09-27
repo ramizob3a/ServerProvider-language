@@ -76,7 +76,7 @@ function en.lang()-- in-table function
 			text6 = 'Please tell us Some information about your projects.',
 			text7 = 'Is this information *Correct*?\n--------------\nFirst Name : #first\nLast Name : #last\nPhone Number : #phone\nEmail : #email\nReason : #reason',
             text8 = 'Username : {username}\nPassword : {password}',
-            text9 = 'You have been registered successfully.\nYou may now *Login* with the information below : *please save the username and the password*\nusername : {username}\npassword : {password}\n\#Note: You can change your username and password from the settings tab in main menu...',
+            text9 = 'You have been registered successfully.\nYou may now *Login* with the information below : *please save the username and the password*\nusername : {username}\npassword : {password}\n\n#Note: You can change your username and password from the settings tab in main menu...',
 			text10 = 'Verification code sent to $phone\nPlease send The Verification code here',
 			error = 'Error,\nFormat is not valid please enter a valid format',
 			error2 = '*Invalid Code*.\nPlease Try again',
