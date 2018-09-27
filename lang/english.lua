@@ -2,16 +2,14 @@
 ------this file contains english texts for the t.me/serverproviderbot Bot------
 ------Made By @IBCorp--------
 
-[[
- _____ ____        _    _____                 
- |_   _|  _ \      | |  / ____|                
-   | | | |_) | ___ | |_| |     ___  _ __ _ __  
-   | | |  _ < / _ \| __| |    / _ \| '__| '_ \ 
-  _| |_| |_) | (_) | |_| |___| (_) | |  | |_) |
- |_____|____/ \___/ \__|\_____\___/|_|  | .__/ 
-                                        | |    
-                                        |_|    
-]]
+-- _____ ____        _    _____                 
+--|_   _|  _ \      | |  / ____|                
+--   | | | |_) | ___ | |_| |     ___  _ __ _ __  
+--   | | |  _ < / _ \| __| |    / _ \| '__| '_ \ 
+--  _| |_| |_) | (_) | |_| |___| (_) | |  | |_) |
+ --|_____|____/ \___/ \__|\_____\___/|_|  | .__/ 
+--                                        | |    
+--                                        |_|    
 
 --Start english.lua
 local en = {}
@@ -82,6 +80,7 @@ function en.lang()-- in-table function
 			text10 = 'Verification code sent to $phone\nPlease send The Verification code here',
 			error = 'Error,\nFormat is not valid please enter a valid format',
 			error2 = '*Invalid Code*.\nPlease Try again',
+			error3 = 'Error,\nThis Email is Nor Vaild, Please Try Again with a Valid Email',
 			keyboard = {
 				{
 					{text = 'Yes', callback_data = 'infocorrect'},
