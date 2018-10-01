@@ -83,6 +83,7 @@ function en.lang()-- in-table function
 			error = 'Error,\nFormat is not valid please enter a valid format',
 			error2 = '*Invalid Code*.\nPlease Try again',
 			error3 = 'Error,\nThis Email is Nor Vaild, Please Try Again with a Valid Email',
+			error4 = 'Session Expired..\nPlease Try Again Later.',
 			keyboard = {
 				{
 					{text = 'Yes', callback_data = 'infocorrect'},
