@@ -79,11 +79,13 @@ function en.lang()-- in-table function
             text9 = 'You have been registered successfully.\nYou may now *Login* with the information below : *please save the username and the password*\nusername : {username}\npassword : {password}\n\n#Note: You can change your username and password from the settings tab in main menu...',
 			text10 = 'Activation code sent to $phone\nPlease send The Verification code here',
 			text11 = 'Account Activated..\nThank You For Using @ServerProviderBot',
-			text12 = 'Please Send the Activation Code Now...',
+			text12 = "Please Send the Activation Code Now...\n\nDidn't receive the code yet?.. Press *Send Code*",
 			error = 'Error,\nFormat is not valid please enter a valid format',
 			error2 = '*Invalid Code*.\nPlease Try again',
 			error3 = 'Error,\nThis Email is Nor Vaild, Please Try Again with a Valid Email',
 			error4 = 'Session Expired..\nPlease Try Again Later.',
+			query = 'Activation Code Sent...',
+			query2 = 'Error occurred\nPlease Try Again Later...',
 			keyboard = {
 				{
 					{text = 'Yes', callback_data = 'infocorrect'},
@@ -98,11 +100,16 @@ function en.lang()-- in-table function
 					{text = 'Cancel', callback_data = 'cancel'}
 					},
 				},
+			keyboard3 = {
+				{
+					{text = 'Send Code', callback_data = 'sendcode'},
+					},
+				},
             },
         login = {-- Log in texts, do not change these words ($username, {credits})
             text1 = 'Please enter your *Given Username*',
             text2 = 'Welcome $username !\nPlease enter your *Password*',
-            text3 = '*You Are Logged in now!*\n*Credits :* {credit}',
+            text3 = '*You Are Logged in now!*',
             text4 = "*Error!*:\nWrong password!\nPlease check your information and try again later",
             text5 = "*Error!*:\nI couldn't find this username!\nPlease check your information and try again",
             keyboard = {
@@ -122,70 +129,23 @@ function en.lang()-- in-table function
             },
         main = {-- Main Menu texts , do not change these words ({credit})
             text = '*Main Menu\nCredits :* {credit}',
-            keyboard1 = {
-                {
-                    {text = URL.escape('New Server'), callback_data = 'newserver'},
-                    {text = "Billing", callback_data = 'billing'},
-                    },
-               {
-                    {text = 'About', callback_data = 'about'},
-                    },
-                {
-                    {text = 'Logout', callback_data = 'logout'},
-                    },
-                },
-            keyboard2 = {
+	    rows = {
+		{text = 'My Advertisments', callback_data = 'getadverts'},
+		{text = 'users', callback_data = 'users'},
+		{text = 'Activate Account!', url = 'https://t.me/'..bot.username..'?start=verify'},
+		},
+            keyboard = {
                 {
                     {text = URL.escape('My Servers'), callback_data = 'myservers'},
                     {text = "Billing", callback_data = 'billing'},
                     },
                 {
-                    {text = 'About', callback_data = 'about'},
+                    {text = 'My Account', callback_data = 'account'},
                     },
                 {
                     {text = 'Logout', callback_data = 'logout'},
                     },
-                },
-            keyboard3 = {
-                {
-                    {text = URL.escape('My Servers'), callback_data = 'myservers'},
-                    {text = "Billing", callback_data = 'billing'},
-                    },
-                {
-                    {text = 'About', callback_data = 'about'},
-                    },
-                {
-                    {text = 'Logout', callback_data = 'logout'},
-                    {text = 'users', callback_data = 'users'},
-                    },
-                },
-	     keyboard4 = {
-                {
-                    {text = URL.escape('My Servers'), callback_data = 'myservers'},
-                    {text = "Billing", callback_data = 'billing'},
-                    },
-                {
-                    {text = 'About', callback_data = 'about'},
-		    {text = 'My Advertisments', callback_data = 'getadverts'},
-                    },
-                {
-                    {text = 'Logout', callback_data = 'logout'},
-                    },
-                },
-	    keyboard5 = {
-                {
-                    {text = URL.escape('My Servers'), callback_data = 'myservers'},
-                    {text = "Billing", callback_data = 'billing'},
-                    },
-                {
-                    {text = 'About', callback_data = 'about'},
-		    {text = 'My Advertisments', callback_data = 'getadverts'},
-                    },
-                {
-                    {text = 'Logout', callback_data = 'logout'},
-                    {text = 'users', callback_data = 'users'},
-                    },
-                },
+                },	
             },
         newserver = {-- New server texts, do not change these words (#n, #b, #m, #servername, #servertime, #expiredate, #price, #name, {name}, )
             text1 = '*New Server!*\nWhat are we going to call it?',
@@ -292,6 +252,7 @@ function en.lang()-- in-table function
 			text5 = 'Error, please try again later..',
 			text6 = 'This Phone Number Is Already USED.\nPlease Use Another Number.',
 			text7 = '*Invalid Format,*\nOnly english characters allowed, dashes and numbers',
+			text8 = 'Activate Account First!!...',
             },
         keyboard_rows = {
             myservers = {
