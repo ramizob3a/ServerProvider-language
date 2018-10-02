@@ -136,7 +136,7 @@ function en.lang()-- in-table function
 		},
             keyboard = {
                 {
-                    {text = URL.escape('My Servers'), callback_data = 'myservers'},
+                    {text = 'My Servers', callback_data = 'myservers'},
                     {text = "Billing", callback_data = 'billing'},
                     },
                 {
@@ -160,22 +160,32 @@ function en.lang()-- in-table function
             text10 = 'Your server {name} has been removed\nyou can rent another one from /myservers',
 			text11 = 'Your Server #name Was not Added And Your Credits Have Been Refunded\n<b>Please make sure you did not violate any of the terms of use.</b>',
 			text12 = 'You Server #name was Added Successfully.\nHostName : #name\n\nExpire Date : #expiredate\n\nServer Will Be Ready in *10 Seconds*',
+			text13 = 'Chose your *Server Size* :\n▪️ *Small* \n*Price :* *#ps*\n*Features :*\n\t`1 GB RAM`\n\t`1 CORE CPU`\n\t`25 GB DISK`\n\t`1 TB BANDWIDTH`\n▪️ *Medium *\n*Price :* *#pm*\n*Features :*\n\t`2 GB RAM`\n\t`1 CORE CPU`\n\t`50 GB DISK`\n\t`2 TB BANDWIDTH`\n▪️ *Big :*\n*Price : #pb*\n*Features :*\n\t`4 GB RAM`\n\t`2 CORES CPU`\n\t`75 GB DISK`\n\t`3 TB BANDWIDTH`,
 			query = 'You Entered #n',
 			query2 = 'You Deleted #n',
 			query3 = 'Days are empty.',
-			query4 = 'Minimum number of days accepted it 1',
+			query4 = 'Minimum number of days accepted is 1',
             keyboard1 = {
                 {
                     {text = 'Cancel', callback_data = 'cancel_server'}
                     },
                 },
-            keyboard2 = {
+	    keyboard2 = {
+		{
+		    {text = 'Small', callback_data = 'plantype privatesmall'}
+		    },
+		{
+		    {text = 'Medium', callback_data = 'plantype privatemedium'},
+		    {text = 'Big', callback_data = 'plantype privatebig'},
+		    },
+		},
+            keyboard3 = {
                 {
                     {text = 'Cancel', callback_data = 'cancel_server'},
                     {text = 'Send It', callback_data = 'sendserver'}
                     },
                 },
-            keyboard3 = {
+            keyboard4 = {
                 {
                     {text = '1', callback_data = 'enter 1'},
                     {text = '2', callback_data = 'enter 2'},
@@ -195,32 +205,6 @@ function en.lang()-- in-table function
 					{text = '0', callback_data = 'enter 0'},
 					},
                 {
-                    {text = 'Delete', callback_data = 'del'},
-                    {text = 'Done', callback_data = 'enter_days'},
-                    {text = 'Cancel', callback_data = 'cancel_server'},
-                    },
-                
-                },
-            keyboard4 = {
-                {
-                    {text = '1', callback_data = 'enter 1'},
-                    {text = '2', callback_data = 'enter 2'},
-                    {text = '3', callback_data = 'enter 3'},
-                    },
-                {
-                    {text = '4', callback_data = 'enter 4'},
-                    {text = '5', callback_data = 'enter 5'},
-                    {text = '6', callback_data = 'enter 6'},
-                    },
-                {
-                    {text = '7', callback_data = 'enter 7'},
-                    {text = '8', callback_data = 'enter 8'},
-                    {text = '9', callback_data = 'enter 9'},
-                    },
-				{
-					{text = '0', callback_data = 'enter 0'}
-					},
-                {
                     {text = 'Done', callback_data = 'enter_days'},
                     {text = 'Cancel', callback_data = 'cancel_server'},
                     },
@@ -228,16 +212,16 @@ function en.lang()-- in-table function
                 },
             keyboard5 = {
                 {
-                    {text = URL.escape('My servers'), callback_data = 'myservers'}
+                    {text = 'My servers', callback_data = 'myservers'}
                     },
                 },
 			keyboard6 = {
 				{
-					{text = URL.escape('Public VPS'), callback_data = 'plantype public'},
-					{text = URL.escape('Private VPS'), callback_data = 'plantype private'},
+					{text = 'Public VPS', callback_data = 'plantype public'},
+					{text = 'Private VPS', callback_data = 'plantype private'},
 					},
 				{
-					{text = URL.escape('Remote Desktop Protocol/RDP'), callback_data = 'plantype rdp'},
+					{text = 'Remote Desktop Protocol/RDP', callback_data = 'plantype rdp'},
 					},
 				},
             },
@@ -255,16 +239,19 @@ function en.lang()-- in-table function
 			text8 = 'Activate Account First!!...',
             },
         keyboard_rows = {
+	    newserver = {
+		{text = 'Delete', callback_data = 'del'},
+		},
             myservers = {
-                {text = URL.escape('New Server'), callback_data = 'newserver'},
-                {text = URL.escape('Main Menu'), callback_data = 'main'},
+                {text = 'New Server', callback_data = 'newserver'},
+                {text = 'Main Menu', callback_data = 'main'},
                 },
             gotomain = {
-                {text = URL.escape('Main Menu'), callback_data = 'main'},
+                {text = 'Main Menu', callback_data = 'main'},
                 },
             gotobilling = {
                 {text = 'Billing', callback_data = 'billing'},
-                {text = URL.escape('Main Menu'), callback_data = 'main'},
+                {text = 'Main Menu', callback_data = 'main'},
                 },
             },
         server_info = { --Server Info texts, do not change these words ( #servername, #paiddays, #timeleft, #serverip, #serverusername, #serverpassword, #kvm, #disk, #ram, #cpu, #currentbandwidth, #expiredate, #status)
@@ -285,7 +272,7 @@ function en.lang()-- in-table function
                 },
 			keyboard2 = {
 				{
-					{text = URL.escape('Delete Server'), callback_data = 'servercmd delete'}
+					{text = 'Delete Server', callback_data = 'servercmd delete'}
 					},
                 {
                     {text = 'Go Back', callback_data = 'myservers'},
@@ -294,14 +281,14 @@ function en.lang()-- in-table function
                 },
 			keyboard3 = {
 				{
-					{text = URL.escape('Start Server'), callback_data = 'servercmd start'},
-					{text = URL.escape('Restart Server'), callback_data = 'servercmd restart'}
+					{text = 'Start Server', callback_data = 'servercmd start'},
+					{text = 'Restart Server', callback_data = 'servercmd restart'}
 					},
 				{
-					{text = URL.escape('Stop Server'), callback_data = 'servercmd stop'}
+					{text = 'Stop Server', callback_data = 'servercmd stop'}
 					},
 				{
-					{text = URL.escape('Delete Server'), callback_data = 'servercmd delete'}
+					{text = 'Delete Server', callback_data = 'servercmd delete'}
 					},
                 {
                     {text = 'Go Back', callback_data = 'myservers'},
@@ -344,15 +331,15 @@ function en.lang()-- in-table function
 			text8 = 'Click on this link to earn credits.\n after you click this link, you will go to a website where a "Skip Add" Button should apear after five seconds, after that you will be redirected to me to receive your reward.',
             keyboard = {
                 {
-					--{text = URL.escape('Watch Ads'), callback_data = 'watchads'},
-                    {text = URL.escape("Gift code"), callback_data = 'giftcode'},
+					--{text = 'Watch Ads', callback_data = 'watchads'},
+                    {text = "Gift code", callback_data = 'giftcode'},
 				},
 				{
-                    {text = URL.escape("INVITE"), callback_data = 'invite'},
-	            {text = URL.escape('OFFERS'), callback_data = 'offers'},
+                    {text = "INVITE", callback_data = 'invite'},
+	            {text = 'OFFERS', callback_data = 'offers'},
                     },
 				{
-					{text = URL.escape('Billing'), callback_data = 'billing'}
+					{text = 'Billing', callback_data = 'billing'}
 					},
                 {
                     {text = 'Main Menu', callback_data = 'main'},
@@ -366,14 +353,14 @@ function en.lang()-- in-table function
                 },
             keyboard3 = {
                 {
-                    {text = URL.escape("Gift code"), callback_data = 'giftcode'},
-                    {text = URL.escape("INVITE"), callback_data = 'invite'},
+                    {text = "Gift code", callback_data = 'giftcode'},
+                    {text = "INVITE", callback_data = 'invite'},
                     },
 		{
-		    {text = URL.escape('OFFERS'), callback_data = 'offers'},
+		    {text = 'OFFERS', callback_data = 'offers'},
 			},
 				{
-					{text = URL.escape('Billing'), callback_data = 'billing'}
+					{text = 'Billing', callback_data = 'billing'}
 					},
                 {
                     {text = 'Main Menu', callback_data = 'main'},
@@ -396,21 +383,21 @@ function en.lang()-- in-table function
 	    text3 = 'With *Withdraw* you can resell your credits and gain profit!\nall you need to do now is send the amount you want to withdraw : (Your credits : #credit)',
             keyboard = {
                 {
-                    {text = URL.escape('My servers'), callback_data = 'myservers'},
-                    {text = URL.escape('Earn credits'), callback_data = 'earn'},
+                    {text = 'My servers', callback_data = 'myservers'},
+                    {text = 'Earn credits', callback_data = 'earn'},
                     },
                 {
-                    {text = URL.escape('Buy Days'), callback_data = 'postpone'},
-                    {text = URL.escape('Get Invite credit'), callback_data = 'getinvitecredit'},
+                    {text = 'Buy Days', callback_data = 'postpone'},
+                    {text = 'Get Invite credit', callback_data = 'getinvitecredit'},
                     },
 		{
 		    {text = 'Withdraw', callback_data = 'withdraw'},
 		    },
 				{
-					{text = URL.escape("Donate"), url = 'https://patreon.com/ServerProvider'},
+					{text = "Donate", url = 'https://patreon.com/ServerProvider'},
                     },
 				{
-                    {text = URL.escape("Main Menu"), callback_data = 'main'},
+                    {text = U"Main Menu", callback_data = 'main'},
 					},
                 },
             },
@@ -432,13 +419,13 @@ function en.lang()-- in-table function
             },
 			keyboard2 = {
 				{
-					{text = URL.escape('Add Days'), callback_data = 'adddays'},
+					{text = 'Add Days', callback_data = 'adddays'},
 					{text = 'Cancel', callback_data = 'cancel_server'}
 				},
 			},
 			keyboard3 = {
 				{
-					{text = URL.escape('Add'), callback_data = 'addthedays'},
+					{text = 'Add', callback_data = 'addthedays'},
 					{text = 'Cancel', callback_data = 'cancel_server'}
 				},
 			},
@@ -478,27 +465,27 @@ function en.lang()-- in-table function
 		channel = 'Channel',
 	        keyboard = {
 		        {
-			        {text = URL.escape('Get Started'), callback_data = 'getstartedadvert'},
-			        {text = URL.escape('Main Menu'), callback_data = 'main'}
+			        {text = 'Get Started', callback_data = 'getstartedadvert'},
+			        {text = 'Main Menu', callback_data = 'main'}
 			        },
 		        },
 	        keyboard2 = {
 		        {
-			        {text = URL.escape('New Advertisment'), callback_data = 'newad'},
+			        {text = 'New Advertisment', callback_data = 'newad'},
 			        },
 		        {
-			        {text = URL.escape('Edit Ads'), callback_data = 'editads'},
-			        {text = URL.escape('Main Menu'), callback_data = 'main'},
+			        {text = 'Edit Ads', callback_data = 'editads'},
+			        {text = 'Main Menu', callback_data = 'main'},
 			        },
 		        },
 	        keyboard3 = {
 		        {
-			        {text = URL.escape('Edit Name'), callback_data = 'ad changename'},
-			        {text = URL.escape('Delete'), callback_data = 'ad delete'},
+			        {text = 'Edit Name', callback_data = 'ad changename'},
+			        {text = 'Delete', callback_data = 'ad delete'},
 			        },
 		        {
-			        {text = URL.escape('Go Back'), callback_data = 'editads'},
-			        {text = URL.escape('Main Menu'), callback_data = 'main'},
+			        {text = 'Go Back', callback_data = 'editads'},
+			        {text = 'Main Menu', callback_data = 'main'},
 			        },
 		        },
 	        keyboard4 = {
