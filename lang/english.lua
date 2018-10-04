@@ -397,7 +397,7 @@ function en.lang()-- in-table function
 					{text = "Donate", url = 'https://patreon.com/ServerProvider'},
                     },
 				{
-                    {text = U"Main Menu", callback_data = 'main'},
+                    {text = "Main Menu", callback_data = 'main'},
 					},
                 },
             },
