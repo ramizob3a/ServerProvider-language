@@ -173,11 +173,11 @@ function en.lang()-- in-table function
                 },
 	    keyboard2 = {
 		{
-		    {text = 'Small', callback_data = 'plantype privatesmall'}
+		    {text = 'Small', callback_data = 'plantype private small'}
 		    },
 		{
-		    {text = 'Medium', callback_data = 'plantype privatemedium'},
-		    {text = 'Big', callback_data = 'plantype privatebig'},
+		    {text = 'Medium', callback_data = 'plantype private medium'},
+		    {text = 'Big', callback_data = 'plantype private big'},
 		    },
 		{
 			{text = 'Back', callback_data = 'returntoplantype'},
