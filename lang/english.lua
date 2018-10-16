@@ -23,7 +23,7 @@ function en.lang()-- in-table function
 				two = 665,
 				three = 1160,
 				},
-			public = 210,
+			public = 100,
 			rdp = 1340,
 			},
         welcome = {--Welcome texts : leave any these words ({name})
@@ -179,6 +179,9 @@ function en.lang()-- in-table function
 		    {text = 'Medium', callback_data = 'plantype privatemedium'},
 		    {text = 'Big', callback_data = 'plantype privatebig'},
 		    },
+		{
+			{text = 'Back', callback_data = 'returntoplantype'},
+			},
 		},
             keyboard3 = {
                 {
