@@ -161,7 +161,7 @@ function en.lang()-- in-table function
             text10 = 'Your server {name} has been removed\nyou can rent another one from /myservers',
 			text11 = 'Your Server #name Was not Added And Your Credits Have Been Refunded\n<b>Please make sure you did not violate any of the terms of use.</b>',
 			text12 = 'You Server #name was Added Successfully.\nHostName : #name\n\nExpire Date : #expiredate\n\nServer Will Be Ready in *10 Seconds*',
-			text13 = 'Chose your *Server Size* :\n▪️ *Small* \n*Price :* *#ps*\n*Features :*\n\t`1 GB RAM`\n\t`1 CORE CPU`\n\t`25 GB DISK`\n\t`1 TB BANDWIDTH`\n▪️ *Medium *\n*Price :* *#pm*\n*Features :*\n\t`2 GB RAM`\n\t`1 CORE CPU`\n\t`50 GB DISK`\n\t`2 TB BANDWIDTH`\n▪️ *Big :*\n*Price : #pb*\n*Features :*\n\t`4 GB RAM`\n\t`2 CORES CPU`\n\t`75 GB DISK`\n\t`3 TB BANDWIDTH`',
+			text13 = 'Chose your *Server Size* :\n▪️ *Small* \n*Price :* *#ps*\n*Features :*\n\t`1 GB RAM`\n\t`1 CORE CPU`\n\t`25 GB DISK`\n\t`1 TB BANDWIDTH`\n➖➖➖➖➖\n▪️ *Medium *\n*Price :* *#pm*\n*Features :*\n\t`2 GB RAM`\n\t`1 CORE CPU`\n\t`50 GB DISK`\n\t`2 TB BANDWIDTH`\n➖➖➖➖➖\n▪️ *Big :*\n*Price : #pb*\n*Features :*\n\t`4 GB RAM`\n\t`2 CORES CPU`\n\t`75 GB DISK`\n\t`3 TB BANDWIDTH`',
 			query = 'You Entered #n',
 			query2 = 'You Deleted #n',
 			query3 = 'Days are empty.',
