@@ -131,9 +131,9 @@ function en.lang()-- in-table function
         main = {-- Main Menu texts , do not change these words ({credit})
             text = '*Main Menu\nCredits :* {credit}',
 	    rows = {
-		{text = 'My Advertisments', callback_data = 'getadverts'},
-		{text = 'users', callback_data = 'users'},
-		{text = 'Activate Account!', url = 'https://t.me/'..bot.username..'?start=verify'},
+			{text = 'My Advertisments', callback_data = 'getadverts'},
+			{text = 'users', callback_data = 'users'},
+			{text = 'Activate Account!', url = 'https://t.me/'..bot.username..'?start=verify'},
 		},
             keyboard = {
                 {
@@ -243,10 +243,8 @@ function en.lang()-- in-table function
 			text8 = 'Activate Account First!!...',
             },
         keyboard_rows = {
-	    newserver = {
-		{text = 'Delete', callback_data = 'del'},
-		},
-            myservers = {
+	    	newserver = {text = 'Delete', callback_data = 'del'},
+        	myservers = {
                 {text = 'New Server', callback_data = 'newserver'},
                 {text = 'Main Menu', callback_data = 'main'},
                 },
