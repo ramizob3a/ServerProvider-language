@@ -437,7 +437,7 @@ function en.lang()-- in-table function
 		},
 		account = {
 			text1 = ''
-		}
+		}و
 		advert = {
 	        text = "*Welcome To AdvertManager!*\n\nRegister now as an Advert  and post your ads to [ServerProvider](t.me/serverproviderbot)'s registered users,\n*You can add links, Groups and channels.*\n`More Information And Terms-Of-Use Here` /moreinfo\n\nBy Clicking *Get Started* You Agree and Accept the Terms-Of-Use of [ServerProvider](t.me/serverproviderbot) Services.",
 	        text2 = "Your Ads :\n",
