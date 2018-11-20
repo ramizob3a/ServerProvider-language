@@ -19,9 +19,9 @@ function en.lang()-- in-table function
     {
 		prices = {--Do Not Change This!!
 			private = {
-				one = 340,
+				one = 400,
 				two = 665,
-				three = 1160,
+				three = 1165,
 				},
 			public = 100,
 			rdp = 1340,
@@ -48,7 +48,7 @@ function en.lang()-- in-table function
 			text = '[ServerProviderBot](t.me/serverproviderbot) Offers you *(VPS|RDP|Domains) for cheap prices*\nThe concept of this bot is that you collect credits by : \n*1- watching ads \n2- joining certain groups and channels for a peroid of time \n3- inviting users to the bot\n4- Buying credits for real money*\n*ServerProvider* counts server time by day and each plan has its own prices\n\n*This Bot Is Owned And Sponsored *[BY IBot Corporation](t.me/ibcorp) [Website](ibotcompany.tk)',
 			keyboard = {
 				{
-					{text = 'Website', url = 'www.ibotcompany.tk'},
+					{text = 'Website', url = 'www.ibotcorp.com'},
 					{text = 'Donate', url = 'www.patreon.com/ServerProvider'},
 					},
 				{
@@ -159,8 +159,7 @@ function en.lang()-- in-table function
             text8 = "*Numbers only!*",
             text9 = '*Server added*\n*Name :* {name}',
             text10 = 'Your server {name} has been removed\nyou can rent another one from /myservers',
-			text11 = 'Your Server #name Was not Added And Your Credits Have Been Refunded\n<b>Please make sure you did not violate any of the terms of use.</b>',
-			text12 = 'You Server #name was Added Successfully.\nHostName : #name\n\nExpire Date : #expiredate\n\nServer Will Be Ready in *10 Seconds*',
+			text12 = 'You Server #name was Added Successfully.\nHostName : #name\n\nExpire Date : #expiredate\n\nServer Will Be Ready in *45 minutes*, You can check progress in /servers or press the *My Servers* button.',
 			text13 = 'Chose your *Server Size* :\n▪️ *Small* \n*Price :* *#ps*\n*Features :*\n\t`1 GB RAM`\n\t`1 CORE CPU`\n\t`25 GB DISK`\n\t`1 TB BANDWIDTH`\n➖➖➖➖➖\n▪️ *Medium *\n*Price :* *#pm*\n*Features :*\n\t`2 GB RAM`\n\t`1 CORE CPU`\n\t`50 GB DISK`\n\t`2 TB BANDWIDTH`\n➖➖➖➖➖\n▪️ *Big :*\n*Price : #pb*\n*Features :*\n\t`4 GB RAM`\n\t`2 CORES CPU`\n\t`75 GB DISK`\n\t`3 TB BANDWIDTH`',
 			query = 'You Entered #n',
 			query2 = 'You Deleted #n',
@@ -227,6 +226,9 @@ function en.lang()-- in-table function
 				{
 					{text = 'Remote Desktop Protocol/RDP', callback_data = 'plantype rdp'},
 					},
+				{
+                    {text = 'Cancel', callback_data = 'cancel_server'},
+					},
 				},
             },
         myservers = {-- My Servers texts, do not change these words ({serversnum})
@@ -257,15 +259,16 @@ function en.lang()-- in-table function
                 },
             },
         server_info = { --Server Info texts, do not change these words ( #servername, #paiddays, #timeleft, #serverip, #serverusername, #serverpassword, #kvm, #disk, #ram, #cpu, #currentbandwidth, #expiredate, #status)
-            text1 = '<b>Name :</b> #servername\n<b>Paid days :</b> #paiddays\n<b>Time left :</b> #timeleft\n<b>Server IP :</b> #serverip\n<b>Server username :</b> #serverusername\n<b>Server password :</b> #serverpassword\n<b>Console URL :</b> <a href="#kvm"> Click Here</a>\n<b>Disk :</b> #disk\n<b>Ram :</b> #ram\n<b>Current Bandwidth :</b> #currentbandwidth/#allowedbandwidth\n<b>Location :</b> #location\n<b>Operating System</b> : #os\n<b>CPU :</b> #cpu Core(s)\n<b>Expire Date :</b> #expiredate\n<b>Status : </b>#status',
+            text1 = '<b>Name :</b> #servername\n<b>Plan Type :</b> #plantype\n<b>Creation Date :</b> #created\n<b>Paid Days :</b> #paiddays\n<b>Expiration Date :</b> #expiredate\n<b>Time left :</b> #timeleft\n----------------\n\tAccess :\n\t<b>Server IP :</b> #serverip\n\t<b>Server username :</b> #serverusername\n\t<b>Server password :</b> <a href="$passlink">Click Here</a>\n<b>Console URL :</b> <a href="#kvm"> Click Here</a>\n<b>Explorer :</b> <a href="#explink"> Click Here</a>\n----------------\n<b>System Information :</b>\n\t<b>Disk :</b> #disk\n\t<b>Ram :</b> #ram\n\t<b>CPU :</b> #cpu Core(s)\n\t<b>Allowed Bandwidth :</b> #allowedbandwidth\n\t<b>Location :</b> #location\n\t<b>Operating System</b> : #os\n\t<b>Status : </b>#status',
             text2 = '<b>PLEASE NOTE :</b>\nif you do not pay your fees before 1 day of time remaining your server will be <b>Stopped Then Deleted after a day</b>',
 			text3 = '<b>Server Not Found</b>\nServer Removed From Your list. /main',
-			text4 = 'Server is already running.',
+			text4 = 'Server must be offline first.',
 			text5 = 'Starting server...',
 			text6 = 'Restarting server...',
 			text7 = 'Stopping server...',
 			text8 = 'Are you sure?',
 			query = 'Getting Data..',
+			query2 = 'ERROR :\nFaild to $cmd server...\nReturning back to servers list',
             keyboard = {
                 {
                     {text = 'Go Back', callback_data = 'myservers'},
@@ -432,6 +435,9 @@ function en.lang()-- in-table function
 				},
 			},
 		},
+		account = {
+			text1 = ''
+		}
 		advert = {
 	        text = "*Welcome To AdvertManager!*\n\nRegister now as an Advert  and post your ads to [ServerProvider](t.me/serverproviderbot)'s registered users,\n*You can add links, Groups and channels.*\n`More Information And Terms-Of-Use Here` /moreinfo\n\nBy Clicking *Get Started* You Agree and Accept the Terms-Of-Use of [ServerProvider](t.me/serverproviderbot) Services.",
 	        text2 = "Your Ads :\n",
