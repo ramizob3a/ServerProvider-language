@@ -523,7 +523,18 @@ function en.lang()-- in-table function
 			        {text = 'Cancel', callback_data = 'cancel'}
 			        },
 		        },
-	        }
+			},
+		warn = {
+			text = 'ROOT PASSWORD CHANGED!!\nServer Name : $name\nServer IP : $ip\n------------\nPlease advise if you are not the one who changed the ROOT password.',
+			keyboard = {
+				{
+					{text = 'Reset Root Password', callback_data = 'servercmd resetroot $id'},
+					},
+				{
+					{text = 'That Was Me', callback_data = 'main'},
+					},
+				},
+			},
         }
     return info
 end
