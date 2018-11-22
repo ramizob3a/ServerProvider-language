@@ -133,7 +133,7 @@ function en.lang()-- in-table function
 	    rows = {
 			{text = 'My Advertisments', callback_data = 'getadverts'},
 			{text = 'users', callback_data = 'users'},
-			{text = 'Activate Account!', url = 'https://t.me/'..bot.username..'?start=verify'},
+			{text = 'Activate Account!', url = 'https://t.me/serverproviderbot?start=verify'},
 		},
             keyboard = {
                 {
