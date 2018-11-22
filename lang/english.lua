@@ -155,7 +155,7 @@ function en.lang()-- in-table function
 			text4 = 'Enter a day please!',
 			text5 = "You Do Not Have Enough Credits!, Please Add More Credits before buying",
             text6 = "<b>Server name :</b> #servername\n<b>Time :</b> <code>#servertime days</code>\n<b>Expire date :</b> <code>#expiredate UTC</code>\n<b>Price :</b> <code>#price SP</code>\n\nIf the information is <b>True</b> press the <b>Create</b> button",
-			text7 = 'Creating Server #name...#n',
+			text7 = 'Creating Server #name...\n#n',
             text8 = "*Numbers only!*",
             text9 = '*Server added*\n*Name :* {name}',
             text10 = 'Your server {name} has been removed\nyou can rent another one from /myservers',
