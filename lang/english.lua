@@ -525,7 +525,7 @@ function en.lang()-- in-table function
 		        },
 			},
 		warn = {
-			text = 'ROOT PASSWORD CHANGED!!\nServer Name : $name\nServer IP : $ip\n------------\nPlease advise if you are not the one who changed the ROOT password.',
+			text = 'ROOT PASSWORD CHANGED!!\nServer Name : $name\n------------\nPlease advise if you are not the one who changed the ROOT password.',
 			keyboard = {
 				{
 					{text = 'Reset Root Password', callback_data = 'servercmd resetroot $id'},
