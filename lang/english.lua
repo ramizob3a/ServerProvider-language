@@ -318,7 +318,8 @@ function en.lang()-- in-table function
 			},
 		reinstall_server = {
 			text = '<b>Are You Sure You Want To Reinstall This Server?</b>\nYou are going to reinstall (<b>#name</b>)\nThis means all data on this server <b>Will Be Erased</b>.',
-			text2 = '*Server Reinstalled.*\nPlease wait up to 5 minutes untill you access this server again',
+			text2 = '*Server Reinstalled.*\nPlease wait up to 45 minutes untill you access this server again',
+			text3 = 'Send a ROOT password for the server :\n(min : 8 chars)'
 			query = 'Reinstalling Server...',
 			keyboard = {
 				{
@@ -394,7 +395,7 @@ function en.lang()-- in-table function
                     {text = 'Earn credits', callback_data = 'earn'},
                     },
                 {
-                    {text = 'Buy Days', callback_data = 'postpone'},
+                    {text = 'Renew Subscriptions', callback_data = 'postpone'},
                     {text = 'Get Invite credit', callback_data = 'getinvitecredit'},
                     },
 		{
