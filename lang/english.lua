@@ -88,6 +88,7 @@ function en.lang()-- in-table function
 			error4 = 'Session Expired..\nPlease Try Again Later.',
 			query = 'Activation Code Sent...',
 			query2 = 'Error occurred\nPlease Try Again Later...',
+			query3 = "Please Wait for 10 mitutes before sending new code\n(If you're using Gmail, it will take 5-10 minutes for the code to deliver..)",
 			keyboard = {
 				{
 					{text = 'Yes', callback_data = 'infocorrect'},
