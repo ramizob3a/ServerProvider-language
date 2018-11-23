@@ -261,7 +261,7 @@ function en.lang()-- in-table function
                 },
             },
         server_info = { --Server Info texts, do not change these words ( #servername, #paiddays, #timeleft, #serverip, #serverusername, #serverpassword, #kvm, #disk, #ram, #cpu, #currentbandwidth, #expiredate, #status)
-            text1 = '<b>Name :</b> #servername\n<b>Plan Type :</b> #plantype\n<b>Creation Date :</b> #created\n<b>Paid Days :</b> #paiddays\n<b>Expiration Date :</b> #expiredate\n<b>Time left :</b> #timeleft\n----------------\n<b>Access :</b>\n'..t..'<b>Server IP :</b> #serverip\n'..t..'<b>Server username :</b> #serverusername\n'..t..'<b>Server password :</b> <a href="$passlink">Click Here</a>\n'..t..'<b>Console URL :</b> <a href="#kvm"> Click Here</a>\n'..t..'<b>Explorer :</b> <a href="#explink"> Click Here</a>\n'..t..'<b>PHPMyAdmin :</b> <a href="#phpmyadminlink"> Click Here</a>\n'..t..'<b>MySQL username :</b> #mysqluser\n'..t..'<b>MySQL password :</b> <a href="#mysqlpasswordlink">Click Here</a>\n----------------\n<b>System Information :</b>\n'..t..'<b>Disk :</b> #disk\n'..t..'<b>Ram :</b> #ram\n'..t..'<b>CPU :</b> #cpu Core(s)\n'..t..'<b>Allowed Bandwidth :</b> #allowedbandwidth\n'..t..'<b>Location :</b> #location\n'..t..'<b>Operating System</b> : #os\n'..t..'<b>Status : </b>#status\n----------------\n',
+            text1 = '<b>Subscription Information :</b>\n'..t..'<b>Name :</b> #servername\n'..t..'<b>Plan Type :</b> #plantype\n'..t..'<b>Creation Date :</b> #created\n'..t..'<b>Paid Days :</b> #paiddays\n'..t..'<b>Expiration Date :</b> #expiredate\n'..t..'<b>Time left :</b> #timeleft\n----------------\n<b>Access :</b>\n'..t..'<b>Server IP :</b> #serverip\n'..t..'<b>Server username :</b> #serverusername\n'..t..'<b>Server password :</b> <a href="$passlink">Click Here</a>\n'..t..'<b>Console URL :</b> <a href="#kvm"> Click Here</a>\n'..t..'<b>Explorer :</b> <a href="#explink"> Click Here</a>\n'..t..'<b>PHPMyAdmin :</b> <a href="#phpmyadminlink"> Click Here</a>\n'..t..'<b>MySQL username :</b> #mysqluser\n'..t..'<b>MySQL password :</b> <a href="#mysqlpasswordlink">Click Here</a>\n----------------\n<b>System Information :</b>\n'..t..'<b>Disk :</b> #disk\n'..t..'<b>Ram :</b> #ram\n'..t..'<b>CPU :</b> #cpu Core(s)\n'..t..'<b>Allowed Bandwidth :</b> #allowedbandwidth\n'..t..'<b>Location :</b> #location\n'..t..'<b>Operating System</b> : #os\n'..t..'<b>Status : </b>#status\n----------------\n',
             text2 = '<b>PLEASE NOTE :</b>\nif you do not pay your fees before 1 day of time remaining your server will be <b>Stopped Then Deleted after a day</b>',
 			text3 = '<b>Server Not Found</b>\nServer Removed From Your list. /main',
 			text4 = 'Server must be offline first.',
@@ -307,7 +307,7 @@ function en.lang()-- in-table function
 			text = '<b>Are You Sure You Want To Delete This Server?</b>\nYou are going to delete (<b>#name</b>)\nThis means all data on this server <b>Will Be Lost</b> and it will be removed from your servers\n\n<b>Note:</b>\nYou will not be refunded if you delete this server.',
 			text2 = '*Server Deleted.*',
 			text3 = '#name  Time limit reached\ndeleting server',
-			text4 = '#name Time remaining is 2 days please refill',
+			text4 = '#name Time remaining is less than a day please refill',
 			query = 'Deleting Server...',
 			keyboard = {
 				{
