@@ -319,13 +319,16 @@ function en.lang()-- in-table function
 		reinstall_server = {
 			text = '<b>Are You Sure You Want To Reinstall This Server?</b>\nYou are going to reinstall (<b>#name</b>)\nThis means all data on this server <b>Will Be Erased</b>.',
 			text2 = '*Server Reinstalled.*\nPlease wait up to 45 minutes untill you access this server again',
-			text3 = 'Send a ROOT password for the server :\n(min : 8 chars)'
+			text3 = 'Send a ROOT password for the server :\n(min : 8 chars)',
 			query = 'Reinstalling Server...',
 			keyboard = {
 				{
 					{text = 'Yes', callback_data = 'reinstallserver yes'},
 					{text = 'No', callback_data = 'reinstallserver no'}
 					},
+				},
+			keyboard2 = {
+					{text = 'Generate Password', callback_data = 'reinstallserver generate'},
 				},
 			},
         earn = { -- EARN texts, do not change these words ( #credit)
