@@ -371,7 +371,7 @@ function en.lang()-- in-table function
                     {text = "INVITE", callback_data = 'invite'},
                     },
 		{
-		    {text = 'OFFERS', callback_data = 'offers'},
+		    {text = 'Surveys', callback_data = 'offers'},
 			},
 				{
 					{text = 'Billing', callback_data = 'billing'}
