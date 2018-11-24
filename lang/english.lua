@@ -288,14 +288,18 @@ function en.lang()-- in-table function
                 },
 			keyboard3 = {
 				{
-					{text = 'Start Server', callback_data = 'servercmd start'},
-					{text = 'Restart Server', callback_data = 'servercmd restart'}
+					{text = 'Start Server', callback_data = 'servercmd start $id'},
+					{text = 'Restart Server', callback_data = 'servercmd restart $id'}
 					},
 				{
-					{text = 'Stop Server', callback_data = 'servercmd stop'}
+					{text = 'Stop Server', callback_data = 'servercmd stop $id'},
+					{text = 'Delete Server', callback_data = 'servercmd delete $id'}
 					},
 				{
-					{text = 'Delete Server', callback_data = 'servercmd delete'}
+					{text = 'Actions', callback_data = 'servercmd actions $id'},
+					},
+				{
+					{text = 'Reset Root Password', callback_data = 'servercmd resetroot $id'}
 					},
                 {
                     {text = 'Go Back', callback_data = 'myservers'},
@@ -311,20 +315,19 @@ function en.lang()-- in-table function
 			query = 'Deleting Server...',
 			keyboard = {
 				{
-					{text = 'Yes', callback_data = 'deleteserver yes'},
-					{text = 'No', callback_data = 'deleteserver no'}
+					{text = 'Yes', callback_data = 'deleteserver yes $id'},
+					{text = 'No', callback_data = 'deleteserver no $id'}
 					},
 				},
 			},
 		reinstall_server = {
 			text = '<b>Are You Sure You Want To Reinstall This Server?</b>\nYou are going to reinstall (<b>#name</b>)\nThis means all data on this server <b>Will Be Erased</b>.',
 			text2 = '*Server Reinstalled.*\nPlease wait up to 45 minutes untill you access this server again',
-			text3 = 'Send a ROOT password for the server :\n(min : 8 chars)',
 			query = 'Reinstalling Server...',
 			keyboard = {
 				{
-					{text = 'Yes', callback_data = 'reinstallserver yes'},
-					{text = 'No', callback_data = 'reinstallserver no'}
+					{text = 'Yes', callback_data = 'reinstallserver yes $id'},
+					{text = 'No', callback_data = 'reinstallserver no $id'}
 					},
 				},
 			keyboard2 = {
