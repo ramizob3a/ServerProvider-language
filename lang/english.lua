@@ -266,10 +266,10 @@ function en.lang()-- in-table function
 			text = '*Reset Root Password :*\nThis will shutdown the server and performs a *Root Password Reset* action,\nYou can set your own Root password by sending a password now or click on *Generate*, that will generate a random strong password for your server and proceed to reset the password.',
 			keyboard = {
 				{
-					{text = 'Generate', callback_data = 'generatepassword'},
+					{text = 'Generate', callback_data = 'generatepassword #id'},
 					},
 				{
-					{text = 'Cancel', callback_data = 'server $id'},
+					{text = 'Cancel', callback_data = 'server #id'},
 					},
 				}
 			},
@@ -301,19 +301,19 @@ function en.lang()-- in-table function
                 },
 			keyboard3 = {
 				{
-					{text = 'Start Server', callback_data = 'servercmd start $id'},
-					{text = 'Restart Server', callback_data = 'servercmd restart $id'}
+					{text = 'Start Server', callback_data = 'servercmd start #id'},
+					{text = 'Restart Server', callback_data = 'servercmd restart #id'}
 					},
 				{
-					{text = 'Stop Server', callback_data = 'servercmd stop $id'},
-					{text = 'Delete Server', callback_data = 'servercmd delete $id'}
+					{text = 'Stop Server', callback_data = 'servercmd stop #id'},
+					{text = 'Delete Server', callback_data = 'servercmd delete #id'}
 					},
 				{
-					{text = 'Actions', callback_data = 'servercmd actions $id'},
+					{text = 'Actions', callback_data = 'servercmd actions #id'},
 					{text = 'Renew', callback_data = 'postpone'},
 					},
 				{
-					{text = 'Reset Root Password', callback_data = 'servercmd resetroot $id'}
+					{text = 'Reset Root Password', callback_data = 'servercmd resetroot #id'}
 					},
                 {
                     {text = 'Go Back', callback_data = 'myservers'},
@@ -329,8 +329,8 @@ function en.lang()-- in-table function
 			query = 'Deleting Server...',
 			keyboard = {
 				{
-					{text = 'Yes', callback_data = 'deleteserver yes $id'},
-					{text = 'No', callback_data = 'deleteserver no $id'}
+					{text = 'Yes', callback_data = 'deleteserver yes #id'},
+					{text = 'No', callback_data = 'deleteserver no #id'}
 					},
 				},
 			},
@@ -340,8 +340,8 @@ function en.lang()-- in-table function
 			query = 'Reinstalling Server...',
 			keyboard = {
 				{
-					{text = 'Yes', callback_data = 'reinstallserver yes $id'},
-					{text = 'No', callback_data = 'reinstallserver no $id'}
+					{text = 'Yes', callback_data = 'reinstallserver yes #id'},
+					{text = 'No', callback_data = 'reinstallserver no #id'}
 					},
 				},
 			keyboard2 = {
@@ -551,7 +551,7 @@ function en.lang()-- in-table function
 			text = 'ROOT PASSWORD CHANGED!!\nServer Name : $name\n------------\nPlease advise if you are not the one who changed the ROOT password.',
 			keyboard = {
 				{
-					{text = 'Reset Root Password', callback_data = 'servercmd resetroot $id'},
+					{text = 'Reset Root Password', callback_data = 'servercmd resetroot #id'},
 					},
 				{
 					{text = 'That Was Me', callback_data = 'main'},
