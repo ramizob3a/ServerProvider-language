@@ -264,7 +264,7 @@ function en.lang()-- in-table function
 			},
 		resetroot = {
 			text = '*Reset Root Password :*\nThis will shutdown the server and performs a *Root Password Reset* action,\nYou can set your own Root password by sending a password now or click on *Generate*, that will generate a random strong password for your server and proceed to reset the password.',
-			query = 'Resetting Root Password...\nPlease allow more than 5 minutes for this action to end'
+			query = 'Resetting Root Password...\nPlease allow more than 5 minutes for this action to end',
 			keyboard = {
 				{
 					{text = 'Generate', callback_data = 'generatepassword #id'},
