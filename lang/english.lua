@@ -297,6 +297,7 @@ function en.lang()-- in-table function
 					},
 				{
 					{text = 'Actions', callback_data = 'servercmd actions $id'},
+					{text = 'Renew', callback_data = 'postpone'},
 					},
 				{
 					{text = 'Reset Root Password', callback_data = 'servercmd resetroot $id'}
