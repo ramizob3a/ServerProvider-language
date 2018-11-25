@@ -245,6 +245,8 @@ function en.lang()-- in-table function
 			text6 = 'This Phone Number Is Already USED.\nPlease Use Another Number.',
 			text7 = '*Invalid Format,*\nOnly english characters allowed, dashes and numbers',
 			text8 = 'Activate Account First!!...',
+			text9 = 'Server name must be [3-32] characters length..',
+			text10 = 'This name is currently unavaiable, Please try another name..',
             },
         keyboard_rows = {
 	    	newserver = {text = 'Delete', callback_data = 'del'},
