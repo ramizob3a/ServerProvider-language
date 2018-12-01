@@ -303,6 +303,9 @@ function en.lang()-- in-table function
                 },
 			keyboard3 = {
 				{
+					{text = 'Refresh', callback_data = 'server #id'},
+					},
+				{
 					{text = 'Start Server', callback_data = 'servercmd start #id'},
 					{text = 'Restart Server', callback_data = 'servercmd restart #id'}
 					},
