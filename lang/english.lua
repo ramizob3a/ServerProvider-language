@@ -436,7 +436,7 @@ function en.lang()-- in-table function
             text3 = 'You do now have any *Servers* at the moment',
 			text4 = '<b>Server Information:</b>\n<b>Name:</b> #name\n<b>Expire Date:</b> <code>#expiredate</code>\n<b>Time Left:</b> <code>#timeleft</code>\n\n<b>How many days would you like to add? 1 day = </b><code>#price</code>',
 			text5 = 'You will add <code>#days</code> <b>Days</b> To server <b>#servername</b>\n<b>Total Price is : </b><code>#price</code>\n\n<b>Your Credits : </b> <code>#credits</code>',
-			text6 = 'You have added <code>#days</code> <b>Days</b> To server <b>#servername</b>\n<b>Your Credits : </b><code>#credits</code>',
+			text6 = 'You have added #days Days To server #servername<\nYour Credits : #credits',
 			text7 = 'How Many days would you like to add?<b>(send numbers only)</b>\n<b>1 Day = </b><code>#price</code>',
 			error = 'Server Not Found.',
 			error2 = 'Error, No Selected Plan detected.\n Please Try again later',
