@@ -315,6 +315,9 @@ function en.lang()-- in-table function
 					{text = 'Delete Server', callback_data = 'servercmd delete #id'}
 					},
 				{
+					{text = 'Reinstall Server', callback_data = 'servercmd reinstall #id'}
+					},
+				{
 					{text = 'Actions', callback_data = 'servercmd actions #id'},
 					{text = 'Renew', callback_data = 'postponeserver #id'},
 					},
