@@ -81,7 +81,7 @@ function en.lang()-- in-table function
             text9 = 'You have been registered successfully.\nYou may now *Login* with the information below : *please save the username and the password*\nusername : {username}\npassword : {password}\n\n#Note: You can change your username and password from the settings tab in main menu...',
 			text10 = 'Activation code sent to $phone\nPlease send The Verification code here',
 			text11 = 'Account Activated..\nThank You For Using @ServerProviderBot',
-			text12 = "Please Send the Activation Code Now...\n\nDidn't receive the code yet?.. Press *Send Code*",
+			text12 = "*Please Send the Activation Code Now...*\n(If you don't see the code in the mail box, check the *Spam Box*)\n\nDidn't receive the code yet?.. Press *Send Code*",
 			error = 'Error,\nFormat is not valid please enter a valid format',
 			error2 = '*Invalid Code*.\nPlease Try again',
 			error3 = 'Error,\nThis Email is Nor Vaild, Please Try Again with a Valid Email',
@@ -345,7 +345,7 @@ function en.lang()-- in-table function
 			},
 		reinstall_server = {
 			text = '<b>Are You Sure You Want To Reinstall This Server?</b>\nYou are going to reinstall (<b>#name</b>)\nThis means all data on this server <b>Will Be Erased</b>.',
-			text2 = '*Server Reinstalled.*\nPlease wait up to 45 minutes untill you access this server again',
+			text2 = '*Server Reinstalled.*\nPlease wait up to 30 minutes untill you access this server again',
 			query = 'Reinstalling Server...',
 			keyboard = {
 				{
