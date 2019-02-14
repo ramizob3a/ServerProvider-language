@@ -82,6 +82,7 @@ function en.lang()-- in-table function
 			text10 = 'Activation code sent to $phone\nPlease send The Verification code here',
 			text11 = 'Account Activated..\nThank You For Using @ServerProviderBot',
 			text12 = "*Please Send the Activation Code Now...*\n(If you don't see the code in the mail box, check the *Spam Box*)\n\nDidn't receive the code yet?.. Press *Send Code*",
+			text13 = 'Checking Email Address...',
 			error = 'Error,\nFormat is not valid please enter a valid format',
 			error2 = '*Invalid Code*.\nPlease Try again',
 			error3 = 'Error,\nThis Email is Nor Vaild, Please Try Again with a Valid Email',
@@ -241,7 +242,7 @@ function en.lang()-- in-table function
             text1 = '*Your registration has been declined*\n*Please Contact* [THE SUPPORT TEAM](telegram.me/HelpServerProviderBot) *for more information*',
             text2 = "Server request for *{servername}* Was not approved!\nMessage : ",
 			text3 = 'You have to login first!',
-			text4 = 'This Email Address is taken\n*If This Email is Yours* then try logging in first.',
+			text4 = 'This Email Address is taken, Please try a different email address\n*If This Email is Yours* then try logging in first.',
 			text5 = 'Error, please try again later..',
 			text6 = 'This Phone Number Is Already USED.\nPlease Use Another Number.',
 			text7 = '*Invalid Format,*\nOnly english characters allowed, dashes and numbers',
@@ -560,13 +561,19 @@ function en.lang()-- in-table function
 			},
 		warn = {
 			text = 'ROOT PASSWORD CHANGED!!\nServer Name : $name\n------------\nPlease advise if you are not the one who changed the ROOT password.',
+			text2 = 'Send the New Password to save it in the database.',
 			keyboard = {
 				{
 					{text = 'Reset Root Password', callback_data = 'servercmd resetroot #id'},
 					},
 				{
-					{text = 'That Was Me', callback_data = 'main'},
+					{text = 'That Was Me', callback_data = 'thiswasme'},
 					},
+				},
+			keyboard2 = {
+				{
+			        {text = 'Cancel', callback_data = 'cancel'}
+			        },
 				},
 			},
         }
