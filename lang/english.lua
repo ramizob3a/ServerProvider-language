@@ -336,7 +336,7 @@ function en.lang()-- in-table function
 			text = '<b>Are You Sure You Want To Delete This Server?</b>\nYou are going to delete (<b>#name</b>)\nThis means all data on this server <b>Will Be Lost</b> and it will be removed from your servers\n\n<b>Note:</b>\nYou will not be refunded if you delete this server.',
 			text2 = '*Server Deleted.*',
 			text3 = '#name  Time limit reached\ndeleting server',
-			text4 = '#name Time remaining is less than a day please refill',
+			text4 = '#name Time remaining is #time\nPlease renew subscription',
 			query = 'Deleting Server...',
 			keyboard = {
 				{
