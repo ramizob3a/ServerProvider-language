@@ -408,8 +408,8 @@ function en.lang()-- in-table function
             },
         invite = { -- Invite texts, do not change these words ({num})
             text = 'Your *Special Link* has been generated\nUse this link to get more credits by inviting users to join *Our Services*\n\nYou will get *30* after a user joins and successfully register in our services.\n*LINK :* ',
-            text2 = '*You Got {num} SP credit for inviting users*',
-			text3 = 'You Got *{num}* SP credit for inviting users and *successful registration.*',
+            text2 = '*You Got SP credit for inviting users\nYou now have : *`{num}`* SP*',
+			text3 = '*You Got SP credit for inviting users and *successful registration.\nYou now have : *`{num}`* SP*',
 			text4 = "You registered via promo code\nHere's your gift ->",
             keyboard = {
                 {
