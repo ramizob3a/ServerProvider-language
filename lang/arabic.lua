@@ -579,4 +579,4 @@ function ar.lang()-- in-table function
         }
     return info
 end
-return en
+return ar
