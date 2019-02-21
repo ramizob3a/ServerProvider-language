@@ -1,5 +1,5 @@
------arabic.lua--------
-------this file contains arabic texts for the t.me/serverproviderbot Bot------
+-----english.lua--------
+------this file contains english texts for the t.me/serverproviderbot Bot------
 ------Made By @IBCorp--------
 
 -- _____ ____        _    _____                 
@@ -12,10 +12,10 @@
 --                                        |_|    
 --
 
---Start arabic.lua
-local ar = {}
+--Start english.lua
+local en = {}
 local t = '  '
-function ar.lang()-- in-table function 
+function en.lang()-- in-table function 
     local info = 
     {
 		prices = {--Do Not Change This!!
@@ -28,168 +28,168 @@ function ar.lang()-- in-table function
 			rdp = 1340,
 			},
         welcome = {--Welcome texts : leave any these words ({name})
-            text = '*مرحبا بك ببوت موَفر الخوادم* {name}!\n*هذا البوت هو البوت الرسمي لشركة* [IBotCompany](https://telegram.me/IBCorp)\nلمساعدتك في الحصول على *خادم جيد* و بسعر مناسب\nالرجاء *تسجيل الدخول* او *الانضمام*',
-	    query = 'القائمة الرئيسية!',
+            text = '*Welcome to ServersBot* {name}!\n*This bot is the official bot for* [IBotCompany](https://telegram.me/IBCorp)\nTo help you get a *Good VPS* for cheap prices\nPlease *Register* or *Login*',
+	    query = 'Main Menu!',
             keyboard = {
                 {
-                    {text = 'الانضمام', callback_data = 'register'},
-                    {text = 'تسجيل الدخول', callback_data = 'login'},
+                    {text = 'Register', callback_data = 'register'},
+                    {text = 'Login', callback_data = 'login'},
                     },
                 {
-                    {text = 'حول', callback_data = 'about'},
+                    {text = 'About', callback_data = 'about'},
                     },
                 },
             keyboard2 = {
                 {
-                    {text = 'حول', callback_data = 'about'},
+                    {text = 'About', callback_data = 'about'},
                     },
                 },
         },
 		about = {
-			text = '[بوت موَفر الخوادم](t.me/serverproviderbot) يوفر لك *خوادم و نطاقات* بأسعار تنافسية بالاضافة الى الكثير من المميزات\nفكرة البوت هي الحصول على خوادم و نطاقات من دون الحاجة الى دفع اموال وانما يمكنك الحصول على النقاط من خلال ما يأتي : \n*1- مشاهدة اعلانات \n2- الانضمام الى مجموعة او قناة معينة لفترة زمنية محددة \n3- دعوة اشخاص الى استخدام البوت\n4- شراء نقاط بأموال حقيقية ان كنت لا تحب الانتظار*\n*موَفر الخوادم* لا يحسب الاشتراك على الاشهر و انما على الايام, اي انه يستقطع النقاط كل 24 ساعة و هكذا\n\n*هذا البوت ملكية خاصة تابعة لشركة *[IBot Corporation](t.me/ibcorp) [الموقع الرسمي](ibotcorp.com)',
+			text = '[ServerProviderBot](t.me/serverproviderbot) Offers you *(VPS|RDP|Domains) for cheap prices*\nThe concept of this bot is that you collect credits by : \n*1- watching ads \n2- joining certain groups and channels for a peroid of time \n3- inviting users to the bot\n4- Buying credits for real money*\n*ServerProvider* counts server time by day and each plan has its own prices\n\n*This Bot Is Owned And Sponsored *[BY IBot Corporation](t.me/ibcorp) [Website](ibotcompany.tk)',
 			keyboard = {
 				{
-					{text = 'الموقع الرسمي', url = 'www.ibotcorp.com'},
-					{text = 'تبرع', url = 'www.patreon.com/ServerProvider'},
+					{text = 'Website', url = 'www.ibotcorp.com'},
+					{text = 'Donate', url = 'www.patreon.com/ServerProvider'},
 					},
 				{
-					{text = 'القناة الرسمية', url = 't.me/IBCorp'}
+					{text = 'Official Channel', url = 't.me/IBCorp'}
 					},
 				{
-					{text = 'رجوع', callback_data = 'main'}
+					{text = 'Back', callback_data = 'main'}
 					},
 				},
 			},
         register = {
-            text = "مرحبا بك [ببوت موَفر الخوادم](telegram.me/serverproviderbot) \n-----*الاحكام و الشروط*------\n@ServerProviderBot يوَفر خوادم من خلال تجميع نقاط بمشاهدة الاعلانات او شرائها.\nالبوت و الشركة الرسمية و فريق التطوير غير مسؤولين عن فقدانك الوصول لخادمك للأسباب التالية : 1- تعرض خادمك للتهكير\n2- تعرضك لعملية احتيال و سرقة معلوماتك\n\nالبوت مرتبط بموقع الممول الرسمي لشركة linode.com و هذا يعني ان خرقك لأحكام و شروط الموقع الممول يعني انك خرقت احكام و شروط البوت ايضا و سيعرض حسابك للمسح و حظرك من البوت و مسح جميع خواجدمك و بياناتك.\nمشاركتك لمعلومات خادمك هو مسؤوليتك الشخصية و لا دخل للبوت و الشركة الرسمية اي دخل بهذا الموضوع\n\nتتم مراقبة خادمك على مدار الساعة من قبل الية بوت موَفر الخوادم لضمان حصولك على احسن خدمة و هذا لا يعني ان معلوماتك يتم مشاركتها و انما فقط معلوماتك الاساسية\n\nهذاالبوت ملك لشركة @IBCorp [الموقع الرسمي](www.ibotcorp.com)\nان ضغطك على زر *استمرار* يعني انك توافق على الاحكام و الشروط الخاصة ببوت موَفر الخوادم.",
+            text = "Welcome to [ServerBot's](telegram.me/serverproviderbot) \n-----*Terms Of Use*------\n@ServerProviderBot Provides VPS For Cheap Prices By watching ads or Buying the Coins.\nThe Bot And The Sponsering Company And The Developer Are Not Responsible For Password Loss or Server Hacks.\nYou May Share The Root Password on You personal expenses\n\nThe Bot is Sponsered By @IBCorp [Website](www.ibotcompany.tk)\nBy Pressing *Get Started* You accept the Terms Of Use Above.",
             keyboard = {
                 {
-                    {text = 'استمرار', callback_data = 'getstarted'},
-                    {text = 'الغاء', callback_data = 'cancel'},
+                    {text = 'Get Started', callback_data = 'getstarted'},
+                    {text = 'Cancel', callback_data = 'cancel'},
                     },
                 },
         },
         getstarted = {-- Get Satrted texts , do not change these words ($email, $phone, #first, #last, #phone, #email, #reason, {username}, {password})
-            text = 'ارسل اسمك الاول من فضلك.',
-			text2 = 'ارسل اسمك الاخير من فضلك.',
-			text3 = 'من فضلك قم بأرسال رقم هاتف فعال مصحوبا بالرمز البريدي الخاص بدولتك\nEx: +964772345278954\n(سوف يساعدنا وجود رقمك على التواصل معك في حال حدوث اي مشكلة او سوء تفاهم).',
-			text4 = 'من فضلك قم بأرسال عنوان بريد الكتروني فعال\n(سوف يساعدنا وجود بريد الكتروني على تزويدك بالتحديثات الخاصة بخادمك او التواصل معك في حال وقوع خلل ما).',
-			text5 = 'تم ارسال رمز تفعيل الحساب الى البريد الالكتروني $email\nمن فضلك قم بأرسال الرمز الذي تم ارساله لبريدك الالكتروني او اضغط على الرابط الذي تم ارساله اليك من خلال البريد الالكتروني.\n*ملاحظة:: استخدام الجيميل سوف يطيل وقت الاستلام الى 3-5 دقائق اضافية\nاذا لم تستلم الرمز الى الان تحقق من صندوق البريد المزعج.*',
-			text6 = 'الرجاء تزويدنا بهدفك و مشاريعك التي تنوي البدء بها مع بوت موَفر الخوادم.',
-			text7 = 'هل هذه المعلومات صحيحة؟\n--------------\nاسمك الاول : #first\nاسمك الثاني : #last\nرقم الهاتف : #phone\nالبريد الالكتروني : #email\nمشاريعك : #reason',
-            text8 = 'اسم المستخدم : {username}\nكلمة المرور : {password}',
-            text9 = 'لقد تم تسجيلك بنجاح.\nلقد تم تسجيل الدخول الرجاء الاحتفاظ بكلمة المرور واسم المستخدم:\nاسم المستخدم : {username}\nكلمة المرور : {password}\n\n#ملاحظة: يمكنك تغيير اسم المستخدم وكلمة مرور الحساب في القائمه الرئيسية',
-			text10 = 'لقد تم ارسال رمز التحقق الى $phone\nارجو منك ارسال رمز التحقق الى هنا',
-			text11 = 'تم تأكيد الحساب\nشكرا لاستخدامك @ServerProviderBot',
-			text12 = "الرجاء ارسال رمز التحقق الان ...\n(اذا لم تستلم رمز التحقق في صندوق الوارد الرجاء التحقق من وجوده في صندوق الرسائل الـ غير مرغوب بها)\n\nلم يصل الرمز?.. اضغط ارسال الرمز",
-			text13 = 'جاري التحقق من عنوان البريد الإلكتروني...',
-			error = 'خطأ,\nتنسيق غير صالح رجاء ارسل تنسيق سليم',
-			error2 = 'رمز غير صالح.\nحاول مرة اخرى',
-			error3 = 'خطأ,\nهذا البريد الإلكتروني ليس صحيح ، الرجاء المحاولة مرة أخرى مع ادخال بريد إلكتروني صالح',
-			error4 = 'انتهت الجلسة...\nارجاء المحاولة لاحقا.',
-			query = 'تم ارسال رمز التحقق...',
-			query2 = 'حدث خطأ\nالرجاء المحاولة لاحقا...',
-			query3 = "الرجاء الانتظار لمدة 10 دقايق قبل ارسال الرمز الجديد\n(اذا كنت تستخدم gmail ، سوف يستغرق 5-10 دقائق لاستلام الرمز..)",
+            text = 'Please Send your first Name.',
+			text2 = 'Please Send your last Name.',
+			text3 = 'Please Send a Valid Phone number with the international code\nEx: +11234567890\n(We will use this number to contact you if a problem accurs).',
+			text4 = 'Please Send a Valid Email Adress\n(We will use this E-Mail to contact you if a problem accurs).',
+			text5 = 'Activation code sent to $email\nPlease send The Verification code or click the link sent to your email.\n*Note:: If you did not receive the email check your Spam Folder.*',
+			text6 = 'Please tell us Some information about your projects.',
+			text7 = 'Is this information *Correct*?\n--------------\nFirst Name : #first\nLast Name : #last\nPhone Number : #phone\nEmail : #email\nReason : #reason',
+            text8 = 'Username : {username}\nPassword : {password}',
+            text9 = 'You have been registered successfully.\nYou have been *Logged in* with the information below : *please save the username and the password*\nusername : {username}\npassword : {password}\n\n#Note: You can change your username and password from the Account tab in main menu...',
+			text10 = 'Activation code sent to $phone\nPlease send The Verification code here',
+			text11 = 'Account Activated..\nThank You For Using @ServerProviderBot',
+			text12 = "*Please Send the Activation Code Now...*\n(If you don't see the code in the mail box, check the *Spam Box*)\n\nDidn't receive the code yet?.. Press *Send Code*",
+			text13 = 'Checking Email Address...',
+			error = 'Error,\nFormat is not valid please enter a valid format',
+			error2 = '*Invalid Code*.\nPlease Try again',
+			error3 = 'Error,\nThis Email is Nor Vaild, Please Try Again with a Valid Email',
+			error4 = 'Session Expired..\nPlease Try Again Later.',
+			query = 'Activation Code Sent...',
+			query2 = 'Error occurred\nPlease Try Again Later...',
+			query3 = "Please Wait for 10 mitutes before sending new code\n(If you're using Gmail, it will take 5-10 minutes for the code to deliver..)",
 			keyboard = {
 				{
-					{text = 'نعم', callback_data = 'infocorrect'},
-					{text = 'لا', callback_data = 'infowrong'},
+					{text = 'Yes', callback_data = 'infocorrect'},
+					{text = 'No', callback_data = 'infowrong'},
 					},
 				{
-					{text = 'الغاء', callback_data = 'cancel'}
+					{text = 'Cancel', callback_data = 'cancel'}
 					},
 				},
 			keyboard2 = {
 				{
-					{text = 'الغاء', callback_data = 'cancel'}
+					{text = 'Cancel', callback_data = 'cancel'}
 					},
 				},
 			keyboard3 = {
 				{
-					{text = 'ارسال الرمز', callback_data = 'sendcode'},
+					{text = 'Send Code', callback_data = 'sendcode'},
 					},
 				},
             },
         login = {-- Log in texts, do not change these words ($username, {credits})
-            text1 = 'رجاء ادخل اسم المستخدم',
-            text2 = 'اهلا بك $username !\nالرجاء ادخال كلمة المرور',
-            text3 = 'لقد تم تسجيل الدخول الآن!',
-            text4 = "خطأ!:\nكلمة المرور خاطئة!\nالرجاء التحقق من معلوماتك والمحاولة مرة أخرى في وقت لاحق",
-            text5 = "خطأ!:\nلم أستطع إيجاد اسم المستخدم هذا!\nالرجاء التحقق من معلوماتك والمحاولة مرة أخرى في وقت لاحق",
+            text1 = 'Please enter your *Given Username*',
+            text2 = 'Welcome $username !\nPlease enter your *Password*',
+            text3 = '*You Are Logged in now!*',
+            text4 = "*Error!*:\nWrong password!\nPlease check your information and try again later",
+            text5 = "*Error!*:\nI couldn't find this username!\nPlease check your information and try again",
             keyboard = {
                 {
-                    {text = 'الغاء', callback_data = 'cancel'},
+                    {text = 'Cancel', callback_data = 'cancel'},
                     },
                 },
             keyboard2 = {
                 {
-                    {text = 'تسجيل الدخول', callback_data = 'login'},
+                    {text = 'Login', callback_data = 'login'},
                     },
                 },
             },
         logout = {
-            text = 'لقد قمت بتسجيل الخروج الآن!',
+            text = 'You are *Logged out* now',
             
             },
         main = {-- Main Menu texts , do not change these words ({credit})
-            text = 'القائمة الرئيسية\nنقاطك : {credit}',
+            text = '*Main Menu\nCredits :* {credit}',
 	    rows = {
-			{text = 'اعلاناتي', callback_data = 'getadverts'},
-			{text = 'المستخدمون', callback_data = 'users'},
-			{text = 'تأكيد الحساب!', url = 'https://t.me/serverproviderbot?start=verify'},
+			{text = 'My Advertisments', callback_data = 'getadverts'},
+			{text = 'users', callback_data = 'users'},
+			{text = 'Activate Account!', url = 'https://t.me/serverproviderbot?start=verify'},
 		},
             keyboard = {
                 {
-                    {text = 'خوادمي', callback_data = 'myservers'},
-                    {text = "الفواتير", callback_data = 'billing'},
+                    {text = 'My Servers', callback_data = 'myservers'},
+                    {text = "Billing", callback_data = 'billing'},
                     },
                 {
-                    {text = 'حسابي', callback_data = 'account'},
+                    {text = 'My Account', callback_data = 'account'},
                     },
                 {
-                    {text = 'تسجيل الخروج', callback_data = 'logout'},
+                    {text = 'Logout', callback_data = 'logout'},
                     },
                 },	
             },
         newserver = {-- New server texts, do not change these words (#n, #b, #m, #servername, #servertime, #expiredate, #price, #name, {name}, )
-            text1 = 'خادم جديد!\nماذا سوف نطلق عليه اسم?',
-			text2 = "اختر خطتك :\n▪️خادم عام : يعني أنك ستحصل على خادم VPS (يوزر) مشترك حيث ستكون ملفاتك متاحة لجميع مستخدمين نفس VPS, ولن تحصل على صلاحيات للوصول الى جذر الخادم.\n--------------\n▪️خادم خاص : يعني أنك سوف تحصل على خادم VPS (روت) خاص بك مع امكانية الوصول الى جذر الخادم.\n--------------\n▪️بروتوكول سطح المكتب البعيد RDP : يعني أنك سوف تحصل على RDP  بنظام أوبونتو خاص بك مع وصول كامل للجذر.",
-            text3 = "كم يوم تريد ان تكوم مدة الخادم ?\n#ملاحظة : 1 يوم = #n نقطة\n\n--------\nايام : #m    مجموع الحساب هو : #b\n--------",
-			text4 = 'ادخل عدد الايام!',
-			text5 = "انت لا تمتلك نقاط كافيه الرجاء تجميع عدد نقاط مناسب قبل الشراء",
-            text6 = "<b>اسم الخادم :</b> #servername\n<b>الوقت :</b> <code>#servertime الايام</code>\n<b>تاريخ الانتهاء :</b> <code>#expiredate UTC</code>\n<b>السعر :</b> <code>#price SP</code>\n\nاذا كانت المعلومات <b>صحيحة</b> اضغط على <b>انشاء</b> زر",
-			text7 = 'جاري انشاء الخادم #name...\n#n',
-            text8 = "فقط ارقام!",
-            text9 = 'الخادم مضاف\nالاسم : {name}',
-            text10 = 'الخادم الخاص بك {name} تم ازالة\nيمكنك انشاء سيرفر آخر من /myservers',
-			text12 = 'الخادم الخاص بك ذو الاسم #name تمت اضافته بنجاح.\nاسم المضيف : #name\n\nتاريخ الانتهاء : #expiredate\n\nالخادم سيكون جاهزا في 45 دقيقة ، يمكنك التحقق من التقدم عند الضغط على زر خوادمي.',
-			text13 = 'اختار خطة للخادم الذي تريد صنعه :\n▪️ الخطة البرونزية \nالسعر : *#ps*\nالمواصفات :\n\t1 GB الرام\n\t1 المعالج\n\t25 GB مساحة تخزين الخادم\n\t1 TB النطاق الترددي\n﹎﹎﹎﹎﹎﹎﹎﹎﹎﹎﹎﹎\n▪️ الخطة الفضية\nالسعر : *#pm*\nالمواصفات :\n\t2 GB الرام\n\t1 المعالج\n\t50 GB مساحة تخزين الخادم\n\t2 TB النطاق الترددي\n﹎﹎﹎﹎﹎﹎﹎﹎﹎﹎﹎﹎\n▪️ الخطة الذهبية :\nالسعر : #pb\nالمواصفات :\n\t4 GB الرام\n\t2 المعالج\n\t75 GB مساحة تخزين الخادم\n\t3 TB النطاق الترددي',
-			text14 = 'تم الانتهاء من صنع الخادم!',
-			query = 'لقد دخلت #n',
-			query2 = 'لقد حذف #n',
-			query3 = 'الايام فارغه.',
-			query4 = 'الحد الأدنى لعدد الأيام المقبولة هو 1',
+            text1 = '*New Server!*\nWhat are we going to call it?',
+			text2 = "Chose your *Plan* :\n▪️ Public VPS : means you will get a shared VPS server where your files will be available to all users of the same VPS, and you will not get Root access to the server.\n--------------\n▪️ Private VPS : means you will get a VPS server only for you with Full Root access.\n--------------\n▪️ Remote Desktop Protocol/RDP : means you will get an Ubuntu RDP with full Root access.",
+            text3 = "How many *days* you want the server ?\n#Note : 1 day = #n credit\n\n--------\nDays : #m    *Total Price :* #b\n--------",
+			text4 = 'Enter a day please!',
+			text5 = "You Do Not Have Enough Credits!, Please Add More Credits before buying",
+            text6 = "<b>Server name :</b> #servername\n<b>Time :</b> <code>#servertime days</code>\n<b>Expire date :</b> <code>#expiredate UTC</code>\n<b>Price :</b> <code>#price SP</code>\n\nIf the information is <b>True</b> press the <b>Create</b> button",
+			text7 = 'Creating Server #name...\n#n',
+            text8 = "*Numbers only!*",
+            text9 = '*Server added*\n*Name :* {name}',
+            text10 = 'Your server {name} has been removed\nyou can rent another one from /myservers',
+			text12 = 'You Server #name was Added Successfully.\nHostName : #name\n\nExpire Date : #expiredate\n\nServer Will Be Ready in *45 minutes*, You can check progress in /servers or press the *My Servers* button.',
+			text13 = 'Chose your *Server Size* :\n▪️ *Small* \n*Price :* *#ps*\n*Features :*\n\t`1 GB RAM`\n\t`1 CORE CPU`\n\t`25 GB DISK`\n\t`1 TB BANDWIDTH`\n➖➖➖➖➖\n▪️ *Medium *\n*Price :* *#pm*\n*Features :*\n\t`2 GB RAM`\n\t`1 CORE CPU`\n\t`50 GB DISK`\n\t`2 TB BANDWIDTH`\n➖➖➖➖➖\n▪️ *Big :*\n*Price : #pb*\n*Features :*\n\t`4 GB RAM`\n\t`2 CORES CPU`\n\t`75 GB DISK`\n\t`3 TB BANDWIDTH`',
+			text14 = 'Server Creation Completed!',
+			query = 'You Entered #n',
+			query2 = 'You Deleted #n',
+			query3 = 'Days are empty.',
+			query4 = 'Minimum number of days accepted is 1',
             keyboard1 = {
                 {
-                    {text = 'الغاء', callback_data = 'cancel_server'}
+                    {text = 'Cancel', callback_data = 'cancel_server'}
                     },
                 },
 	    keyboard2 = {
 		{
-		    {text = 'الخطة البرونزية', callback_data = 'plantype private small'}
+		    {text = 'Small', callback_data = 'plantype private small'}
 		    },
 		{
-		    {text = 'الخطة الفضية', callback_data = 'plantype private medium'},
-		    {text = 'الخطة الذهبية', callback_data = 'plantype private big'},
+		    {text = 'Medium', callback_data = 'plantype private medium'},
+		    {text = 'Big', callback_data = 'plantype private big'},
 		    },
 		{
-			{text = 'رجوع', callback_data = 'returntoplantype'},
+			{text = 'Back', callback_data = 'returntoplantype'},
 			},
 		},
             keyboard3 = {
                 {
-                    {text = 'الغاء', callback_data = 'cancel_server'},
-                    {text = 'ارسال', callback_data = 'sendserver'}
+                    {text = 'Cancel', callback_data = 'cancel_server'},
+                    {text = 'Send It', callback_data = 'sendserver'}
                     },
                 },
             keyboard4 = {
@@ -212,38 +212,38 @@ function ar.lang()-- in-table function
 					{text = '0', callback_data = 'enter 0'},
 					},
                 {
-                    {text = 'تم', callback_data = 'enter_days'},
-                    {text = 'الغاء', callback_data = 'cancel_server'},
+                    {text = 'Done', callback_data = 'enter_days'},
+                    {text = 'Cancel', callback_data = 'cancel_server'},
                     },
                 
                 },
             keyboard5 = {
                 {
-                    {text = 'خوادمي', callback_data = 'myservers'}
+                    {text = 'My servers', callback_data = 'myservers'}
                     },
                 },
 			keyboard6 = {
 				{
-					{text = 'خادم عام', callback_data = 'plantype public'},
-					{text = 'خادم خاص', callback_data = 'plantype private'},
+					{text = 'Public VPS', callback_data = 'plantype public'},
+					{text = 'Private VPS', callback_data = 'plantype private'},
 					},
 				{
-					{text = 'بروتوكول سطح المكتب البعيد RDP', callback_data = 'plantype rdp'},
+					{text = 'Remote Desktop Protocol/RDP', callback_data = 'plantype rdp'},
 					},
 				{
-                    {text = 'الغاء', callback_data = 'cancel_server'},
+                    {text = 'Cancel', callback_data = 'cancel_server'},
 					},
 				},
             },
         myservers = {-- My Servers texts, do not change these words ({serversnum})
-            text = 'خوادمك : {serversnum}',
+            text = 'Your servers : {serversnum}',
             },
         ERRORS = {-- do  not change these words ({serversnum})
-            text1 = 'تم رفض تسجيلك\nرجاء قم بمراسلة الدعم الفني [فريق الدعم الفني](telegram.me/HelpServerProviderBot) للمزيد من المعلومات',
-            text2 = "تم طلب خادم من قبل *{servername}* لم يوافق عليها!\nرسالة : ",
-			text3 = 'يجب عليك تسجيل الدخول اولا!',
-			text4 = 'هذا بريد إلكتروني مأخوذ الرجاء اختيار بريد الكتروني صالح\n*If This Email is Yours* then try logging in first.',
-			text5 = 'خطأ، الرجاء المحاولة في وقت لاحق...',
+            text1 = '*Your registration has been declined*\n*Please Contact* [THE SUPPORT TEAM](telegram.me/HelpServerProviderBot) *for more information*',
+            text2 = "Server request for *{servername}* Was not approved!\nMessage : ",
+			text3 = 'You have to login first!',
+			text4 = 'This Email Address is taken, Please try a different email address\n*If This Email is Yours* then try logging in first.',
+			text5 = 'Error, please try again later..',
 			text6 = 'This Phone Number Is Already USED.\nPlease Use Another Number.',
 			text7 = '*Invalid Format,*\nOnly english characters allowed, dashes and numbers',
 			text8 = 'Activate Account First!!...',
@@ -251,17 +251,17 @@ function ar.lang()-- in-table function
 			text10 = 'This name is currently unavaiable, Please try another name..',
             },
         keyboard_rows = {
-	    	newserver = {text = 'حذف', callback_data = 'del'},
+	    	newserver = {text = 'Delete', callback_data = 'del'},
         	myservers = {
-                {text = 'خادم جديد', callback_data = 'newserver'},
-                {text = 'القائمه الرئيسية', callback_data = 'main'},
+                {text = 'New Server', callback_data = 'newserver'},
+                {text = 'Main Menu', callback_data = 'main'},
                 },
             gotomain = {
-                {text = 'الثائمه الرئيسية', callback_data = 'main'},
+                {text = 'Main Menu', callback_data = 'main'},
                 },
             gotobilling = {
-                {text = 'الفواتير', callback_data = 'billing'},
-                {text = 'القائمه الرئيسية', callback_data = 'main'},
+                {text = 'Billing', callback_data = 'billing'},
+                {text = 'Main Menu', callback_data = 'main'},
                 },
 			},
 		resetroot = {
@@ -278,7 +278,7 @@ function ar.lang()-- in-table function
 				}
 			},
         server_info = { --Server Info texts, do not change these words ( #servername, #paiddays, #timeleft, #serverip, #serverusername, #serverpassword, #kvm, #disk, #ram, #cpu, #currentbandwidth, #expiredate, #status)
-            text1 = '<b>Subscription Information :</b>\n'..t..'<b>Name :</b> #servername\n'..t..'<b>Plan Type :</b> #plantype\n'..t..'<b>Creation Date :</b> #created\n'..t..'<b>Paid Days :</b> #paiddays\n'..t..'<b>Expiration Date :</b> #expiredate\n'..t..'<b>Time left :</b> #timeleft\n----------------\n<b>Access :</b>\n'..t..'<b>Server IP :</b> #serverip\n'..t..'<b>Server username :</b> #serverusername\n'..t..'<b>Server password :</b> <a href="$passlink">Click Here</a>\n'..t..'<b>Console URL :</b> <a href="#kvm"> Click Here</a>\n'..t..'<b>Explorer :</b> <a href="#explink"> Click Here</a>\n'..t..'<b>PHPMyAdmin :</b> <a href="#phpmyadminlink"> Click Here</a>\n'..t..'<b>MySQL username :</b> #mysqluser\n'..t..'<b>MySQL password :</b> <a href="#mysqlpasswordlink">Click Here</a>\n----------------\n<b>System Information :</b>\n'..t..'<b>Disk :</b> #disk\n'..t..'<b>Ram :</b> #ram\n'..t..'<b>CPU :</b> #cpu Core(s)\n'..t..'<b>Allowed Bandwidth :</b> #allowedbandwidth\n'..t..'<b>Location :</b> #location\n'..t..'<b>Operating System</b> : #os\n'..t..'<b>Status : </b>#status\n----------------\n',
+            text1 = '<b>Subscription Information :</b>\n'..t..'<b>Name :</b> #servername\n'..t..'<b>Plan Type :</b> #plantype\n'..t..'<b>Creation Date :</b> #created\n'..t..'<b>Paid Days :</b> #paiddays\n'..t..'<b>Expiration Date :</b> #expiredate\n'..t..'<b>Time left :</b> #timeleft\n----------------\n<b>Access :</b>\n'..t..'<b>Server IP :</b> #serverip\n'..t..'#domain\n'..t..'<b>Server username :</b> #serverusername\n'..t..'<b>Server password :</b> <a href="$passlink">Click Here</a>\n'..t..'<b>Console URL :</b> <a href="#kvm"> Click Here</a>\n'..t..'<b>Explorer :</b> <a href="#explink"> Click Here</a>\n'..t..'<b>PHPMyAdmin :</b> <a href="#phpmyadminlink"> Click Here</a>\n'..t..'<b>MySQL username :</b> #mysqluser\n'..t..'<b>MySQL password :</b> <a href="#mysqlpasswordlink">Click Here</a>\n----------------\n<b>System Information :</b>\n'..t..'<b>Disk :</b> #disk\n'..t..'<b>Ram :</b> #ram\n'..t..'<b>CPU :</b> #cpu Core(s)\n'..t..'<b>Allowed Bandwidth :</b> #allowedbandwidth\n'..t..'<b>Location :</b> #location\n'..t..'<b>Operating System</b> : #os\n'..t..'<b>Status : </b>#status\n----------------\n',
             text2 = '<b>PLEASE NOTE :</b>\nif you do not pay your fees before 1 day of time remaining your server will be <b>Stopped Then Deleted after a day</b>',
 			text3 = '<b>Server Not Found</b>\nServer Removed From Your list. /main',
 			text4 = 'Server must be offline first.',
@@ -287,6 +287,7 @@ function ar.lang()-- in-table function
 			text7 = 'Stopping server...',
 			text8 = 'Are you sure?',
 			text9 = '<b>Subscription Information :</b>\n'..t..'<b>Name :</b> #servername\n'..t..'<b>Plan Type :</b> #plantype\n'..t..'<b>Creation Date :</b> #created\n'..t..'<b>Paid Days :</b> #paiddays\n'..t..'<b>Expiration Date :</b> #expiredate\n'..t..'<b>Time left :</b> #timeleft\n----------------\n<b>Access :</b>\n'..t..'<b>Server IP :</b> #serverip\n'..t..'<b>Server username :</b> #serverusername\n'..t..'<b>Server password :</b> <a href="$passlink">Click Here</a>\n----------------\n<b>System Information :</b>\n'..t..'<b>Disk :</b> #disk\n'..t..'<b>Ram :</b> #ram\n'..t..'<b>CPU :</b> #cpu Core(s)\n'..t..'<b>Allowed Bandwidth :</b> #allowedbandwidth\n'..t..'<b>Location :</b> #location\n'..t..'<b>Operating System</b> : #os\n'..t..'<b>Status : </b>#status\n----------------\n',
+			text10 = 'Server Domain : ',
 			query = 'Getting Data..',
 			query2 = 'ERROR :\nFaild to $cmd server...\nReturning back to servers list',
             keyboard = {
@@ -579,4 +580,4 @@ function ar.lang()-- in-table function
         }
     return info
 end
-return ar
+return en
