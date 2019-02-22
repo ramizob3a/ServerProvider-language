@@ -347,7 +347,7 @@ function ar.lang()-- in-table function
 				},
 			},
 		reinstall_server = {
-			text = '<b>Are You Sure You Want To Reinstall This Server?</b>\nYou are going to reinstall (<b>#name</b>)\nThis means all data on this server <b>Will Be Erased</b>.',
+			text = '<b>هل انت متأكد من هذا الاجراء عمل فورمات للخادم؟</b>\nستقوم بعمل فورمات (<b>#name</b>)\nهذا يعني جميع البيانات على الخادم هذا <b>سوف يتم مسحها</b>.',
 			text2 = '*Server Reinstalled.*\nPlease wait up to 30 minutes untill you access this server again',
 			query = 'Reinstalling Server...',
 			keyboard = {
