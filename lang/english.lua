@@ -1,6 +1,6 @@
 -----english.lua--------
 ------this file contains english texts for the t.me/serverproviderbot Bot------
-------Made By @IBCorp------=
+------Made By @IBCorp------
 
 -- _____ ____        _    _____                 
 --|_   _|  _ \      | |  / ____|                
