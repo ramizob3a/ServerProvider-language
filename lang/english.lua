@@ -145,7 +145,11 @@ function en.lang()-- in-table function
                     },
                 {
                     {text = 'My Account', callback_data = 'account'},
-                    },
+					},
+				{
+					{text = 'Help', url = 't.me/serverproviderlearn'},
+					{text = 'About', callback_data = 'about'},
+					},
                 {
                     {text = 'Logout', callback_data = 'logout'},
                     },
