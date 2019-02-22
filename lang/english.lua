@@ -563,18 +563,26 @@ function en.lang()-- in-table function
 		warn = {
 			text = 'ROOT PASSWORD CHANGED!!\nServer Name : $name\n------------\nPlease advise if you are not the one who changed the ROOT password.',
 			text2 = 'Send the New Password to save it in the database.',
+			text3 = 'You will update the root password for #name in the database\nPlease Confirm :-',
+			query = 'Root Password Updated ✔️',
 			keyboard = {
 				{
 					{text = 'Reset Root Password', callback_data = 'servercmd resetroot #id'},
 					},
 				{
-					{text = 'That Was Me', callback_data = 'thiswasme'},
+					{text = 'That Was Me', callback_data = 'thiswasme #id'},
 					},
 				},
 			keyboard2 = {
 				{
 			        {text = 'Cancel', callback_data = 'cancel'}
 			        },
+				},
+			},
+			keyboard3 = {
+				{
+					{text = 'Confirm', callback_data = 'confirm'},
+					{text = 'Cancel', callback_data = 'cancel'},
 				},
 			},
         }
