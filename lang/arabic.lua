@@ -242,13 +242,13 @@ function ar.lang()-- in-table function
             text1 = 'تم رفض تسجيلك\nرجاء قم بمراسلة الدعم الفني [فريق الدعم الفني](telegram.me/HelpServerProviderBot) للمزيد من المعلومات',
             text2 = "تم طلب خادم من قبل *{servername}* لم يوافق عليها!\nرسالة : ",
 			text3 = 'يجب عليك تسجيل الدخول اولا!',
-			text4 = 'هذا بريد إلكتروني مأخوذ الرجاء اختيار بريد الكتروني صالح\n*If This Email is Yours* then try logging in first.',
+			text4 = 'هذا بريد إلكتروني مأخوذ الرجاء اختيار بريد الكتروني صالح\nإذا كان هذا البريد الإلكتروني لك حاول تسجيل الدخول مرة اخرى.',
 			text5 = 'خطأ، الرجاء المحاولة في وقت لاحق...',
-			text6 = 'This Phone Number Is Already USED.\nPlease Use Another Number.',
-			text7 = '*Invalid Format,*\nOnly english characters allowed, dashes and numbers',
-			text8 = 'Activate Account First!!...',
-			text9 = 'Server name must be [3-32] characters length..',
-			text10 = 'This name is currently unavaiable, Please try another name..',
+			text6 = 'رقم الهاتف هذا غير صالح.\nرجاء ارسال رقم هاتف صحيح.',
+			text7 = 'تنسيق غير صالح\nفقط يمكنك ارسال احرف انجليزية وارقام',
+			text8 = 'قم بتأكيد الحساب اولا!!...',
+			text9 = 'اسم الخادم يجب ان يتكون من (3-32) حرف...',
+			text10 = 'هذا الاسم غير صالح حاليا ، رجاء جرب اسما آخر..',
             },
         keyboard_rows = {
 	    	newserver = {text = 'حذف', callback_data = 'del'},
@@ -257,7 +257,7 @@ function ar.lang()-- in-table function
                 {text = 'القائمه الرئيسية', callback_data = 'main'},
                 },
             gotomain = {
-                {text = 'الثائمه الرئيسية', callback_data = 'main'},
+                {text = 'القائمه الرئيسية', callback_data = 'main'},
                 },
             gotobilling = {
                 {text = 'الفواتير', callback_data = 'billing'},
@@ -265,83 +265,83 @@ function ar.lang()-- in-table function
                 },
 			},
 		resetroot = {
-			text = '*Reset Root Password :*\nThis will shutdown the server and performs a *Root Password Reset* action,\nYou can set your own Root password by sending a password now or click on *Generate*, that will generate a random strong password for your server and proceed to reset the password.',
-			query = 'Resetting Root Password...\nPlease allow more than 2 minutes for this action to end',
-			error = 'Server Not Found!',
+			text = 'اعاة تعيين كلمة المرور :\nهذا الامر سوف يقوم بإطفاء الخادم لاجراء تغيير كلمة المرور\nكما يمكنك ان تضع كلمة مرور من صنعك او دع البوت يقوم بـ (توليد) كلمة ممرور قوية و آمنة للخادم',
+			query = 'اعادة تعيين كلمة مرور الخادم...\nالرجاء الانتظار لمدة لا تتجاوز دقيقتين لإنهاء هذا الاجراء',
+			error = 'الخادم غير موجود!',
 			keyboard = {
 				{
-					{text = 'Generate', callback_data = 'generatepassword #id'},
+					{text = 'توليد', callback_data = 'generatepassword #id'},
 					},
 				{
-					{text = 'Cancel', callback_data = 'server #id'},
+					{text = 'الغاء', callback_data = 'server #id'},
 					},
 				}
 			},
         server_info = { --Server Info texts, do not change these words ( #servername, #paiddays, #timeleft, #serverip, #serverusername, #serverpassword, #kvm, #disk, #ram, #cpu, #currentbandwidth, #expiredate, #status)
-            text1 = '<b>Subscription Information :</b>\n'..t..'<b>Name :</b> #servername\n'..t..'<b>Plan Type :</b> #plantype\n'..t..'<b>Creation Date :</b> #created\n'..t..'<b>Paid Days :</b> #paiddays\n'..t..'<b>Expiration Date :</b> #expiredate\n'..t..'<b>Time left :</b> #timeleft\n----------------\n<b>Access :</b>\n'..t..'<b>Server IP :</b> #serverip\n'..t..'<b>Server username :</b> #serverusername\n'..t..'<b>Server password :</b> <a href="$passlink">Click Here</a>\n'..t..'<b>Console URL :</b> <a href="#kvm"> Click Here</a>\n'..t..'<b>Explorer :</b> <a href="#explink"> Click Here</a>\n'..t..'<b>PHPMyAdmin :</b> <a href="#phpmyadminlink"> Click Here</a>\n'..t..'<b>MySQL username :</b> #mysqluser\n'..t..'<b>MySQL password :</b> <a href="#mysqlpasswordlink">Click Here</a>\n----------------\n<b>System Information :</b>\n'..t..'<b>Disk :</b> #disk\n'..t..'<b>Ram :</b> #ram\n'..t..'<b>CPU :</b> #cpu Core(s)\n'..t..'<b>Allowed Bandwidth :</b> #allowedbandwidth\n'..t..'<b>Location :</b> #location\n'..t..'<b>Operating System</b> : #os\n'..t..'<b>Status : </b>#status\n----------------\n',
-            text2 = '<b>PLEASE NOTE :</b>\nif you do not pay your fees before 1 day of time remaining your server will be <b>Stopped Then Deleted after a day</b>',
-			text3 = '<b>Server Not Found</b>\nServer Removed From Your list. /main',
-			text4 = 'Server must be offline first.',
-			text5 = 'Starting server...',
-			text6 = 'Restarting server...',
-			text7 = 'Stopping server...',
-			text8 = 'Are you sure?',
-			text9 = '<b>Subscription Information :</b>\n'..t..'<b>Name :</b> #servername\n'..t..'<b>Plan Type :</b> #plantype\n'..t..'<b>Creation Date :</b> #created\n'..t..'<b>Paid Days :</b> #paiddays\n'..t..'<b>Expiration Date :</b> #expiredate\n'..t..'<b>Time left :</b> #timeleft\n----------------\n<b>Access :</b>\n'..t..'<b>Server IP :</b> #serverip\n'..t..'<b>Server username :</b> #serverusername\n'..t..'<b>Server password :</b> <a href="$passlink">Click Here</a>\n----------------\n<b>System Information :</b>\n'..t..'<b>Disk :</b> #disk\n'..t..'<b>Ram :</b> #ram\n'..t..'<b>CPU :</b> #cpu Core(s)\n'..t..'<b>Allowed Bandwidth :</b> #allowedbandwidth\n'..t..'<b>Location :</b> #location\n'..t..'<b>Operating System</b> : #os\n'..t..'<b>Status : </b>#status\n----------------\n',
-			query = 'Getting Data..',
-			query2 = 'ERROR :\nFaild to $cmd server...\nReturning back to servers list',
+            text1 = '<b>معلومات الاشتراك :</b>\n'..t..'<b>الاسم :</b> #servername\n'..t..'<b>نوع الخطة :</b> #plantype\n'..t..'<b>تاريخ الانشاء :</b> #created\n'..t..'<b>الايام المدفوعة :</b> #paiddays\n'..t..'<b>تاريخ انتهاء الصلاحية :</b> #expiredate\n'..t..'<b>الوقت المتبقي :</b> #timeleft\n----------------\n<b>الصلاحية :</b>\n'..t..'<b>ايبي الخادم :</b> #serverip\n'..t..'<b>اسم مستخدم الخادم :</b> #serverusername\n'..t..'<b>كلمة مرور الخادم :</b> <a href="$passlink">اضغط هنا للحصول عليها</a>\n'..t..'<b>تيرمنل اونلاين :</b> <a href="#kvm"> اضغط هنا لفتح الترمنال</a>\n'..t..'<b>متصفح ملفات الخادم :</b> <a href="#explink"> اضغط هنا لفتح المتصفح</a>\n'..t..'<b>PHPMyAdmin :</b> <a href="#phpmyadminlink"> اضغط هنا</a>\n'..t..'<b>MySQL اسم مستخدم :</b> #mysqluser\n'..t..'<b>MySQL كلمة مرور :</b> <a href="#mysqlpasswordlink">اضغط هنا للحصول عليها</a>\n----------------\n<b>معلومات الخادم :</b>\n'..t..'<b>مساحة تخزين الخادم :</b> #disk\n'..t..'<b>رام :</b> #ram\n'..t..'<b>المعالج :</b> #cpu Core(s)\n'..t..'<b>النطاق الترددي :</b> #allowedbandwidth\n'..t..'<b>موقع الخادم :</b> #location\n'..t..'<b>نظام التشغيل</b> : #os\n'..t..'<b>الحالة : </b>#status\n----------------\n',
+            text2 = '<b>يرجى الملاحظة :</b>\إذا كنت لا تدفع الرسوم الخاصة بك قبل 1 يوم من الوقت المتبقي الخادم الخاص بك سيكون <b>متوقف ثم حذفه بعد يوم واحد</b>',
+			text3 = '<b>لم يتم العثور على الخادم</b>\nلحذف خادمك ارسل/main',
+			text4 = 'يجب ان يكون الخادم متوقف',
+			text5 = 'تشغيل الخادم...',
+			text6 = 'اعادة تشغيل الخادم...',
+			text7 = 'الخادم متوقف...',
+			text8 = 'هل انت متأكد?',
+			text9 = '<b>معلومات الاشتراك :</b>\n'..t..'<b>الاسم :</b> #servername\n'..t..'<b>نوع الخطة :</b> #plantype\n'..t..'<b>تاريخ الانشاء :</b> #created\n'..t..'<b>الايام المدفوعة :</b> #paiddays\n'..t..'<b>تاريخ انتهاء الصلاحية :</b> #expiredate\n'..t..'<b>الوقت المتبقي :</b> #timeleft\n----------------\n<b>الصلاحية :</b>\n'..t..'<b>ايبي الخادم :</b> #serverip\n'..t..'<b>اسم مستخدم الخادم :</b> #serverusername\n'..t..'<b>كلمة مرور الخادم :</b> <a href="$passlink">اضغط هنا للحصول عليها</a>\n----------------\n<b>معلومات الخادم :</b>\n'..t..'<b>مساحة تخزين الخادم :</b> #disk\n'..t..'<b>رام :</b> #ram\n'..t..'<b>المعالج :</b> #cpu Core(s)\n'..t..'<b>النطاق الترددي :</b> #allowedbandwidth\n'..t..'<b>موقع الخادم :</b> #location\n'..t..'<b>نظام التشغيل</b> : #os\n'..t..'<b>الحالة : </b>#status\n----------------\n',
+			query = 'جاري الحصول على البيانات..',
+			query2 = 'خطأ :\nغير صالح في $cmd الخادم...\nالعودة الى قائمة الخوادم',
             keyboard = {
                 {
-                    {text = 'Go Back', callback_data = 'myservers'},
-                    {text = 'Main Menu', callback_data = 'main'},
+                    {text = 'عودة', callback_data = 'myservers'},
+                    {text = 'القائمة الرئيسية', callback_data = 'main'},
                     },
                 },
 			keyboard2 = {
 				{
-					{text = 'Delete Server', callback_data = 'servercmd delete'}
+					{text = 'حذف الخادم', callback_data = 'servercmd delete'}
 					},
                 {
-                    {text = 'Go Back', callback_data = 'myservers'},
-                    {text = 'Main Menu', callback_data = 'main'},
+                    {text = 'عودة', callback_data = 'myservers'},
+                    {text = 'القائمة الرئيسية', callback_data = 'main'},
                     },
                 },
 			keyboard3 = {
 				{
-					{text = 'Refresh', callback_data = 'server #id'},
+					{text = 'تحديث', callback_data = 'server #id'},
 					},
 				{
-					{text = 'Start Server', callback_data = 'servercmd start #id'},
-					{text = 'Restart Server', callback_data = 'servercmd restart #id'}
+					{text = 'تشغيل الخادم', callback_data = 'servercmd start #id'},
+					{text = 'اعادة تشغيل الخادم', callback_data = 'servercmd restart #id'}
 					},
 				{
-					{text = 'Stop Server', callback_data = 'servercmd stop #id'},
-					{text = 'Delete Server', callback_data = 'servercmd delete #id'}
+					{text = 'ايقاف الخادم', callback_data = 'servercmd stop #id'},
+					{text = 'حذف الخادم', callback_data = 'servercmd delete #id'}
 					},
 				{
-					{text = 'Reinstall Server', callback_data = 'servercmd reinstall #id'}
+					{text = 'عمل فورمات للخادم', callback_data = 'servercmd reinstall #id'}
 					},
 				{
-					{text = 'Actions', callback_data = 'servercmd actions #id'},
-					{text = 'Renew', callback_data = 'postponeserver #id'},
+					{text = 'اجراءات', callback_data = 'servercmd actions #id'},
+					{text = 'تجديد', callback_data = 'postponeserver #id'},
 					},
 				{
-					{text = 'Reset Root Password', callback_data = 'servercmd resetroot #id'}
+					{text = 'اعادة تعيين كلمة مرور للخادم', callback_data = 'servercmd resetroot #id'}
 					},
                 {
-                    {text = 'Go Back', callback_data = 'myservers'},
-                    {text = 'Main Menu', callback_data = 'main'},
+                    {text = 'عودة', callback_data = 'myservers'},
+                    {text = 'القائمة الرئيسية', callback_data = 'main'},
                     },
                 },
             },
 		delete_server = { --Delete server texts, do not change these words (#name, )
-			text = '<b>Are You Sure You Want To Delete This Server?</b>\nYou are going to delete (<b>#name</b>)\nThis means all data on this server <b>Will Be Lost</b> and it will be removed from your servers\n\n<b>Note:</b>\nYou will not be refunded if you delete this server.',
-			text2 = '*Server Deleted.*',
-			text3 = '#name  Time limit reached\ndeleting server',
-			text4 = '#name Time remaining is #time\nPlease renew subscription',
-			query = 'Deleting Server...',
+			text = '<b>هل انت متأكد من هذا الاجراء،سوف يتم حذف الخادم؟</b>\nانت سوف تحذف (<b>#name</b>)\nجميع البيانات الموجودة على الخادم <b>ستكون مفقودة</b> و سوف يتم ازالته من الخوادم الخاصة بك\n\n<b>ملاحظة:</b>\nجميع ايام الخادم المتبقية لن تعوض بالاضافة للاموال لن تعود',
+			text2 = 'الخادم محذوف',
+			text3 = '#name  تم الوصول للحد الزمني\nحذف الخادم',
+			text4 = '#name الوقت المتبقي هو #time\nيرجى تجديد الاشتراك',
+			query = 'حذف الخادم...',
 			keyboard = {
 				{
-					{text = 'Yes', callback_data = 'deleteserver yes #id'},
-					{text = 'No', callback_data = 'deleteserver no #id'}
+					{text = 'نعم', callback_data = 'deleteserver yes #id'},
+					{text = 'لا', callback_data = 'deleteserver no #id'}
 					},
 				},
 			},
