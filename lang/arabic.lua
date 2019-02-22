@@ -146,6 +146,10 @@ function ar.lang()-- in-table function
                 {
                     {text = 'حسابي', callback_data = 'account'},
                     },
+		{
+		    {text = 'مساعدة', url = 't.me/serverproviderlearn'},
+		    {text = 'حول', callback_data = 'about'},
+		    },
                 {
                     {text = 'تسجيل الخروج', callback_data = 'logout'},
                     },
@@ -421,7 +425,7 @@ function ar.lang()-- in-table function
         billing = {
             text = 'حالة الفواتير\nاسم المستخدم : {username}\nالنقاط : {credit}\nنقاط الدعوة : {invitecredit}\nالخوادم : {num}',
             text2 = 'ليس لديك نقاط دعوات كافي\nالحد الادنى هو 1',
-	    text3 = 'مع سحب النقاط يمكنك إعادة بيع النقاط الخاص بك والحصول على الأرباح\nكل ماعليك فعله هو ارسال المبلغ الذي تريد سحبه : (نقاطك : #credit)',
+	    text3 = 'مع بيع النقاط يمكنك سحب نقاطك من البوت على شكل رمز هدية و يمكنك بيعه على اعضاءالبوت\nكل ما عليك هو ارسال المبلع الذي ترغب بسحبه الان\nنقاطك : #credit',
             keyboard = {
                 {
                     {text = 'خوادمي', callback_data = 'myservers'},
@@ -432,7 +436,7 @@ function ar.lang()-- in-table function
                     {text = 'الحصول على نقاط الدعوات', callback_data = 'getinvitecredit'},
                     },
 		{
-		    {text = 'سحب', callback_data = 'withdraw'},
+		    {text = 'بيع نقاط', callback_data = 'withdraw'},
 		    },
 				{
 					{text = "تبرع", url = 'https://patreon.com/ServerProvider'},
