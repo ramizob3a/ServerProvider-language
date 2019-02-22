@@ -89,7 +89,7 @@ function ar.lang()-- in-table function
 			error4 = 'انتهت الجلسة...\nارجاء المحاولة لاحقا.',
 			query = 'تم ارسال رمز التحقق...',
 			query2 = 'حدث خطأ\nالرجاء المحاولة لاحقا...',
-			query3 = "الرجاء الانتظار لمدة 10 دقايق قبل ارسال الرمز الجديد\n(اذا كنت تستخدم gmail ، سوف يستغرق 5-10 دقائق لاستلام الرمز..)",
+			query3 = "الرجاء الانتظار لمدة 10 دقايق قبل ارسال الرمز الجديد\n(اذا كنت تستخدم بريد من موقع جيميل ، سوف يستغرق 5-10 دقائق لاستلام الرمز..)",
 			keyboard = {
 				{
 					{text = 'نعم', callback_data = 'infocorrect'},
@@ -278,7 +278,7 @@ function ar.lang()-- in-table function
 				}
 			},
         server_info = { --Server Info texts, do not change these words ( #servername, #paiddays, #timeleft, #serverip, #serverusername, #serverpassword, #kvm, #disk, #ram, #cpu, #currentbandwidth, #expiredate, #status)
-            text1 = '<b>معلومات الاشتراك :</b>\n'..t..'<b>الاسم :</b> #servername\n'..t..'<b>نوع الخطة :</b> #plantype\n'..t..'<b>تاريخ الانشاء :</b> #created\n'..t..'<b>الايام المدفوعة :</b> #paiddays\n'..t..'<b>تاريخ انتهاء الصلاحية :</b> #expiredate\n'..t..'<b>الوقت المتبقي :</b> #timeleft\n----------------\n<b>الصلاحية :</b>\n'..t..'<b>ايبي الخادم :</b> #serverip\n'..t..'<b>اسم مستخدم الخادم :</b> #serverusername\n'..t..'<b>كلمة مرور الخادم :</b> <a href="$passlink">اضغط هنا للحصول عليها</a>\n'..t..'<b>تيرمنل اونلاين :</b> <a href="#kvm"> اضغط هنا لفتح الترمنال</a>\n'..t..'<b>متصفح ملفات الخادم :</b> <a href="#explink"> اضغط هنا لفتح المتصفح</a>\n'..t..'<b>PHPMyAdmin :</b> <a href="#phpmyadminlink"> اضغط هنا</a>\n'..t..'<b>MySQL اسم مستخدم :</b> #mysqluser\n'..t..'<b>MySQL كلمة مرور :</b> <a href="#mysqlpasswordlink">اضغط هنا للحصول عليها</a>\n----------------\n<b>معلومات الخادم :</b>\n'..t..'<b>مساحة تخزين الخادم :</b> #disk\n'..t..'<b>رام :</b> #ram\n'..t..'<b>المعالج :</b> #cpu Core(s)\n'..t..'<b>النطاق الترددي :</b> #allowedbandwidth\n'..t..'<b>موقع الخادم :</b> #location\n'..t..'<b>نظام التشغيل</b> : #os\n'..t..'<b>الحالة : </b>#status\n----------------\n',
+            text1 = '<b>معلومات الاشتراك :</b>\n'..t..'<b>الاسم :</b> #servername\n'..t..'<b>نوع الخطة :</b> #plantype\n'..t..'<b>تاريخ الانشاء :</b> #created\n'..t..'<b>الايام المدفوعة :</b> #paiddays\n'..t..'<b>تاريخ انتهاء الصلاحية :</b> #expiredate\n'..t..'<b>الوقت المتبقي :</b> #timeleft\n----------------\n<b>الوصول :</b>\n'..t..'<b>ايبي الخادم :</b> #serverip\n'..t..'#domain\n'..t..'<b>اسم مستخدم الخادم :</b> #serverusername\n'..t..'<b>كلمة مرور الخادم :</b> <a href="$passlink">اضغط هنا للحصول عليها</a>\n'..t..'<b>تيرمنل اونلاين :</b> <a href="#kvm"> اضغط هنا لفتح الترمنال</a>\n'..t..'<b>متصفح ملفات الخادم :</b> <a href="#explink"> اضغط هنا لفتح المتصفح</a>\n'..t..'<b>PHPMyAdmin :</b> <a href="#phpmyadminlink"> اضغط هنا</a>\n'..t..'<b>MySQL اسم مستخدم :</b> #mysqluser\n'..t..'<b>MySQL كلمة مرور :</b> <a href="#mysqlpasswordlink">اضغط هنا للحصول عليها</a>\n----------------\n<b>معلومات الخادم :</b>\n'..t..'<b>مساحة تخزين الخادم :</b> #disk\n'..t..'<b>رام :</b> #ram\n'..t..'<b>المعالج :</b> #cpu Core(s)\n'..t..'<b>النطاق الترددي :</b> #allowedbandwidth\n'..t..'<b>موقع الخادم :</b> #location\n'..t..'<b>نظام التشغيل</b> : #os\n'..t..'<b>الحالة : </b>#status\n----------------\n',
             text2 = '<b>يرجى الملاحظة :</b>\إذا كنت لا تدفع الرسوم الخاصة بك قبل 1 يوم من الوقت المتبقي الخادم الخاص بك سيكون <b>متوقف ثم حذفه بعد يوم واحد</b>',
 			text3 = '<b>لم يتم العثور على الخادم</b>\nلحذف خادمك ارسل/main',
 			text4 = 'يجب ان يكون الخادم متوقف',
@@ -318,14 +318,14 @@ function ar.lang()-- in-table function
 					{text = 'حذف الخادم', callback_data = 'servercmd delete #id'}
 					},
 				{
-					{text = 'عمل فورمات للخادم', callback_data = 'servercmd reinstall #id'}
+					{text = 'اعادة تعيين الخادم', callback_data = 'servercmd reinstall #id'}
 					},
 				{
 					{text = 'اجراءات', callback_data = 'servercmd actions #id'},
 					{text = 'تجديد', callback_data = 'postponeserver #id'},
 					},
 				{
-					{text = 'اعادة تعيين كلمة مرور للخادم', callback_data = 'servercmd resetroot #id'}
+					{text = 'اعادة تعيين كلمة مرور الخادم', callback_data = 'servercmd resetroot #id'}
 					},
                 {
                     {text = 'عودة', callback_data = 'myservers'},
@@ -336,8 +336,8 @@ function ar.lang()-- in-table function
 		delete_server = { --Delete server texts, do not change these words (#name, )
 			text = '<b>هل انت متأكد من هذا الاجراء،سوف يتم حذف الخادم؟</b>\nانت سوف تحذف (<b>#name</b>)\nجميع البيانات الموجودة على الخادم <b>ستكون مفقودة</b> و سوف يتم ازالته من الخوادم الخاصة بك\n\n<b>ملاحظة:</b>\nجميع ايام الخادم المتبقية لن تعوض بالاضافة للاموال لن تعود',
 			text2 = 'الخادم محذوف',
-			text3 = '#name  تم الوصول للحد الزمني\nحذف الخادم',
-			text4 = '#name الوقت المتبقي هو #time\nيرجى تجديد الاشتراك',
+			text3 = 'لقد انتهى اشتراك الخادم "#name"\nتم حذف الخادم',
+			text4 = 'الوقت المتبقي للخادم "#name" هو #time\nيرجى تجديد الاشتراك',
 			query = 'حذف الخادم...',
 			keyboard = {
 				{
@@ -347,9 +347,9 @@ function ar.lang()-- in-table function
 				},
 			},
 		reinstall_server = {
-			text = '<b>هل انت متأكد من أنك سوف تقوم بعمل فورمات لهذا الخادم؟</b>\nستقوم بعمل فورمات (<b>#name</b>)\nهذا يعني جميع البيانات الموجودة على الخادم <b>سوف تمسح</b>.',
-			text2 = 'تم عمل فورمات للخادم.\يرجى الانتظار لمدة تصل الى 30 دقيقة للوصول الى الخادم مرة اخرى.',
-			query = 'اعادة تثبيت الخادم...',
+			text = '<b>هل انت متأكد من أنك سوف تقوم بأعادة تعيين هذا الخادم؟</b>\nستقوم بأعادة تعيين (<b>#name</b>)\nهذا يعني جميع البيانات الموجودة على الخادم <b>سوف تمسح</b>.',
+			text2 = 'تم اعادة تعيين.\يرجى الانتظار لمدة تصل الى 45 دقيقة للوصول الى الخادم مرة اخرى.',
+			query = 'اعادة تعيين الخادم...',
 			keyboard = {
 				{
 					{text = 'نعم', callback_data = 'reinstallserver yes #id'},
@@ -357,7 +357,7 @@ function ar.lang()-- in-table function
 					},
 				},
 			keyboard2 = {
-					{text = 'توليد كلمة مرور', callback_data = 'reinstallserver generate'},
+					{text = ' اصنع كلمة مرور عشوائية', callback_data = 'reinstallserver generate'},
 				},
 			},
         earn = { -- EARN texts, do not change these words ( #credit)
@@ -408,9 +408,9 @@ function ar.lang()-- in-table function
                 },
             },
         invite = { -- Invite texts, do not change these words ({num})
-            text = 'تم انشاء رابطك الخاص\nاستخدم هذا الرابط للحصول على المزيد من النقاط بدعوة المستخدمين للانضمام إلى خدماتنا\n\nستحصل على 30 نقطة بعد أن ينضم المستخدم ويسجل بنجاح في خدماتنا.\nالرابط : ',
+            text = 'تم انشاء رابطك الخاص\nاستخدم هذا الرابط للحصول على المزيد من النقاط بدعوة المستخدمين للانضمام إلى خدماتنا\n\nستحصل انت على 30 نقطة و المستخدم الذي ينضم سيحصل على 150 نقطة بعد أن ينضم المستخدم ويسجل بنجاح في خدماتنا.\nالرابط : ',
             text2 = 'حصلت على نقاط من خلال دعوتك للمستخدمين\nانت الان تملك : `{num}` نقطة',
-			text3 = 'حصلت على نقاط لدعوة المستخدمسن والتسجيل بنجاح\nانت الان تملك : `{num}` نقطة',
+			text3 = 'حصلت على نقاط لدعوة المستخدمين والتسجيل بنجاح\nانت الان تملك : `{num}` نقطة',
 			text4 = "لقد سجلت عبر رمز البرومو (الترويجي)\nهذه هديتك ->",
             keyboard = {
                 {
