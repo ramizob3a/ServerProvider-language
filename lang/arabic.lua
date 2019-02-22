@@ -279,7 +279,7 @@ function ar.lang()-- in-table function
 			},
         server_info = { --Server Info texts, do not change these words ( #servername, #paiddays, #timeleft, #serverip, #serverusername, #serverpassword, #kvm, #disk, #ram, #cpu, #currentbandwidth, #expiredate, #status)
             text1 = '<b>معلومات الاشتراك :</b>\n'..t..'<b>الاسم :</b> #servername\n'..t..'<b>نوع الخطة :</b> #plantype\n'..t..'<b>تاريخ الانشاء :</b> #created\n'..t..'<b>الايام المدفوعة :</b> #paiddays\n'..t..'<b>تاريخ انتهاء الصلاحية :</b> #expiredate\n'..t..'<b>الوقت المتبقي :</b> #timeleft\n----------------\n<b>الصلاحية :</b>\n'..t..'<b>ايبي الخادم :</b> #serverip\n'..t..'<b>اسم مستخدم الخادم :</b> #serverusername\n'..t..'<b>كلمة مرور الخادم :</b> <a href="$passlink">اضغط هنا للحصول عليها</a>\n'..t..'<b>تيرمنل اونلاين :</b> <a href="#kvm"> اضغط هنا لفتح الترمنال</a>\n'..t..'<b>متصفح ملفات الخادم :</b> <a href="#explink"> اضغط هنا لفتح المتصفح</a>\n'..t..'<b>PHPMyAdmin :</b> <a href="#phpmyadminlink"> اضغط هنا</a>\n'..t..'<b>MySQL اسم مستخدم :</b> #mysqluser\n'..t..'<b>MySQL كلمة مرور :</b> <a href="#mysqlpasswordlink">اضغط هنا للحصول عليها</a>\n----------------\n<b>معلومات الخادم :</b>\n'..t..'<b>مساحة تخزين الخادم :</b> #disk\n'..t..'<b>رام :</b> #ram\n'..t..'<b>المعالج :</b> #cpu Core(s)\n'..t..'<b>النطاق الترددي :</b> #allowedbandwidth\n'..t..'<b>موقع الخادم :</b> #location\n'..t..'<b>نظام التشغيل</b> : #os\n'..t..'<b>الحالة : </b>#status\n----------------\n',
-            text2 = '<b>يرجى الملاحظة :</b>\nإذا كنت لا تدفع الرسوم الخاصة بك قبل 1 يوم من الوقت المتبقي الخادم الخاص بك سيكون <b>متوقف ثم حذفه بعد يوم واحد</b>',
+            text2 = '<b>يرجى الملاحظة :</b>\إذا كنت لا تدفع الرسوم الخاصة بك قبل 1 يوم من الوقت المتبقي الخادم الخاص بك سيكون <b>متوقف ثم حذفه بعد يوم واحد</b>',
 			text3 = '<b>لم يتم العثور على الخادم</b>\nلحذف خادمك ارسل/main',
 			text4 = 'يجب ان يكون الخادم متوقف',
 			text5 = 'تشغيل الخادم...',
@@ -287,7 +287,7 @@ function ar.lang()-- in-table function
 			text7 = 'الخادم متوقف...',
 			text8 = 'هل انت متأكد?',
 			text9 = '<b>معلومات الاشتراك :</b>\n'..t..'<b>الاسم :</b> #servername\n'..t..'<b>نوع الخطة :</b> #plantype\n'..t..'<b>تاريخ الانشاء :</b> #created\n'..t..'<b>الايام المدفوعة :</b> #paiddays\n'..t..'<b>تاريخ انتهاء الصلاحية :</b> #expiredate\n'..t..'<b>الوقت المتبقي :</b> #timeleft\n----------------\n<b>الصلاحية :</b>\n'..t..'<b>ايبي الخادم :</b> #serverip\n'..t..'<b>اسم مستخدم الخادم :</b> #serverusername\n'..t..'<b>كلمة مرور الخادم :</b> <a href="$passlink">اضغط هنا للحصول عليها</a>\n----------------\n<b>معلومات الخادم :</b>\n'..t..'<b>مساحة تخزين الخادم :</b> #disk\n'..t..'<b>رام :</b> #ram\n'..t..'<b>المعالج :</b> #cpu Core(s)\n'..t..'<b>النطاق الترددي :</b> #allowedbandwidth\n'..t..'<b>موقع الخادم :</b> #location\n'..t..'<b>نظام التشغيل</b> : #os\n'..t..'<b>الحالة : </b>#status\n----------------\n',
-			text10 = 'نطاق الخادم : ',
+			text10 = '<b>نطاق الخادم : </b>',
 			query = 'جاري الحصول على البيانات..',
 			query2 = 'خطأ :\nغير صالح في $cmd الخادم...\nالعودة الى قائمة الخوادم',
             keyboard = {
@@ -347,127 +347,127 @@ function ar.lang()-- in-table function
 				},
 			},
 		reinstall_server = {
-			text = '<b>Are You Sure You Want To Reinstall This Server?</b>\nYou are going to reinstall (<b>#name</b>)\nThis means all data on this server <b>Will Be Erased</b>.',
-			text2 = '*Server Reinstalled.*\nPlease wait up to 30 minutes untill you access this server again',
-			query = 'Reinstalling Server...',
+			text = '<b>هل انت متأكد من أنك سوف تقوم بعمل فورمات لهذا الخادم؟</b>\nستقوم بعمل فورمات (<b>#name</b>)\nهذا يعني جميع البيانات الموجودة على الخادم <b>سوف تمسح</b>.',
+			text2 = 'تم عمل فورمات للخادم.\يرجى الانتظار لمدة تصل الى 30 دقيقة للوصول الى الخادم مرة اخرى.',
+			query = 'اعادة تثبيت الخادم...',
 			keyboard = {
 				{
-					{text = 'Yes', callback_data = 'reinstallserver yes #id'},
-					{text = 'No', callback_data = 'reinstallserver no #id'}
+					{text = 'نعم', callback_data = 'reinstallserver yes #id'},
+					{text = 'لا', callback_data = 'reinstallserver no #id'}
 					},
 				},
 			keyboard2 = {
-					{text = 'Generate Password', callback_data = 'reinstallserver generate'},
+					{text = 'توليد كلمة مرور', callback_data = 'reinstallserver generate'},
 				},
 			},
         earn = { -- EARN texts, do not change these words ( #credit)
-            text = '*Earn credits now!*\nYou can earn credits to buy servers now',
-            text2 = "Send The *GIFT CODE* to charge your *credits*",
-            text3 = '`{num}` Has been *added* to your *Credits*\n*Credits :* `#credit`',
-            text4 = '*Invalid or Used Code!*\nPlease enter the *Correct Gift Code*',
-			text5 = 'Loading..',
-			text6 = 'No Links Available Right Now\nPlease Try again Later',
-			text7 = 'Session Expired...\nPlease Try again later',
-			text8 = 'Click on this link to earn credits.\n after you click this link, you will go to a website where a "Skip Ad" Button should apear after five seconds, after that you will be redirected to me to receive your reward.',
+            text = 'كسب النقاط الأن!.\nيمكنك كسب النقاط لشراء خادم خاص بك',
+            text2 = "ارسل رمز الهدية لشحن رصيدك",
+            text3 = '`{num}` تمت اضافتها الى نقاطك\nنقاطك : `#credit`',
+            text4 = 'رمز غير صالح او مستعمل\nيرجى ادخال رمز هدية صالح',
+			text5 = 'جاري التحميل..',
+			text6 = 'لاتوجد روابط متاحة الآن\nالرجاء المحاولة في وقت لاحق',
+			text7 = 'انتهت الجلسة...\nالرجاء المحاولة في وقت لاحق',
+			text8 = 'انقر على هذا الرابط للحصول على نقاط.\n بعد أن تضغط على هذا الرابط ، سوف تذهب إلى موقع حيث عند الضغط على زر "تخطي الإعلان" يجب أن يبدأ بعد خمس ثوان ، بعد ذلك سوف يعاد توجيهك للبوت لتلقي نقاطك.',
             keyboard = {
                 {
-					{text = 'Watch Ads', callback_data = 'watchads'},
-                    {text = "Gift code", callback_data = 'giftcode'},
+					{text = 'مشاهدة الاعلانات', callback_data = 'watchads'},
+                    {text = "رمز الهدية", callback_data = 'giftcode'},
 				},
 				{
-                    {text = "INVITE", callback_data = 'invite'},
-	            {text = 'Surveys', callback_data = 'offers'},
+                    {text = "دعوة", callback_data = 'invite'},
+	            {text = 'عروضنا', callback_data = 'offers'},
                     },
 				{
-					{text = 'Billing', callback_data = 'billing'}
+					{text = 'الفواتير', callback_data = 'billing'}
 					},
                 {
-                    {text = 'Main Menu', callback_data = 'main'},
+                    {text = 'القائمة الرئيسية', callback_data = 'main'},
                     },
                 },
             keyboard2 = {
                 {
-                    {text = 'Go Back', callback_data = 'earn'},
-                    {text = 'Main Menu', callback_data = 'cancel'},
+                    {text = 'عودة', callback_data = 'earn'},
+                    {text = 'القائمة الرئيسية', callback_data = 'cancel'},
                     },
                 },
             keyboard3 = {
                 {
-                    {text = "Gift code", callback_data = 'giftcode'},
-                    {text = "INVITE", callback_data = 'invite'},
+                    {text = "رمز الهدية", callback_data = 'giftcode'},
+                    {text = "دعوة", callback_data = 'invite'},
                     },
 		{
-		    {text = 'Surveys', callback_data = 'offers'},
+		    {text = 'عروضنا', callback_data = 'offers'},
 			},
 				{
-					{text = 'Billing', callback_data = 'billing'}
+					{text = 'الفواتير', callback_data = 'billing'}
 					},
                 {
-                    {text = 'Main Menu', callback_data = 'main'},
+                    {text = 'القائمة الرئيسية', callback_data = 'main'},
                     },
                 },
             },
         invite = { -- Invite texts, do not change these words ({num})
-            text = 'Your *Special Link* has been generated\nUse this link to get more credits by inviting users to join *Our Services*\n\nYou will get *30* after a user joins and successfully register in our services.\n*LINK :* ',
-            text2 = '*You Got SP credit for inviting users\nYou now have : *`{num}`* SP*',
-			text3 = '*You Got SP credit for inviting users and *successful registration.\nYou now have : *`{num}`* SP*',
-			text4 = "You registered via promo code\nHere's your gift ->",
+            text = 'تم انشاء رابطك الخاص\nاستخدم هذا الرابط للحصول على المزيد من النقاط بدعوة المستخدمين للانضمام إلى خدماتنا\n\nستحصل على 30 نقطة بعد أن ينضم المستخدم ويسجل بنجاح في خدماتنا.\nالرابط : ',
+            text2 = 'حصلت على نقاط من خلال دعوتك للمستخدمين\nانت الان تملك : `{num}` نقطة',
+			text3 = 'حصلت على نقاط لدعوة المستخدمسن والتسجيل بنجاح\nانت الان تملك : `{num}` نقطة',
+			text4 = "لقد سجلت عبر رمز البرومو (الترويجي)\nهذه هديتك ->",
             keyboard = {
                 {
-                    {text = 'Main Menu', callback_data = 'main'},
+                    {text = 'القائمة الرئيسية', callback_data = 'main'},
                     },
                 },
             },
         billing = {
-            text = '*Billing Status*\n*Username :* {username}\n*Credits :* {credit}\n*invite credits* : {invitecredit}\n*Servers :* {num}',
-            text2 = '*You do not have enough invite credit*\nminimum value is 1',
-	    text3 = 'With *Withdraw* you can resell your credits and gain profit!\nall you need to do now is send the amount you want to withdraw : (Your credits : #credit)',
+            text = 'حالة الفواتير\nاسم المستخدم : {username}\nالنقاط : {credit}\nنقاط الدعوة : {invitecredit}\nالخوادم : {num}',
+            text2 = 'ليس لديك نقاط دعوات كافي\nالحد الادنى هو 1',
+	    text3 = 'مع سحب النقاط يمكنك إعادة بيع النقاط الخاص بك والحصول على الأرباح\nكل ماعليك فعله هو ارسال المبلغ الذي تريد سحبه : (نقاطك : #credit)',
             keyboard = {
                 {
-                    {text = 'My servers', callback_data = 'myservers'},
-                    {text = 'Earn credits', callback_data = 'earn'},
+                    {text = 'خوادمي', callback_data = 'myservers'},
+                    {text = 'كسب النقاط', callback_data = 'earn'},
                     },
                 {
-                    {text = 'Renew Subscriptions', callback_data = 'postpone'},
-                    {text = 'Get Invite credit', callback_data = 'getinvitecredit'},
+                    {text = 'تجديد الاشتراكات', callback_data = 'postpone'},
+                    {text = 'الحصول على نقاط الدعوات', callback_data = 'getinvitecredit'},
                     },
 		{
-		    {text = 'Withdraw', callback_data = 'withdraw'},
+		    {text = 'سحب', callback_data = 'withdraw'},
 		    },
 				{
-					{text = "Donate", url = 'https://patreon.com/ServerProvider'},
+					{text = "تبرع", url = 'https://patreon.com/ServerProvider'},
                     },
 				{
-                    {text = "Main Menu", callback_data = 'main'},
+                    {text = "القائمة الرئيسية", callback_data = 'main'},
 					},
                 },
             },
         postpone = {
-            text = 'Your servers : {num}\n',
-            text2 = 'Would you like to <b>Postpone</b> time limit ?',
-            text3 = 'You do now have any *Servers* at the moment',
-			text4 = '<b>Server Information:</b>\n<b>Name:</b> #name\n<b>Expire Date:</b> <code>#expiredate</code>\n<b>Time Left:</b> <code>#timeleft</code>\n\n<b>How many days would you like to add? 1 day = </b><code>#price</code>',
-			text5 = 'You will add <code>#days</code> <b>Days</b> To server <b>#servername</b>\n<b>Total Price is : </b><code>#price</code>\n\n<b>Your Credits : </b> <code>#credits</code>',
-			text6 = 'You have added #days Days To server #servername<\nYour Credits : #credits',
-			text7 = 'How Many days would you like to add?<b>(send numbers only)</b>\n<b>1 Day = </b><code>#price</code>',
-			error = 'Server Not Found.',
-			error2 = 'Error, No Selected Plan detected.\n Please Try again later',
-			error3 = 'You do not have enough credits\ntype /earn to view options to get more credits',
+            text = 'خوادمك : {num}\n',
+            text2 = 'هل تريد أن <b>تأجل</b> الحد الزمني ?',
+            text3 = 'لديك الان الان اي خوادم في الوقت الحالي',
+			text4 = '<b>معلومات الخادم:</b>\n<b>الاسم:</b> #name\n<b>تاريخ انتهاء الصلاحية:</b> <code>#expiredate</code>\n<b>الوقت المتبقي:</b> <code>#timeleft</code>\n\n<b>كم يوم ترغب في اضافته? 1 يوم = </b><code>#price</code>',
+			text5 = 'سوف تضيف <code>#days</code> <b>ايام</b> الى الخادم <b>#servername</b>\n<b>مجموع حسابك هو : </b><code>#price</code>\n\n<b>نقاطك : </b> <code>#credits</code>',
+			text6 = 'لقد قمت بأضافة #days ايام الى الخادم #servername<\nنقاطك : #credits',
+			text7 = 'كم يوم ترغب ان تضيف?<b>(ارسل ارقام انجليزية فقط)</b>\n<b>1 يوم = </b><code>#price</code>',
+			error = 'لم يتم العثور على الخادم.',
+			error2 = 'خطأ.لم يتم اكتشاف نوع الخطة المحددة\n الرجاء المحاولة مجددا',
+			error3 = 'لا تملك نقاط كافية\nنوع /اضغط على ربح لعرض الخيارات',
 			keyboard = {
                 {
-                    {text = 'Cancel', callback_data = 'cancel_server'}
+                    {text = 'الغاء', callback_data = 'cancel_server'}
                 },
             },
 			keyboard2 = {
 				{
-					{text = 'Add Days', callback_data = 'adddays'},
-					{text = 'Cancel', callback_data = 'cancel_server'}
+					{text = 'اضافة ايام', callback_data = 'adddays'},
+					{text = 'الغاء', callback_data = 'cancel_server'}
 				},
 			},
 			keyboard3 = {
 				{
-					{text = 'Add', callback_data = 'addthedays'},
-					{text = 'Cancel', callback_data = 'cancel_server'}
+					{text = 'اضافة', callback_data = 'addthedays'},
+					{text = 'الغاء', callback_data = 'cancel_server'}
 				},
 			},
 		},
@@ -475,105 +475,105 @@ function ar.lang()-- in-table function
 			text1 = ''
 		},
 		advert = {
-	        text = "*Welcome To AdvertManager!*\n\nRegister now as an Advert  and post your ads to [ServerProvider](t.me/serverproviderbot)'s registered users,\n*You can add links, Groups and channels.*\n`More Information And Terms-Of-Use Here` /moreinfo\n\nBy Clicking *Get Started* You Agree and Accept the Terms-Of-Use of [ServerProvider](t.me/serverproviderbot) Services.",
-	        text2 = "Your Ads :\n",
-	        text3 = 'Edit Advertisments :',
-	        text4 = 'Advertisement Info :\n--------------------\n<b>- Name : </b><code>#name</code>\n<b>- Type : </b><code>#type</code>\n<b>- Duration : </b><code>#duration</code>\n<b>- Reward : </b><code>#reward</code>\n<b>- Link : </b><a href = "#link">Click Here</a>\n<b>- Appeared : </b><code>#appear/#times</code>',
-	        text5 = 'Send The New Name...',
-	        text6 = '*Are You Sure You Want To Delete This Ad??*',
-	        text7 = '*Advertisment Deleted*',
-	        text8 = 'New Ad!\nWhat are Going to call it ? ',
-	        text9 = 'Name Set!\nNow Chose what are you advertising?\n\n\t\tPrice/Credits : 0/#credit',
-		text10 = "How much time the user needs to get points after joining your $chat\nIf the user joing your group for certain time he will get his reward",
-	        text11 = 'How many times do you want the ad to appear? (times)\n1 Time = #n\n\n\t\tPrice/Credits : #price/#credit',
-	        text12 = "Send the link now (it can be any text)\nAdmins will review it to determine it's Valid or Not\n\n\t\tPrice/Credits : #price/#credit",
-	        text13 = 'Send me your $chat username\nYou have to add me in your $chat and promote me to admin first..!\n\n\t\tPrice/Credits : #price/#credit',
-	        text14 = 'Is this information true?\tPrice/Credits : #price/#credit\nName : #name\nType : #type\nTimes to appear : #times\nDuration : #duration\nReward per user : #reward\nLink : #link',
-	        text15 = 'Ad Request "#name" has been approved and added to your advertisments list.\n/main',
-		text16 = 'How many days do you want the user to join your $chat so he/she gets her/his reward?\n1 day = #n\n\n\t\tPrice/Credits : #price/#credit',
-		text17 = 'How much credits would you give the user if he joins your $chat for #day days?\n\n\t\tPrice/Credits : #price/#credit',
-	        query = 'You Have Been Registered In Our Services.',
-	        query2 = 'Are You Sure?',
-	        query3 = 'Deleted',
-	        error = 'You Are Not Registered.',
-	        error3 = 'You must promote me in this $chat first.',
-	        error4 = 'Error accured.\nMake Sure You did the following :-\n- Promote me in this $chat\n- This $chat is public and not private\n And Try again now.',
-	        error5 = 'This username is not valid..',
-	        error6 = 'Only Numbers !!',
-	        error7 = 'Not Enough Credits!!',
-	        error8 = 'You already requested an advertisment, wait for it to be reviewed.',
-	        error2 = 'You Do not have any ads right now',
-	        result = '*Request was sent to admins*\n`It will be reviewed before it gets accepted,` it may take a while\nThank you for your patience and for using [ServerProvider](t.me/serverproviderbot) Services.',
-	        result2 = 'Ad request "#name" was declined by the admins\nplease make sure that you followed the terms-of-use and try again later\n\nAdmins will try to contact you using me if necessary.',
-		group = 'Group',
-		channel = 'Channel',
+	        text = "مرحبا بك في مدير الاعلانات!\n\nقم بالتسجيل الان كأعلان وارسل اعلاناتك الى [ServerProvider](t.me/serverproviderbot)' المستخدمين المسجلين,\nيمكنك اضافه روابط المجموعات و القنوات\nمزيد من المعلومات و شروط الاستخدام هنا /للمزيد من المعلومات\n\nبالنقر على البدء اننت توافق و تقبل شروط الاستخدام [ServerProvider](t.me/serverproviderbot) خدمات.",
+	        text2 = "اعلاناتك :\n",
+	        text3 = 'تعديل الاعلانات :',
+	        text4 = 'معلومات الاعلان :\n--------------------\n<b>- الاسم : </b><code>#name</code>\n<b>- النوع : </b><code>#type</code>\n<b>- المدة الزمنية : </b><code>#duration</code>\n<b>- مكافأة : </b><code>#reward</code>\n<b>- الرابط : </b><a href = "#link">اضغط هنا</a>\n<b>- ظهر : </b><code>#appear/#times</code>',
+	        text5 = 'ارسل الاسم الجديد...',
+	        text6 = 'هل انت متأكد من انك تريد حذف الاعلان??',
+	        text7 = 'الاعلان حذف.',
+	        text8 = 'اعلان جديد!\nماذا سوف نطلق عليه اسم ? ',
+	        text9 = 'تعيين اسم!\nالان اختر عن ماذا تريد ان تعلن?\n\n\t\tالسعر/نقاطك : 0/#credit',
+		text10 = "كم من الوقت يحتاج المستخدم للحصول على نقاط بعد انضمامه لك $chat\nإذا انضم المستخدم لمجموعتك لبعض الوقت سيحصل على جائزته",
+	        text11 = 'كم مرة تريد ان يظهر الاعلان؟ (times)\n1 الوقت = #n\n\n\t\tالسعر/نقاطك : #price/#credit',
+	        text12 = "ارسل الرابط الان (يمكن ان يكون اي نص)\nسيقوم المسؤولون بمراجعتها ان كانت صالحة او لا\n\n\t\tالسعر/نقاطك : #price/#credit",
+	        text13 = 'ارسل لي $chat اسم الدردشة الخاص بك\nعليك ان تضيفني الى $chat وتقوم بترقيتي كمشرف..!\n\n\t\tالسعر/نقاطك : #price/#credit',
+	        text14 = 'هل هذه المعلومات صحيحة؟\tالسعر/نقاطك : #price/#credit\nالاسم : #name\nالنوع : #type\nوقت الظهور : #times\nالمدة الزمنية : #duration\nمكافأة لكل مستخدم : #reward\nالرابط : #link',
+	        text15 = 'طلب اعلان "#name" تمت الموافقه عليه واضافته الى قائمة اعلاناتك.\n/main',
+		text16 = 'كم يوم تريد ان ينضم المستخدم الخاص بك $chat اذا هو/هي يحصل عليها/له مكافأة?\n1 يوم = #n\n\n\t\tالسعر/نقاطك : #price/#credit',
+		text17 = 'كم نقطة سوف تعطي لكل مستخدم ينضم لحسابك $chat عن #day ايام?\n\n\t\tالسعر/النقاط : #price/#credit',
+	        query = 'لقد قمت في التسجيل بخدماتنا.',
+	        query2 = 'هل انت متأكد؟',
+	        query3 = 'حذف',
+	        error = 'انت لم تسجل.',
+	        error3 = 'يجب ان تقوم بترويجي هنا $chat اولا.',
+	        error4 = 'خطأ.\تأكد انك فعلت مايلي :-\n- الاشتراك هنا $chat\n- هذه $chat عامة وليست خاصة\n وحاول مرة اخرى الان.',
+	        error5 = 'اسم المستخدم هذا غير صالح..',
+	        error6 = 'فقط ارقام !!',
+	        error7 = 'لا تمتلك نقاط كافية!!',
+	        error8 = 'لقد طلبت بالفعل اعلان انتظر الى ان تتم مراجعته.',
+	        error2 = 'ليس لديك اي اعلانات في الوقت الحالي',
+	        result = 'تم ارسال الطلب الى المشرفين\nسيتم مراجعتها قبل قبولها قد يستغرق بعض الوقت\nشكرا لصبرك و استخدام [ServerProvider](t.me/serverproviderbot) خدمات.',
+	        result2 = 'طلب اعلان "#name" تم رفضها بواسطة المشرفين\nيرجى التأكد من اتباع شروط الاستخدام وحاول مجددا في وقت لاحق\n\nسيحاول المسؤولو الاتصال بك عن طريقي اذا لدم الامر.',
+		group = 'مجموعة',
+		channel = 'قناة',
 	        keyboard = {
 		        {
-			        {text = 'Get Started', callback_data = 'getstartedadvert'},
-			        {text = 'Main Menu', callback_data = 'main'}
+			        {text = 'البدء', callback_data = 'getstartedadvert'},
+			        {text = 'القائمة الرئيسية', callback_data = 'main'}
 			        },
 		        },
 	        keyboard2 = {
 		        {
-			        {text = 'New Advertisment', callback_data = 'newad'},
+			        {text = 'اعلان جديد', callback_data = 'newad'},
 			        },
 		        {
-			        {text = 'Edit Ads', callback_data = 'editads'},
-			        {text = 'Main Menu', callback_data = 'main'},
+			        {text = 'تعديل الاعلان', callback_data = 'editads'},
+			        {text = 'القائمة الرئيسية', callback_data = 'main'},
 			        },
 		        },
 	        keyboard3 = {
 		        {
-			        {text = 'Edit Name', callback_data = 'ad changename'},
-			        {text = 'Delete', callback_data = 'ad delete'},
+			        {text = 'تعديل الاسم', callback_data = 'ad changename'},
+			        {text = 'حذف', callback_data = 'ad delete'},
 			        },
 		        {
-			        {text = 'Go Back', callback_data = 'editads'},
-			        {text = 'Main Menu', callback_data = 'main'},
+			        {text = 'عودة', callback_data = 'editads'},
+			        {text = 'القائمة الرئيسية', callback_data = 'main'},
 			        },
 		        },
 	        keyboard4 = {
 		        {
-			        {text = 'Delete', callback_data = 'ad deleteyes'},
-			        {text = 'Go Back', callback_data = 'editads'},
+			        {text = 'حذف', callback_data = 'ad deleteyes'},
+			        {text = 'عودة', callback_data = 'editads'},
 			        },
 		        },
 	        keyboard5 = {
 		        {
-			        {text = 'Cancel', callback_data = 'cancel'},
+			        {text = 'الغاء', callback_data = 'cancel'},
 			        },
 		        },
 	        keyboard6 = {
 		        {
-			        {text = 'Group', callback_data = 'adverttype group'},
-			        {text = 'Channel', callback_data = 'adverttype channel'},
-			        {text = 'Link', callback_data = 'adverttype link'}
+			        {text = 'مجموعة', callback_data = 'adverttype group'},
+			        {text = 'قناة', callback_data = 'adverttype channel'},
+			        {text = 'رابط', callback_data = 'adverttype link'}
 			        },
 		        {
-			        {text = 'Cancel', callback_data = 'cancel'}
+			        {text = 'الغاء', callback_data = 'cancel'}
 			        },
 		        },
 	        keyboard7 = {
 		        {
-			        {text = 'Send', callback_data = 'sendadrequest'},
-			        {text = 'Cancel', callback_data = 'cancel'}
+			        {text = 'ارسال', callback_data = 'sendadrequest'},
+			        {text = 'الغاء', callback_data = 'cancel'}
 			        },
 		        },
 			},
 		warn = {
-			text = 'ROOT PASSWORD CHANGED!!\nServer Name : $name\n------------\nPlease advise if you are not the one who changed the ROOT password.',
-			text2 = 'Send the New Password to save it in the database.',
+			text = 'ROOT تم تغيير كلمة المرور!!\nاسم الخادم : $name\n------------\nرجاء تحقق اذا لم تكن انت من غير كلمة مرور الخادم.',
+			text2 = 'ارسل كلمة مرور جديد لكي يتم حفظها في قاعدة البيانات.',
 			keyboard = {
 				{
-					{text = 'Reset Root Password', callback_data = 'servercmd resetroot #id'},
+					{text = 'اعادة تعيين كلمة مرور الخادم', callback_data = 'servercmd resetroot #id'},
 					},
 				{
-					{text = 'That Was Me', callback_data = 'thiswasme'},
+					{text = 'هذا كان انا', callback_data = 'thiswasme'},
 					},
 				},
 			keyboard2 = {
 				{
-			        {text = 'Cancel', callback_data = 'cancel'}
+			        {text = 'الغاء', callback_data = 'cancel'}
 			        },
 				},
 			},
