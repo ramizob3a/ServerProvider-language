@@ -578,11 +578,11 @@ function en.lang()-- in-table function
 			        {text = 'Cancel', callback_data = 'cancel'}
 			        },
 				},
-			},
 			keyboard3 = {
 				{
 					{text = 'Confirm', callback_data = 'confirm'},
 					{text = 'Cancel', callback_data = 'cancel'},
+					},
 				},
 			},
         }
