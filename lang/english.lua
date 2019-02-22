@@ -1,6 +1,6 @@
 -----english.lua--------
 ------this file contains english texts for the t.me/serverproviderbot Bot------
-------Made By @IBCorp------
+------Made By @IBCorp--------
 
 -- _____ ____        _    _____                 
 --|_   _|  _ \      | |  / ____|                
@@ -61,7 +61,7 @@ function en.lang()-- in-table function
 				},
 			},
         register = {
-            text = "Welcome to [ServerBot's](telegram.me/serverproviderbot) \n-----*Terms Of Use*------\n@ServerProviderBot Provides VPS For Cheap Prices By watching ads or Buying the Coins.\nThe Bot And The Sponsering Company And The Developer Are Not Responsible For Password Loss or Server Hacks.\nYou May Share The Root Password on You personal expenses\n\nThe Bot is Sponsered By @IBCorp [Website](www.ibotcompany.tk)\nBy Pressing *Get Started* You accept the Terms Of Use Above.",
+            text = "Welcome to [ServerBot's](telegram.me/serverproviderbot) \n-----*Terms Of Service*------\n@ServerProviderBot Provides VPS For Cheap Prices By watching ads or Buying the Coins.\nThe Bot And The Sponsering Company And The Developer Are Not Responsible For Password Loss or Server Hacks.\nYou May Share The Root Password on You personal expenses\n*More Detailed Terms Of Service* [Here](https://telegra.ph/Terms-Of-Service-02-22-2)\n\nThe Bot is Sponsered By @IBCorp [Website](www.ibotcorp.com)\nBy Pressing *Get Started* You accept the Terms Of Use Above.",
             keyboard = {
                 {
                     {text = 'Get Started', callback_data = 'getstarted'},
@@ -291,7 +291,7 @@ function en.lang()-- in-table function
 			text7 = 'Stopping server...',
 			text8 = 'Are you sure?',
 			text9 = '<b>Subscription Information :</b>\n'..t..'<b>Name :</b> #servername\n'..t..'<b>Plan Type :</b> #plantype\n'..t..'<b>Creation Date :</b> #created\n'..t..'<b>Paid Days :</b> #paiddays\n'..t..'<b>Expiration Date :</b> #expiredate\n'..t..'<b>Time left :</b> #timeleft\n----------------\n<b>Access :</b>\n'..t..'<b>Server IP :</b> #serverip\n'..t..'<b>Server username :</b> #serverusername\n'..t..'<b>Server password :</b> <a href="$passlink">Click Here</a>\n----------------\n<b>System Information :</b>\n'..t..'<b>Disk :</b> #disk\n'..t..'<b>Ram :</b> #ram\n'..t..'<b>CPU :</b> #cpu Core(s)\n'..t..'<b>Allowed Bandwidth :</b> #allowedbandwidth\n'..t..'<b>Location :</b> #location\n'..t..'<b>Operating System</b> : #os\n'..t..'<b>Status : </b>#status\n----------------\n',
-			text10 = '<b>Server Domain : </b>',
+			text10 = 'Server Domain : ',
 			query = 'Getting Data..',
 			query2 = 'ERROR :\nFaild to $cmd server...\nReturning back to servers list',
             keyboard = {
